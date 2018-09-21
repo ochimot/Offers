@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Nguyen Van Dai\Downloads\3.2.1\Debug\AutoLeadGUI.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6782A177-012B-4D73-AEC6-AF844E0B1AD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>AutoLeadGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ApplicationVersion>2.8.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>debian_icon_0.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Renci.SshNet">
+      <HintPath>lib\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Core" />
+    <Reference Include="ManagedWinapi">
+      <HintPath>lib\ManagedWinapi.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="DeathByCaptcha">
+      <HintPath>lib\DeathByCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet45">
+      <HintPath>lib\ChilkatDotNet45.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoLeadGUI\AppURLToAppID.cs" />
+    <Compile Include="AutoLeadGUI\MicroleavesInfo.cs" />
+    <Compile Include="AutoLeadGUI\ResponseMicro.cs" />
+    <Compile Include="AutoLeadGUI\State.cs" />
+    <Compile Include="AutoLeadGUI\AutoLeadClient.cs" />
+    <Compile Include="AutoLeadGUI\AutoLeadClientHelper.cs" />
+    <Compile Include="AutoLeadGUI\ClickOnPointTool.cs" />
+    <Compile Include="AutoLeadGUI\countrycodeiOS.cs" />
+    <Compile Include="AutoLeadGUI\DownloadProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\Carrier.cs" />
+    <Compile Include="AutoLeadGUI\modelVersion.cs" />
+    <Compile Include="AutoLeadGUI\FakeInfoCore.cs" />
+    <Compile Include="AutoLeadGUI\frmAddOffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmAddVip72.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmTestScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmUE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\frmUEScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\GlobalConfig.cs" />
+    <Compile Include="AutoLeadGUI\LocalConfig.cs" />
+    <Compile Include="AutoLeadGUI\Listapp.cs" />
+    <Compile Include="AutoLeadGUI\Operation.cs" />
+    <Compile Include="AutoLeadGUI\Program.cs" />
+    <Compile Include="AutoLeadGUI\frmSSHImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoLeadGUI\ProxyTool.cs" />
+    <Compile Include="AutoLeadGUI\IndexItem.cs" />
+    <Compile Include="AutoLeadGUI\ProxyCore.cs" />
+    <Compile Include="AutoLeadGUI\ListViewSorter.cs" />
+    <Compile Include="AutoLeadGUI\RandomMail.cs" />
+    <Compile Include="AutoLeadGUI\Dataclearformiphone.cs" />
+    <Compile Include="AutoLeadGUI\IME.cs" />
+    <Compile Include="AutoLeadGUI\region.cs" />
+    <Compile Include="AutoLeadGUI\vipuse.cs" />
+    <Compile Include="AutoLeadGUI\ssh.cs" />
+    <Compile Include="AutoLeadGUI\sshcommand.cs" />
+    <Compile Include="AutoLeadGUI\BkList.cs" />
+    <Compile Include="AutoLeadGUI\Public.cs" />
+    <Compile Include="AutoLeadGUI\infoIphone.cs" />
+    <Compile Include="AutoLeadGUI\Capchar.cs" />
+    <Compile Include="AutoLeadGUI\ResourceList.cs" />
+    <Compile Include="AutoLeadGUI\ListScript.cs" />
+    <Compile Include="AutoLeadGUI\ScriptsCore.cs" />
+    <Compile Include="AutoLeadGUI\HttpProcessor.cs" />
+    <Compile Include="AutoLeadGUI\HttpServer.cs" />
+    <Compile Include="AutoLeadGUI\MyHttpServer.cs" />
+    <Compile Include="AutoLeadGUI\TimeoutSSHClient.cs" />
+    <Compile Include="AutoLeadGUI\SSHTest.cs" />
+    <Compile Include="AutoLeadGUI\Vip72Handle.cs" />
+    <Compile Include="AutoLeadGUI\Properties\Resources.cs" />
+    <Compile Include="AutoLeadGUI\Properties\Settings.cs" />
+    <Compile Include="AutoLeadGUI\dv\AliChilkat.cs" />
+    <Compile Include="CefSharp\MinimalExample\WinForms\Controls\ControlExtensions.cs" />
+    <Compile Include="AutoLead\AliParameter.cs" />
+    <Compile Include="AutoLead\Carrier.cs" />
+    <Compile Include="AutoLead\command.cs" />
+    <Compile Include="AutoLead\commandResult.cs" />
+    <Compile Include="AutoLead\countrycodeiOS.cs" />
+    <Compile Include="AutoLead\deviceScreens.cs" />
+    <Compile Include="AutoLead\generateDeviceID.cs" />
+    <Compile Include="AutoLead\iDevice.cs" />
+    <Compile Include="AutoLead\ipData.cs" />
+    <Compile Include="AutoLead\param.cs" />
+    <Compile Include="soft\Split.cs" />
+    <Compile Include="ControliPhone\ListViewItem1.cs" />
+    <Compile Include="ControliPhone\Vip72.cs" />
+    <Compile Include="ControliPhone\Vip72Rieng.cs" />
+    <Compile Include="ControliPhone\Win32AllocationTypes.cs" />
+    <Compile Include="ControliPhone\Win32MemoryProtection.cs" />
+    <Compile Include="ControliPhone\Win32ProcessAccessType.cs" />
+    <Compile Include="ControliPhone\NMHDR.cs" />
+    <Compile Include="ControliPhone\LV_ITEM.cs" />
+    <Compile Include="ControliPhone\ComboboxItem.cs" />
+    <Compile Include="ControliPhone\NMITEMACTIVATE.cs" />
+    <Compile Include="ControliPhone\POINT.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoLeadGUI\DownloadProgress.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmAddOffer.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmAddVip72.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmHelp.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmMain.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmSSHImport.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmTestScript.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmUE.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\frmUEScript.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\Properties\Resources.resx" />
+    <EmbeddedResource Include="AutoLeadGUI\ResourceList.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="debian_icon_0.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

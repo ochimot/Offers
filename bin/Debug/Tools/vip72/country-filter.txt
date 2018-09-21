@@ -1,0 +1,8 @@
+; here you can set names of countries which you want to see in "list"
+; other countries will be excluded
+; maximum  100 entries
+; one line for one country name
+; example (commented):
+; UNITED STATES
+; CANADA
+ALL

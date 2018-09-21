@@ -1,0 +1,68 @@
+Arabic (Oman)|ar_OM|ar-OM
+Arabic (Saudi Arabia)|ar_SA|ar-SA
+Argentina|es_AR|es-AR
+Australia|en_AU|en-AU
+Austria|de_AT|de-AT
+Bahrain|ar_BH|ar-BH
+Brazil|pt_BR|pt-BR
+Canada|en_CA|en-CA
+Chile|es_CL|es-CL
+China|zh_CN|zh-CN
+Czech,Czechia (Czech Republic),Czechia|cs_CZ|cs-CZ
+Danish (Denmark)|da_DK|da-DK
+Dutch (Belgium)|nl_BE|nl-BE
+Dutch (Netherlands)|nl_NL|nl-NL
+English (United States)|en_US|en-US
+French,Guadeloupe,Martinique,Réunion,Reunion (France)|fr_FR|fr
+Germany|de_DE|de-DE
+Greek (Greece)|el_GR|el-GR
+Hindi (India)|hi_IN|hi-IN
+Hong Kong|zh_HK|zh-HK 
+Hungarian (Hungary)|hu_HU|hu-HU
+Arabic (Kuwait)|ar_KW|ar-KW
+Republic of Korea,KOREA, REPUBLIC OF, Korean (Korea)|ko_KR|ko-KR
+Iceland|is_IS|is-IS
+Indonesian (Indonesia)|id_ID|id-ID
+Iraq|ar_IQ|ar-IQ
+Farsi (Iran)|fa_IR|fa-IR
+Finnish (Finland)|fi_FI|fi-FI
+Ireland|ga_IE|ga-IE
+Israel|he_IL|he-IL
+Italian (Italy)|it_IT|it-IT
+Japanese (Japan)|ja_JP|ja-JP
+Jordan|ar_JO|ar-JO
+Hashemite Kingdom of Jordan|ar_JO|ar-JO
+Latvian (Latvia)|lv_LV|lv-LV
+Lebanon|ar_LB|ar-LB
+Macao (Macau)|zh_MO|zh-Hant-MO
+Malay (Malaysia)|ms_MY|ms-MY
+New Zealand|en_NZ|en-NZ
+Norwegian (Bokmål,Bokmal) (Norway)|nb_NO|nb-NO
+Polish (Poland)|pl_PL|pl-PL
+Portuguese (Portugal)|pt_PT|pt-PT
+Tagalog (Philippines)|tl_PH|tl-PH
+English (Republic of the Philippines)|en_PH|en-PH
+Qatar|ar_QA|ar-QA
+Romanian (Romania)|ro_RO|ro-RO
+Russian (Russia)|ru_RU|ru-RU
+Singapore|en_SG|en-SG
+Slovak (Slovakia)|sk_SK|sk-SK
+Slovenian (Slovenia)|sl_SI|sl-SI
+South Africa|en_ZA|en-ZA
+Spain|es_ES|es-ES
+Spanish (Colombia)|es_CO|es-CO
+Spanish (Mexico)|es_MX|es-MX
+Spanish (Ecuador)|es_EC|es-EC
+Spanish (Costa Rica)|es_CR|es-CR
+Sri Lanka|si_LK|si-LK
+Swedish (Sweden)|sv_SE|sv-SE
+Switzerland|de_CH|de-CH
+Taiwan|zh_TW|zh-TW
+Tanzania|en_TZ|en-TZ
+Thai (Thailand)|th_TH|th-TH
+Tunisia|ar_TN|ar-TN
+Turkish (Turkey)|tr_TR|tr-TR
+United Arab Emirates(U.A.E.)|ar_AE|ar-AE
+United Kingdom|en_GB|en-GB
+Peru|ES_PE|ES_PE
+Egypt|AR_EG|AR_EG

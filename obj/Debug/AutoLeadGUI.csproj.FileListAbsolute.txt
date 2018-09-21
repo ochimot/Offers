@@ -1,0 +1,44 @@
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.DownloadProgress.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmAddOffer.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmAddVip72.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmHelp.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmMain.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmSSHImport.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmTestScript.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmUE.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmUEScript.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.Properties.Resources.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.ResourceList.resources
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.csproj.GenerateResource.Cache
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\AutoLeadGUI.exe
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\AutoLeadGUI.pdb
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\ChilkatDotNet45.dll
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\DeathByCaptcha.dll
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\ManagedWinapi.dll
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\bin\Debug\Renci.SshNet.dll
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.exe
+C:\Users\Nguyen Van Dai\Desktop\AutoLeadGUIJetBrains\AutoLeadGUI\obj\Debug\AutoLeadGUI.pdb
+D:\Desktop\AutoLeadGUI\bin\Debug\AutoLeadGUI.exe
+D:\Desktop\AutoLeadGUI\bin\Debug\AutoLeadGUI.pdb
+D:\Desktop\AutoLeadGUI\bin\Debug\ChilkatDotNet45.dll
+D:\Desktop\AutoLeadGUI\bin\Debug\DeathByCaptcha.dll
+D:\Desktop\AutoLeadGUI\bin\Debug\ManagedWinapi.dll
+D:\Desktop\AutoLeadGUI\bin\Debug\Renci.SshNet.dll
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.DownloadProgress.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmAddOffer.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmAddVip72.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmHelp.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmMain.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmSSHImport.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmTestScript.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmUE.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.frmUEScript.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.Properties.Resources.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.ResourceList.resources
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.csproj.GenerateResource.Cache
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.exe
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.pdb
+D:\Desktop\AutoLeadGUI\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\AutoLeadGUI\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\AutoLeadGUI\obj\Debug\AutoLeadGUI.csprojResolveAssemblyReference.cache

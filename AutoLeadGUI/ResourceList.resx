@@ -1,0 +1,5315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Operators" xml:space="preserve">
+    <value>Abkhazia | A-Mobile | 289 | 88 | ge | 7
+Abkhazia | A-Mobile | 289 | 68 | ge | 7
+Abkhazia | Aquafon | 289 | 67 | ge | 7
+Afghanistan | Afghan Telecom Corp. (AT) | 412 | 88 | af | 93
+Afghanistan | Afghan Telecom Corp. (AT) | 412 | 80 | af | 93
+Afghanistan | Afghan Wireless/AWCC | 412 | 1 | af | 93
+Afghanistan | Areeba/MTN | 412 | 40 | af | 93
+Afghanistan | Etisalat | 412 | 50 | af | 93
+Afghanistan | Roshan/TDCA | 412 | 20 | af | 93
+Afghanistan | WaselTelecom (WT) | 412 | 3 | af | 93
+Albania | AMC/Cosmote | 276 | 1 | al | 355
+Albania | Eagle Mobile | 276 | 3 | al | 355
+Albania | PLUS Communication Sh.a | 276 | 4 | al | 355
+Albania | Vodafone | 276 | 2 | al | 355
+Algeria | ATM Mobils | 603 | 1 | dz | 213
+Algeria | Orascom / DJEZZY | 603 | 2 | dz | 213
+Algeria | Oreedo/Wataniya / Nedjma | 603 | 3 | dz | 213
+American Samoa | Blue Sky Communications | 544 | 11 | as | 684
+Andorra | Mobiland | 213 | 3 | ad | 376
+Angola | MoviCel | 631 | 4 | ao | 244
+Angola | Unitel | 631 | 2 | ao | 244
+Anguilla | Cable and Wireless | 365 | 840 | ai | 1264
+Anguilla | Digicell / Wireless Vent. Ltd | 365 | 10 | ai | 1264
+Antigua and Barbuda | APUA PCS | 344 | 30 | ag | 1268
+Antigua and Barbuda | C &amp; W | 344 | 920 | ag | 1268
+Antigua and Barbuda | DigiCel/Cing. Wireless | 344 | 930 | ag | 1268
+Argentina Republic | Claro/ CTI/AMX | 722 | 310 | ar | 54
+Argentina Republic | Claro/ CTI/AMX | 722 | 320 | ar | 54
+Argentina Republic | Claro/ CTI/AMX | 722 | 330 | ar | 54
+Argentina Republic | Compania De Radiocomunicaciones Moviles SA | 722 | 10 | ar | 54
+Argentina Republic | Movistar/Telefonica | 722 | 70 | ar | 54
+Argentina Republic | Nextel | 722 | 20 | ar | 54
+Argentina Republic | Telecom Personal S.A. | 722 | 341 | ar | 54
+Armenia | ArmenTel/Beeline | 283 | 1 | am | 374
+Armenia | Karabakh Telecom | 283 | 4 | am | 374
+Armenia | Orange | 283 | 10 | am | 374
+Armenia | Vivacell | 283 | 5 | am | 374
+Aruba | Digicel | 363 | 20 | aw | 297
+Aruba | Digicel | 363 | 2 | aw | 297
+Aruba | Setar GSM | 363 | 1 | aw | 297
+Australia | AAPT Ltd. | 505 | 14 | au | 61
+Australia | Advanced Comm Tech Pty. | 505 | 24 | au | 61
+Australia | Airnet Commercial Australia Ltd.. | 505 | 9 | au | 61
+Australia | Department of Defense | 505 | 4 | au | 61
+Australia | Dialogue Communications Pty Ltd | 505 | 26 | au | 61
+Australia | H3G Ltd. | 505 | 12 | au | 61
+Australia | H3G Ltd. | 505 | 6 | au | 61
+Australia | Localstar Holding Pty. Ltd | 505 | 88 | au | 61
+Australia | Lycamobile Pty Ltd | 505 | 19 | au | 61
+Australia | Railcorp/Vodafone | 505 | 99 | au | 61
+Australia | Railcorp/Vodafone | 505 | 8 | au | 61
+Australia | Railcorp/Vodafone | 505 | 13 | au | 61
+Australia | Singtel Optus | 505 | 90 | au | 61
+Australia | Singtel Optus | 505 | 2 | au | 61
+Australia | Telstra Corp. Ltd. | 505 | 72 | au | 61
+Australia | Telstra Corp. Ltd. | 505 | 1 | au | 61
+Australia | Telstra Corp. Ltd. | 505 | 71 | au | 61
+Australia | Telstra Corp. Ltd. | 505 | 11 | au | 61
+Australia | The Ozitel Network Pty. | 505 | 5 | au | 61
+Australia | Victorian Rail Track Corp. (VicTrack) | 505 | 16 | au | 61
+Australia | Vodafone | 505 | 3 | au | 61
+Australia | Vodafone | 505 | 7 | au | 61
+Austria | A1 MobilKom | 232 | 11 | at | 43
+Austria | A1 MobilKom | 232 | 9 | at | 43
+Austria | A1 MobilKom | 232 | 2 | at | 43
+Austria | A1 MobilKom | 232 | 1 | at | 43
+Austria | T-Mobile/Telering | 232 | 15 | at | 43
+Austria | H3G | 232 | 14 | at | 43
+Austria | H3G | 232 | 10 | at | 43
+Austria | 3/Orange/One Connect | 232 | 6 | at | 43
+Austria | 3/Orange/One Connect | 232 | 5 | at | 43
+Austria | 3/Orange/One Connect | 232 | 12 | at | 43
+Austria | Spusu/Mass Response | 232 | 17 | at | 43
+Austria | T-Mobile/Telering | 232 | 7 | at | 43
+Austria | T-Mobile/Telering | 232 | 4 | at | 43
+Austria | T-Mobile/Telering | 232 | 3 | at | 43
+Austria | Tele2 | 232 | 19 | at | 43
+Austria | A1 MobilKom | 232 | 8 | at | 43
+Austria | UPC Austria | 232 | 13 | at | 43
+Azerbaijan | Azercell Telekom B.M. | 400 | 1 | az | 994
+Azerbaijan | Azerfon. | 400 | 4 | az | 994
+Azerbaijan | Caspian American Telecommunications LLC (CATEL) | 400 | 3 | az | 994
+Azerbaijan | J.V. Bakcell GSM 2000 | 400 | 2 | az | 994
+Bahamas | Bahamas Telco. Comp. | 364 | 39 | bs | 1242
+Bahamas | Bahamas Telco. Comp. | 364 | 30 | bs | 1242
+Bahamas | Bahamas Telco. Comp. | 364 | 390 | bs | 1242
+Bahamas | Smart Communications | 364 | 3 | bs | 1242
+Bahrain | Batelco | 426 | 1 | bh | 973
+Bahrain | ZAIN/Vodafone | 426 | 2 | bh | 973
+Bahrain | VIVA | 426 | 4 | bh | 973
+Bangladesh | Robi/Aktel | 470 | 2 | bd | 880
+Bangladesh | Citycell | 470 | 5 | bd | 880
+Bangladesh | Citycell | 470 | 6 | bd | 880
+Bangladesh | GrameenPhone | 470 | 1 | bd | 880
+Bangladesh | Orascom/Banglalink | 470 | 3 | bd | 880
+Bangladesh | TeleTalk | 470 | 4 | bd | 880
+Bangladesh | Airtel/Warid | 470 | 7 | bd | 880
+Barbados | C &amp; W BET Ltd. | 342 | 600 | bb | 1246
+Barbados | Cingular Wireless | 342 | 810 | bb | 1246
+Barbados | Digicel | 342 | 750 | bb | 1246
+Barbados | Digicel | 342 | 50 | bb | 1246
+Barbados | Sunbeach | 342 | 820 | bb | 1246
+Belarus | BelCel JV | 257 | 3 | by | 375
+Belarus | BeST | 257 | 4 | by | 375
+Belarus | Mobile Digital Communications | 257 | 1 | by | 375
+Belarus | MTS | 257 | 2 | by | 375
+Belgium | Base/KPN | 206 | 20 | be | 32
+Belgium | Belgacom/Proximus | 206 | 1 | be | 32
+Belgium | Lycamobile Belgium | 206 | 6 | be | 32
+Belgium | Mobistar/Orange | 206 | 10 | be | 32
+Belgium | SNCT/NMBS | 206 | 2 | be | 32
+Belgium | Telenet BidCo NV | 206 | 5 | be | 32
+Belize | DigiCell | 702 | 67 | bz | 501
+Belize | International Telco (INTELCO) | 702 | 68 | bz | 501
+Benin | Bell Benin/BBCOM | 616 | 4 | bj | 229
+Benin | Etisalat/MOOV | 616 | 2 | bj | 229
+Benin | GloMobile | 616 | 5 | bj | 229
+Benin | Libercom | 616 | 1 | bj | 229
+Benin | MTN/Spacetel | 616 | 3 | bj | 229
+Bermuda | Bermuda Digital Communications Ltd (BDC) | 350 | 0 | bm | 1441
+Bermuda | CellOne Ltd | 350 | 99 | bm | 1441
+Bermuda | DigiCel / Cingular | 350 | 10 | bm | 1441
+Bermuda | M3 Wireless Ltd | 350 | 2 | bm | 1441
+Bermuda | Telecommunications (Bermuda &amp; West Indies) Ltd (Digicel Bermuda) | 350 | 1 | bm | 1441
+Bhutan | B-Mobile | 402 | 11 | bt | 975
+Bhutan | Bhutan Telecom Ltd (BTL) | 402 | 17 | bt | 975
+Bhutan | TashiCell | 402 | 77 | bt | 975
+Bolivia | Entel Pcs | 736 | 2 | bo | 591
+Bolivia | Nuevatel | 736 | 1 | bo | 591
+Bolivia | TELECEL BOLIVIA | 736 | 3 | bo | 591
+Bosnia &amp; Herzegov. | BH Mobile | 218 | 90 | ba | 387
+Bosnia &amp; Herzegov. | Eronet Mobile | 218 | 3 | ba | 387
+Bosnia &amp; Herzegov. | M-Tel | 218 | 5 | ba | 387
+Botswana | BeMOBILE | 652 | 4 | bw | 267
+Botswana | Mascom Wireless (Pty) Ltd. | 652 | 1 | bw | 267
+Botswana | Orange | 652 | 2 | bw | 267
+Brazil | Claro/Albra/America Movil | 724 | 12 | br | 55
+Brazil | Claro/Albra/America Movil | 724 | 5 | br | 55
+Brazil | Claro/Albra/America Movil | 724 | 38 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 1 | br | 55
+Brazil | CTBC Celular SA (CTBC) | 724 | 34 | br | 55
+Brazil | CTBC Celular SA (CTBC) | 724 | 33 | br | 55
+Brazil | CTBC Celular SA (CTBC) | 724 | 32 | br | 55
+Brazil | TIM | 724 | 8 | br | 55
+Brazil | Nextel (Telet) | 724 | 39 | br | 55
+Brazil | Nextel (Telet) | 724 | 0 | br | 55
+Brazil | Amazonia Celular S/A | 724 | 24 | br | 55
+Brazil | Oi (TNL PCS / Oi) | 724 | 30 | br | 55
+Brazil | Oi (TNL PCS / Oi) | 724 | 31 | br | 55
+Brazil | Brazil Telcom | 724 | 16 | br | 55
+Brazil | PORTO SEGURO TELECOMUNICACOES | 724 | 54 | br | 55
+Brazil | Sercontel Cel | 724 | 15 | br | 55
+Brazil | CTBC/Triangulo | 724 | 7 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 19 | br | 55
+Brazil | TIM | 724 | 4 | br | 55
+Brazil | TIM | 724 | 3 | br | 55
+Brazil | TIM | 724 | 2 | br | 55
+Brazil | Unicel do Brasil Telecomunicacoes Ltda | 724 | 37 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 10 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 6 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 23 | br | 55
+Brazil | Vivo S.A./Telemig | 724 | 11 | br | 55
+British Virgin Islands | Caribbean Cellular | 348 | 570 | vg | 284
+British Virgin Islands | Digicel | 348 | 770 | vg | 284
+British Virgin Islands | LIME | 348 | 170 | vg | 284
+Brunei Darussalam | b-mobile | 528 | 2 | bn | 673
+Brunei Darussalam | Datastream (DTSCom) | 528 | 11 | bn | 673
+Brunei Darussalam | Telekom Brunei Bhd (TelBru) | 528 | 1 | bn | 673
+Bulgaria | BTC Mobile EOOD (vivatel) | 284 | 6 | bg | 359
+Bulgaria | BTC Mobile EOOD (vivatel) | 284 | 3 | bg | 359
+Bulgaria | Telenor/Cosmo/Globul | 284 | 5 | bg | 359
+Bulgaria | MobilTel AD | 284 | 1 | bg | 359
+Burkina Faso | TeleCel | 613 | 3 | bf | 226
+Burkina Faso | TeleMob-OnaTel | 613 | 1 | bf | 226
+Burkina Faso | Airtel/ZAIN/CelTel | 613 | 2 | bf | 226
+Burundi | Africel / Safaris | 642 | 2 | bi | 257
+Burundi | Lumitel/Viettel | 642 | 8 | bi | 257
+Burundi | Onatel / Telecel | 642 | 3 | bi | 257
+Burundi | Smart Mobile / LACELL | 642 | 7 | bi | 257
+Burundi | Spacetel / Econet / Leo | 642 | 82 | bi | 257
+Burundi | Spacetel / Econet / Leo | 642 | 1 | bi | 257
+Cambodia | Cambodia Advance Communications Co. Ltd (CADCOMMS) | 456 | 4 | kh | 855
+Cambodia | Smart Mobile | 456 | 2 | kh | 855
+Cambodia | Metfone | 456 | 8 | kh | 855
+Cambodia | MFone/Camshin/Cellcard | 456 | 18 | kh | 855
+Cambodia | Mobitel/Cam GSM | 456 | 1 | kh | 855
+Cambodia | QB/Cambodia Adv. Comms. | 456 | 3 | kh | 855
+Cambodia | Smart Mobile | 456 | 5 | kh | 855
+Cambodia | Smart Mobile | 456 | 6 | kh | 855
+Cambodia | Sotelco/Beeline | 456 | 9 | kh | 855
+Cameroon | MTN | 624 | 1 | cm | 237
+Cameroon | Nextel | 624 | 4 | cm | 237
+Cameroon | Orange | 624 | 2 | cm | 237
+Canada | BC Tel Mobility | 302 | 652 | ca | 1
+Canada | Bell Aliant | 302 | 630 | ca | 1
+Canada | Bell Mobility | 302 | 610 | ca | 1
+Canada | Bell Mobility | 302 | 651 | ca | 1
+Canada | CityWest Mobility | 302 | 670 | ca | 1
+Canada | Clearnet | 302 | 361 | ca | 1
+Canada | Clearnet | 302 | 360 | ca | 1
+Canada | DMTS Mobility | 302 | 380 | ca | 1
+Canada | Globalstar Canada | 302 | 710 | ca | 1
+Canada | Latitude Wireless | 302 | 640 | ca | 1
+Canada | FIDO (Rogers AT&amp;T/ Microcell) | 302 | 370 | ca | 1
+Canada | mobilicity | 302 | 320 | ca | 1
+Canada | MT&amp;T Mobility | 302 | 702 | ca | 1
+Canada | MTS Mobility | 302 | 655 | ca | 1
+Canada | MTS Mobility | 302 | 660 | ca | 1
+Canada | NB Tel Mobility | 302 | 701 | ca | 1
+Canada | New Tel Mobility | 302 | 703 | ca | 1
+Canada | Public Mobile | 302 | 760 | ca | 1
+Canada | Quebectel Mobility | 302 | 657 | ca | 1
+Canada | Rogers AT&amp;T Wireless | 302 | 720 | ca | 1
+Canada | Sask Tel Mobility | 302 | 680 | ca | 1
+Canada | Sask Tel Mobility | 302 | 654 | ca | 1
+Canada | Tbay Mobility | 302 | 656 | ca | 1
+Canada | Telus Mobility | 302 | 653 | ca | 1
+Canada | Telus Mobility | 302 | 220 | ca | 1
+Canada | Videotron | 302 | 500 | ca | 1
+Canada | WIND | 302 | 490 | ca | 1
+Cape Verde | CV Movel | 625 | 1 | cv | 238
+Cape Verde | T+ Telecom | 625 | 2 | cv | 238
+Cayman Islands | Digicel Cayman Ltd | 346 | 50 | ky | 1345
+Cayman Islands | Digicel Ltd. | 346 | 6 | ky | 1345
+Cayman Islands | LIME / Cable &amp; Wirel. | 346 | 140 | ky | 1345
+Central African Rep. | Centrafr. Telecom+ | 623 | 1 | cf | 236
+Central African Rep. | Nationlink | 623 | 4 | cf | 236
+Central African Rep. | Orange/Celca | 623 | 3 | cf | 236
+Central African Rep. | Telecel Centraf. | 623 | 2 | cf | 236
+Chad | Salam/Sotel | 622 | 4 | td | 235
+Chad | Tchad Mobile | 622 | 2 | td | 235
+Chad | Tigo/Milicom/Tchad Mobile | 622 | 3 | td | 235
+Chad | Airtel/ZAIN/Celtel | 622 | 1 | td | 235
+Chile | Blue Two Chile SA | 730 | 6 | cl | 56
+Chile | Celupago SA | 730 | 11 | cl | 56
+Chile | Cibeles Telecom SA | 730 | 15 | cl | 56
+Chile | Claro | 730 | 3 | cl | 56
+Chile | Entel Telefonia | 730 | 10 | cl | 56
+Chile | Entel Telefonia Mov | 730 | 1 | cl | 56
+Chile | Netline Telefonica Movil Ltda | 730 | 14 | cl | 56
+Chile | Nextel SA | 730 | 9 | cl | 56
+Chile | Nextel SA | 730 | 5 | cl | 56
+Chile | Nextel SA | 730 | 4 | cl | 56
+Chile | TELEFONICA | 730 | 2 | cl | 56
+Chile | TELEFONICA | 730 | 7 | cl | 56
+Chile | Telestar Movil SA | 730 | 12 | cl | 56
+Chile | TESAM SA | 730 | 0 | cl | 56
+Chile | Tribe Mobile SPA | 730 | 13 | cl | 56
+Chile | VTR Banda Ancha SA | 730 | 8 | cl | 56
+China | China Mobile GSM | 460 | 7 | cn | 86
+China | China Mobile GSM | 460 | 2 | cn | 86
+China | China Mobile GSM | 460 | 0 | cn | 86
+China | China Space Mobile Satellite Telecommunications Co. Ltd (China Spacecom) | 460 | 4 | cn | 86
+China | China Telecom | 460 | 3 | cn | 86
+China | China Telecom | 460 | 5 | cn | 86
+China | China Unicom | 460 | 6 | cn | 86
+China | China Unicom | 460 | 1 | cn | 86
+Colombia | Avantel SAS | 732 | 130 | co | 57
+Colombia | Movistar | 732 | 102 | co | 57
+Colombia | TIGO/Colombia Movil | 732 | 103 | co | 57
+Colombia | TIGO/Colombia Movil | 732 | 1 | co | 57
+Colombia | Comcel S.A. Occel S.A./Celcaribe | 732 | 101 | co | 57
+Colombia | Edatel S.A. | 732 | 2 | co | 57
+Colombia | Movistar | 732 | 123 | co | 57
+Colombia | TIGO/Colombia Movil | 732 | 111 | co | 57
+Colombia | UNE EPM Telecomunicaciones SA ESP | 732 | 142 | co | 57
+Colombia | UNE EPM Telecomunicaciones SA ESP | 732 | 20 | co | 57
+Colombia | Virgin Mobile Colombia SAS | 732 | 154 | co | 57
+Comoros | HURI - SNPT | 654 | 1 | km | 269
+Congo, Dem. Rep. | Africell | 630 | 90 | cd | 243
+Congo, Dem. Rep. | Orange RDC sarl | 630 | 86 | cd | 243
+Congo, Dem. Rep. | SuperCell | 630 | 5 | cd | 243
+Congo, Dem. Rep. | TIGO/Oasis | 630 | 89 | cd | 243
+Congo, Dem. Rep. | Vodacom | 630 | 1 | cd | 243
+Congo, Dem. Rep. | Yozma Timeturns sprl (YTT) | 630 | 88 | cd | 243
+Congo, Dem. Rep. | Airtel/ZAIN | 630 | 2 | cd | 243
+Congo, Republic | Airtel SA | 629 | 1 | cg | 242
+Congo, Republic | Azur SA (ETC) | 629 | 2 | cg | 242
+Congo, Republic | MTN/Libertis | 629 | 10 | cg | 242
+Congo, Republic | Warid | 629 | 7 | cg | 242
+Cook Islands | Telecom Cook Islands | 548 | 1 | ck | 682
+Costa Rica | Claro | 712 | 3 | cr | 506
+Costa Rica | ICE | 712 | 2 | cr | 506
+Costa Rica | ICE | 712 | 1 | cr | 506
+Costa Rica | Movistar | 712 | 4 | cr | 506
+Costa Rica | Virtualis | 712 | 20 | cr | 506
+Croatia | T-Mobile/Cronet | 219 | 1 | hr | 385
+Croatia | Tele2 | 219 | 2 | hr | 385
+Croatia | VIPnet d.o.o. | 219 | 10 | hr | 385
+Cuba | C-COM | 368 | 1 | cu | 53
+Curacao | EOCG Wireless NV | 362 | 95 | cw | 599
+Curacao | Polycom N.V./ Digicel | 362 | 69 | cw | 599
+Cyprus | MTN/Areeba | 280 | 10 | cy | 357
+Cyprus | PrimeTel PLC | 280 | 20 | cy | 357
+Cyprus | Vodafone/CyTa | 280 | 1 | cy | 357
+Czech Rep. | Compatel s.r.o. | 230 | 8 | cz | 420
+Czech Rep. | O2 | 230 | 2 | cz | 420
+Czech Rep. | T-Mobile / RadioMobil | 230 | 1 | cz | 420
+Czech Rep. | Travel Telekommunikation s.r.o. | 230 | 5 | cz | 420
+Czech Rep. | Ufone | 230 | 4 | cz | 420
+Czech Rep. | Vodafone | 230 | 3 | cz | 420
+Czech Rep. | Vodafone | 230 | 99 | cz | 420
+Denmark | ApS KBUS | 238 | 5 | dk | 45
+Denmark | Banedanmark | 238 | 23 | dk | 45
+Denmark | CoolTEL ApS | 238 | 28 | dk | 45
+Denmark | H3G | 238 | 6 | dk | 45
+Denmark | Lycamobile Ltd | 238 | 12 | dk | 45
+Denmark | Mach Connectivity ApS | 238 | 3 | dk | 45
+Denmark | Mundio Mobile | 238 | 7 | dk | 45
+Denmark | NextGen Mobile Ltd (CardBoardFish) | 238 | 4 | dk | 45
+Denmark | TDC Denmark | 238 | 1 | dk | 45
+Denmark | TDC Denmark | 238 | 10 | dk | 45
+Denmark | Telenor/Sonofon | 238 | 77 | dk | 45
+Denmark | Telenor/Sonofon | 238 | 2 | dk | 45
+Denmark | Telia | 238 | 20 | dk | 45
+Denmark | Telia | 238 | 30 | dk | 45
+Djibouti | Djibouti Telecom SA (Evatis) | 638 | 1 | dj | 253
+Dominica | C &amp; W | 366 | 110 | dm | 1767
+Dominica | Cingular Wireless/Digicel | 366 | 20 | dm | 1767
+Dominica | Wireless Ventures (Dominica) Ltd (Digicel Dominica) | 366 | 50 | dm | 1767
+Dominican Republic | Claro | 370 | 2 | do | 1809
+Dominican Republic | Orange | 370 | 1 | do | 1809
+Dominican Republic | TRIcom | 370 | 3 | do | 1809
+Dominican Republic | Trilogy Dominicana S. A. | 370 | 4 | do | 1809
+Ecuador | Alegro/Telcsa | 740 | 2 | ec | 593
+Ecuador | MOVISTAR/OteCel | 740 | 0 | ec | 593
+Ecuador | Porta/Conecel | 740 | 1 | ec | 593
+Egypt | Orange/Mobinil | 602 | 1 | eg | 20
+Egypt | ETISALAT | 602 | 3 | eg | 20
+Egypt | Vodafone/Mirsfone | 602 | 2 | eg | 20
+El Salvador | CLARO/CTE | 706 | 1 | sv | 503
+El Salvador | Digicel | 706 | 2 | sv | 503
+El Salvador | INTELFON SA de CV | 706 | 5 | sv | 503
+El Salvador | Telefonica | 706 | 4 | sv | 503
+El Salvador | Telemovil | 706 | 3 | sv | 503
+Equatorial Guinea | HiTs-GE | 627 | 3 | gq | 240
+Equatorial Guinea | ORANGE/GETESA | 627 | 1 | gq | 240
+Eritrea | Eritel | 657 | 1 | er | 291
+Estonia | EMT GSM | 248 | 1 | ee | 372
+Estonia | Radiolinja Eesti | 248 | 2 | ee | 372
+Estonia | Tele2 Eesti AS | 248 | 3 | ee | 372
+Estonia | Top Connect OU | 248 | 4 | ee | 372
+Ethiopia | ETH/MTN | 636 | 1 | et | 251
+Falkland Islands (Malvinas) | Cable and Wireless South Atlantic Ltd (Falkland Islands | 750 | 1 | fk | 500
+Faroe Islands | Edge Mobile Sp/F | 288 | 3 | fo | 298
+Faroe Islands | Faroese Telecom | 288 | 1 | fo | 298
+Faroe Islands | Kall GSM | 288 | 2 | fo | 298
+Fiji | DigiCell | 542 | 2 | fj | 679
+Fiji | Vodafone | 542 | 1 | fj | 679
+Finland | Alands | 244 | 14 | fi | 358
+Finland | Compatel Ltd | 244 | 26 | fi | 358
+Finland | DNA/Finnet | 244 | 4 | fi | 358
+Finland | DNA/Finnet | 244 | 3 | fi | 358
+Finland | DNA/Finnet | 244 | 13 | fi | 358
+Finland | DNA/Finnet | 244 | 12 | fi | 358
+Finland | Elisa/Saunalahti | 244 | 5 | fi | 358
+Finland | Elisa/Saunalahti | 244 | 21 | fi | 358
+Finland | ID-Mobile | 244 | 82 | fi | 358
+Finland | Mundio Mobile (Finland) Ltd | 244 | 11 | fi | 358
+Finland | Nokia Oyj | 244 | 9 | fi | 358
+Finland | TDC Oy Finland | 244 | 10 | fi | 358
+Finland | TeliaSonera | 244 | 91 | fi | 358
+France | AFONE SA | 208 | 27 | fr | 33
+France | Association Plate-forme Telecom | 208 | 92 | fr | 33
+France | Astrium | 208 | 28 | fr | 33
+France | Bouygues Telecom | 208 | 21 | fr | 33
+France | Bouygues Telecom | 208 | 20 | fr | 33
+France | Bouygues Telecom | 208 | 88 | fr | 33
+France | Lliad/FREE Mobile | 208 | 14 | fr | 33
+France | GlobalStar | 208 | 7 | fr | 33
+France | GlobalStar | 208 | 6 | fr | 33
+France | GlobalStar | 208 | 5 | fr | 33
+France | Orange | 208 | 29 | fr | 33
+France | Legos - Local Exchange Global Operation Services SA | 208 | 17 | fr | 33
+France | Lliad/FREE Mobile | 208 | 16 | fr | 33
+France | Lliad/FREE Mobile | 208 | 15 | fr | 33
+France | Lycamobile SARL | 208 | 25 | fr | 33
+France | MobiquiThings | 208 | 3 | fr | 33
+France | MobiquiThings | 208 | 24 | fr | 33
+France | Mundio Mobile (France) Ltd | 208 | 31 | fr | 33
+France | NRJ | 208 | 26 | fr | 33
+France | Virgin Mobile/Omer | 208 | 89 | fr | 33
+France | Virgin Mobile/Omer | 208 | 23 | fr | 33
+France | Orange | 208 | 2 | fr | 33
+France | Orange | 208 | 1 | fr | 33
+France | Orange | 208 | 91 | fr | 33
+France | S.F.R. | 208 | 9 | fr | 33
+France | S.F.R. | 208 | 11 | fr | 33
+France | S.F.R. | 208 | 13 | fr | 33
+France | S.F.R. | 208 | 10 | fr | 33
+France | SISTEER | 208 | 4 | fr | 33
+France | Tel/Tel | 208 | 0 | fr | 33
+France | Transatel SA | 208 | 22 | fr | 33
+French Guiana | Bouygues/DigiCel | 340 | 20 | fg | 594
+French Guiana | Orange Caribe | 340 | 1 | fg | 594
+French Guiana | Outremer Telecom | 340 | 2 | fg | 594
+French Guiana | TelCell GSM | 340 | 3 | fg | 594
+French Guiana | TelCell GSM | 340 | 11 | fg | 594
+French Polynesia | Pacific Mobile Telecom (PMT) | 547 | 15 | pf | 689
+French Polynesia | Vini/Tikiphone | 547 | 20 | pf | 689
+Gabon | Azur/Usan S.A. | 628 | 4 | ga | 241
+Gabon | Libertis S.A. | 628 | 1 | ga | 241
+Gabon | MOOV/Telecel | 628 | 2 | ga | 241
+Gabon | Airtel/ZAIN/Celtel Gabon S.A. | 628 | 3 | ga | 241
+Gambia | Africel | 607 | 2 | gm | 220
+Gambia | Comium | 607 | 3 | gm | 220
+Gambia | Gamcel | 607 | 1 | gm | 220
+Gambia | Q-Cell | 607 | 4 | gm | 220
+Georgia | Geocell Ltd. | 282 | 1 | ge | 995
+Georgia | Iberiatel Ltd. | 282 | 3 | ge | 995
+Georgia | Magti GSM Ltd. | 282 | 2 | ge | 995
+Georgia | MobiTel/Beeline | 282 | 4 | ge | 995
+Georgia | Silknet | 282 | 5 | ge | 995
+Germany | E-Plus | 262 | 17 | de | 49
+Germany | DB Netz AG | 262 | 10 | de | 49
+Germany | Debitel | 262 | n/a | de | 49
+Germany | E-Plus | 262 | 5 | de | 49
+Germany | E-Plus | 262 | 77 | de | 49
+Germany | E-Plus | 262 | 3 | de | 49
+Germany | E-Plus | 262 | 20 | de | 49
+Germany | E-Plus | 262 | 12 | de | 49
+Germany | Group 3G UMTS | 262 | 14 | de | 49
+Germany | Lycamobile | 262 | 43 | de | 49
+Germany | Mobilcom | 262 | 13 | de | 49
+Germany | O2 | 262 | 7 | de | 49
+Germany | O2 | 262 | 11 | de | 49
+Germany | O2 | 262 | 8 | de | 49
+Germany | Talkline | 262 | n/a | de | 49
+Germany | T-mobile/Telekom | 262 | 1 | de | 49
+Germany | T-mobile/Telekom | 262 | 6 | de | 49
+Germany | Telogic/ViStream | 262 | 16 | de | 49
+Germany | Vodafone D2 | 262 | 42 | de | 49
+Germany | Vodafone D2 | 262 | 9 | de | 49
+Germany | Vodafone D2 | 262 | 4 | de | 49
+Germany | Vodafone D2 | 262 | 2 | de | 49
+Ghana | Expresso Ghana Ltd | 620 | 4 | gh | 233
+Ghana | GloMobile | 620 | 7 | gh | 233
+Ghana | Milicom/Tigo | 620 | 3 | gh | 233
+Ghana | MTN | 620 | 1 | gh | 233
+Ghana | Vodafone | 620 | 2 | gh | 233
+Ghana | Airtel/ZAIN | 620 | 6 | gh | 233
+Gibraltar | CTS Mobile | 266 | 6 | gi | 350
+Gibraltar | eazi telecom | 266 | 9 | gi | 350
+Gibraltar | Gibtel GSM | 266 | 1 | gi | 350
+Greece | AMD Telecom SA | 202 | 7 | gr | 30
+Greece | Cosmote | 202 | 2 | gr | 30
+Greece | Cosmote | 202 | 1 | gr | 30
+Greece | CyTa Mobile | 202 | 14 | gr | 30
+Greece | Organismos Sidirodromon Ellados (OSE) | 202 | 4 | gr | 30
+Greece | OTE Hellenic Telecommunications Organization SA | 202 | 3 | gr | 30
+Greece | Tim/Wind | 202 | 10 | gr | 30
+Greece | Tim/Wind | 202 | 9 | gr | 30
+Greece | Vodafone | 202 | 5 | gr | 30
+Greenland | Tele Greenland | 290 | 1 | gl | 299
+Grenada | Cable &amp; Wireless | 352 | 110 | gd | 1473
+Grenada | Digicel | 352 | 30 | gd | 1473
+Grenada | Digicel | 352 | 50 | gd | 1473
+Guadeloupe | Dauphin Telecom SU (Guadeloupe Telecom) | 340 | 8 | gp | 590
+Guam | Docomo | 310 | 370 | gu | 1671
+Guam | Docomo | 310 | 470 | gu | 1671
+Guam | GTA Wireless | 310 | 140 | gu | 1671
+Guam | Guam Teleph. Auth. | 310 | 33 | gu | 1671
+Guam | IT&amp;E OverSeas | 310 | 32 | gu | 1671
+Guam | Wave Runner LLC | 311 | 250 | gu | 1671
+Guatemala | SERCOM | 704 | 1 | gt | 502
+Guatemala | Telefonica | 704 | 3 | gt | 502
+Guatemala | TIGO/COMCEL | 704 | 2 | gt | 502
+Guinea | MTN/Areeba | 611 | 4 | gn | 224
+Guinea | Celcom | 611 | 5 | gn | 224
+Guinea | Intercel | 611 | 3 | gn | 224
+Guinea | Orange/Sonatel/Spacetel | 611 | 1 | gn | 224
+Guinea | SotelGui | 611 | 2 | gn | 224
+Guinea-Bissau | GuineTel | 632 | 1 | gw | 245
+Guinea-Bissau | Orange | 632 | 3 | gw | 245
+Guinea-Bissau | SpaceTel | 632 | 2 | gw | 245
+Guyana | Cellink Plus | 738 | 2 | gy | 592
+Guyana | DigiCel | 738 | 1 | gy | 592
+Haiti | Comcel | 372 | 1 | ht | 509
+Haiti | Digicel | 372 | 2 | ht | 509
+Haiti | National Telecom SA (NatCom) | 372 | 3 | ht | 509
+Honduras | Digicel | 708 | 40 | hn | 504
+Honduras | HonduTel | 708 | 30 | hn | 504
+Honduras | SERCOM/CLARO | 708 | 1 | hn | 504
+Honduras | Telefonica/CELTEL | 708 | 2 | hn | 504
+Hongkong, China | China Mobile/Peoples | 454 | 13 | hk | 852
+Hongkong, China | China Mobile/Peoples | 454 | 12 | hk | 852
+Hongkong, China | China Mobile/Peoples | 454 | 28 | hk | 852
+Hongkong, China | China Motion | 454 | 9 | hk | 852
+Hongkong, China | China Unicom Ltd | 454 | 7 | hk | 852
+Hongkong, China | China-HongKong Telecom Ltd (CHKTL) | 454 | 11 | hk | 852
+Hongkong, China | Citic Telecom Ltd. | 454 | 1 | hk | 852
+Hongkong, China | CSL Ltd. | 454 | 2 | hk | 852
+Hongkong, China | CSL Ltd. | 454 | 0 | hk | 852
+Hongkong, China | CSL Ltd. | 454 | 18 | hk | 852
+Hongkong, China | CSL/New World PCS Ltd. | 454 | 10 | hk | 852
+Hongkong, China | H3G/Hutchinson | 454 | 14 | hk | 852
+Hongkong, China | H3G/Hutchinson | 454 | 5 | hk | 852
+Hongkong, China | H3G/Hutchinson | 454 | 4 | hk | 852
+Hongkong, China | H3G/Hutchinson | 454 | 3 | hk | 852
+Hongkong, China | HKT/PCCW | 454 | 29 | hk | 852
+Hongkong, China | HKT/PCCW | 454 | 16 | hk | 852
+Hongkong, China | HKT/PCCW | 454 | 20 | hk | 852
+Hongkong, China | HKT/PCCW | 454 | 19 | hk | 852
+Hongkong, China | shared by private TETRA systems | 454 | 47 | hk | 852
+Hongkong, China | shared by private TETRA systems | 454 | 40 | hk | 852
+Hongkong, China | Truephone | 454 | 8 | hk | 852
+Hongkong, China | Vodafone/SmarTone | 454 | 15 | hk | 852
+Hongkong, China | Vodafone/SmarTone | 454 | 6 | hk | 852
+Hongkong, China | Vodafone/SmarTone | 454 | 17 | hk | 852
+Hungary | Pannon/Telenor | 216 | 1 | hu | 36
+Hungary | T-mobile/Magyar | 216 | 30 | hu | 36
+Hungary | UPC Magyarorszag Kft. | 216 | 71 | hu | 36
+Hungary | Vodafone | 216 | 70 | hu | 36
+Iceland | Amitelo | 274 | 9 | is | 354
+Iceland | IceCell | 274 | 7 | is | 354
+Iceland | Siminn | 274 | 8 | is | 354
+Iceland | Siminn | 274 | 1 | is | 354
+Iceland | NOVA | 274 | 11 | is | 354
+Iceland | VIKING/IMC | 274 | 4 | is | 354
+Iceland | Vodafone/Tal hf | 274 | 5 | is | 354
+Iceland | Vodafone/Tal hf | 274 | 2 | is | 354
+Iceland | Vodafone/Tal hf | 274 | 3 | is | 354
+India | Aircel | 404 | 25 | in | 91
+India | Aircel | 404 | 17 | in | 91
+India | Aircel | 404 | 42 | in | 91
+India | Aircel | 404 | 33 | in | 91
+India | Aircel | 404 | 29 | in | 91
+India | Aircel | 404 | 28 | in | 91
+India | Aircel Digilink India | 404 | 60 | in | 91
+India | Aircel Digilink India | 404 | 1 | in | 91
+India | Aircel Digilink India | 404 | 15 | in | 91
+India | AirTel | 405 | 53 | in | 91
+India | Barakhamba Sales &amp; Serv. | 404 | 86 | in | 91
+India | Barakhamba Sales &amp; Serv. | 404 | 13 | in | 91
+India | BSNL | 404 | 59 | in | 91
+India | BSNL | 404 | 75 | in | 91
+India | BSNL | 404 | 51 | in | 91
+India | BSNL | 404 | 58 | in | 91
+India | BSNL | 404 | 81 | in | 91
+India | BSNL | 404 | 74 | in | 91
+India | BSNL | 404 | 38 | in | 91
+India | BSNL | 404 | 57 | in | 91
+India | BSNL | 404 | 80 | in | 91
+India | BSNL | 404 | 73 | in | 91
+India | BSNL | 404 | 34 | in | 91
+India | BSNL | 404 | 66 | in | 91
+India | BSNL | 404 | 55 | in | 91
+India | BSNL | 404 | 72 | in | 91
+India | BSNL | 404 | 77 | in | 91
+India | BSNL | 404 | 64 | in | 91
+India | BSNL | 404 | 54 | in | 91
+India | BSNL | 404 | 71 | in | 91
+India | BSNL | 404 | 76 | in | 91
+India | BSNL | 404 | 62 | in | 91
+India | BSNL | 404 | 53 | in | 91
+India | Bharti Airtel Limited (Delhi) | 404 | 10 | in | 91
+India | Bharti Airtel Limited (Karnataka) (India) | 404 | 45 | in | 91
+India | CellOne A&amp;N | 404 | 79 | in | 91
+India | Escorts Telecom Ltd. | 404 | 82 | in | 91
+India | Escorts Telecom Ltd. | 404 | 89 | in | 91
+India | Escorts Telecom Ltd. | 404 | 88 | in | 91
+India | Escorts Telecom Ltd. | 404 | 87 | in | 91
+India | Escotel Mobile Communications | 404 | 12 | in | 91
+India | Escotel Mobile Communications | 404 | 19 | in | 91
+India | Escotel Mobile Communications | 404 | 56 | in | 91
+India | Fascel Limited | 405 | 5 | in | 91
+India | Fascel | 404 | 5 | in | 91
+India | Hexacom India | 404 | 70 | in | 91
+India | Hexcom India | 404 | 16 | in | 91
+India | Idea Cellular Ltd. | 404 | 7 | in | 91
+India | Idea Cellular Ltd. | 404 | 4 | in | 91
+India | Idea Cellular Ltd. | 404 | 24 | in | 91
+India | Idea Cellular Ltd. | 404 | 22 | in | 91
+India | Idea Cellular Ltd. | 404 | 78 | in | 91
+India | Mahanagar Telephone Nigam | 404 | 69 | in | 91
+India | Mahanagar Telephone Nigam | 404 | 68 | in | 91
+India | Reliable Internet Services | 404 | 83 | in | 91
+India | Reliance Telecom Private | 404 | 18 | in | 91
+India | Reliance Telecom Private | 404 | 85 | in | 91
+India | Reliance Telecom Private | 404 | 9 | in | 91
+India | Reliance Telecom Private | 404 | 36 | in | 91
+India | Reliance Telecom Private | 404 | 52 | in | 91
+India | Reliance Telecom Private | 404 | 50 | in | 91
+India | Reliance Telecom Private | 404 | 67 | in | 91
+India | RPG Cellular | 404 | 41 | in | 91
+India | Spice | 404 | 14 | in | 91
+India | Spice | 404 | 44 | in | 91
+India | Sterling Cellular Ltd. | 404 | 11 | in | 91
+India | TATA / Karnataka | 405 | 34 | in | 91
+India | Usha Martin Telecom | 404 | 30 | in | 91
+Indonesia | Axis/Natrindo | 510 | 8 | id | 62
+Indonesia | Esia (PT Bakrie Telecom) (CDMA) | 510 | 99 | id | 62
+Indonesia | Flexi (PT Telkom) (CDMA) | 510 | 7 | id | 62
+Indonesia | H3G CP | 510 | 89 | id | 62
+Indonesia | Indosat/Satelindo/M3 | 510 | 21 | id | 62
+Indonesia | Indosat/Satelindo/M3 | 510 | 1 | id | 62
+Indonesia | PT Pasifik Satelit Nusantara (PSN) | 510 | 0 | id | 62
+Indonesia | PT Sampoerna Telekomunikasi Indonesia (STI) | 510 | 27 | id | 62
+Indonesia | PT Smartfren Telecom Tbk | 510 | 28 | id | 62
+Indonesia | PT Smartfren Telecom Tbk | 510 | 9 | id | 62
+Indonesia | PT. Excelcom | 510 | 11 | id | 62
+Indonesia | Telkomsel | 510 | 10 | id | 62
+International Networks | Antarctica | 901 | 13 | n/a | 882
+Iran | Mobile Telecommunications Company of Esfahan JV-PJS (MTCE) | 432 | 19 | ir | 98
+Iran | MTCE | 432 | 70 | ir | 98
+Iran | MTN/IranCell | 432 | 35 | ir | 98
+Iran | Rightel | 432 | 20 | ir | 98
+Iran | Taliya | 432 | 32 | ir | 98
+Iran | MCI/TCI | 432 | 11 | ir | 98
+Iran | TKC/KFZO | 432 | 14 | ir | 98
+Iraq | Asia Cell | 418 | 5 | iq | 964
+Iraq | Itisaluna and Kalemat | 418 | 92 | iq | 964
+Iraq | Korek | 418 | 40 | iq | 964
+Iraq | Korek | 418 | 82 | iq | 964
+Iraq | Mobitel (Iraq-Kurdistan) and Moutiny | 418 | 45 | iq | 964
+Iraq | ZAIN/Atheer/Orascom | 418 | 20 | iq | 964
+Iraq | Orascom Telecom | 418 | 30 | iq | 964
+Iraq | Sanatel | 418 | 8 | iq | 964
+Ireland | Access Telecom Ltd. | 272 | 4 | ie | 353
+Ireland | Clever Communications Ltd | 272 | 9 | ie | 353
+Ireland | eircom Ltd | 272 | 7 | ie | 353
+Ireland | Three/H3G | 272 | 5 | ie | 353
+Ireland | Liffey Telecom | 272 | 11 | ie | 353
+Ireland | Lycamobile | 272 | 13 | ie | 353
+Ireland | Meteor Mobile Ltd. | 272 | 3 | ie | 353
+Ireland | Three/O2/Digifone | 272 | 2 | ie | 353
+Ireland | Vodafone Eircell | 272 | 1 | ie | 353
+Israel | Alon Cellular Ltd | 425 | 14 | il | 972
+Israel | Cellcom ltd. | 425 | 2 | il | 972
+Israel | Golan Telekom | 425 | 8 | il | 972
+Israel | Home Cellular Ltd | 425 | 15 | il | 972
+Israel | Hot Mobile/Mirs | 425 | 77 | il | 972
+Israel | Hot Mobile/Mirs | 425 | 7 | il | 972
+Israel | Orange/Partner Co. Ltd. | 425 | 1 | il | 972
+Israel | Pelephone | 425 | 3 | il | 972
+Israel | Rami Levy Hashikma Marketing Communications Ltd | 425 | 16 | il | 972
+Israel | Telzar/AZI | 425 | 19 | il | 972
+Italy | BT Italia SpA | 222 | 34 | it | 39
+Italy | Elsacom | 222 | 2 | it | 39
+Italy | Fastweb SpA | 222 | 8 | it | 39
+Italy | Fix Line | 222 | 0 | it | 39
+Italy | Hi3G | 222 | 99 | it | 39
+Italy | IPSE 2000 | 222 | 77 | it | 39
+Italy | Lycamobile Srl | 222 | 35 | it | 39
+Italy | Noverca Italia Srl | 222 | 7 | it | 39
+Italy | PosteMobile SpA | 222 | 33 | it | 39
+Italy | Premium Number(s) | 222 | 0 | it | 39
+Italy | RFI Rete Ferroviaria Italiana SpA | 222 | 30 | it | 39
+Italy | Telecom Italia Mobile SpA | 222 | 48 | it | 39
+Italy | Telecom Italia Mobile SpA | 222 | 43 | it | 39
+Italy | TIM | 222 | 1 | it | 39
+Italy | Vodafone | 222 | 10 | it | 39
+Italy | Vodafone | 222 | 6 | it | 39
+Italy | VOIP Line | 222 | 0 | it | 39
+Italy | WIND (Blu) - | 222 | 88 | it | 39
+Italy | WIND (Blu) - | 222 | 44 | it | 39
+Ivory Coast | Aircomm SA | 612 | 7 | ci | 225
+Ivory Coast | Atlantik Tel./Moov | 612 | 2 | ci | 225
+Ivory Coast | Comium | 612 | 4 | ci | 225
+Ivory Coast | Comstar | 612 | 1 | ci | 225
+Ivory Coast | MTN | 612 | 5 | ci | 225
+Ivory Coast | Orange | 612 | 3 | ci | 225
+Ivory Coast | OriCell | 612 | 6 | ci | 225
+Jamaica | Cable &amp; Wireless | 338 | 20 | jm | 1876
+Jamaica | Cable &amp; Wireless | 338 | 110 | jm | 1876
+Jamaica | Cable &amp; Wireless | 338 | 180 | jm | 1876
+Jamaica | DIGICEL/Mossel | 338 | 50 | jm | 1876
+Japan | Y-Mobile | 440 | 0 | jp | 81
+Japan | KDDI Corporation | 440 | 53 | jp | 81
+Japan | KDDI Corporation | 440 | 77 | jp | 81
+Japan | KDDI Corporation | 440 | 8 | jp | 81
+Japan | KDDI Corporation | 440 | 72 | jp | 81
+Japan | KDDI Corporation | 440 | 54 | jp | 81
+Japan | KDDI Corporation | 440 | 79 | jp | 81
+Japan | KDDI Corporation | 440 | 7 | jp | 81
+Japan | KDDI Corporation | 440 | 73 | jp | 81
+Japan | KDDI Corporation | 440 | 55 | jp | 81
+Japan | KDDI Corporation | 440 | 88 | jp | 81
+Japan | KDDI Corporation | 440 | 50 | jp | 81
+Japan | KDDI Corporation | 440 | 74 | jp | 81
+Japan | KDDI Corporation | 440 | 70 | jp | 81
+Japan | KDDI Corporation | 440 | 89 | jp | 81
+Japan | KDDI Corporation | 440 | 51 | jp | 81
+Japan | KDDI Corporation | 440 | 75 | jp | 81
+Japan | KDDI Corporation | 440 | 56 | jp | 81
+Japan | KDDI Corporation | 441 | 70 | jp | 81
+Japan | KDDI Corporation | 440 | 52 | jp | 81
+Japan | KDDI Corporation | 440 | 76 | jp | 81
+Japan | KDDI Corporation | 440 | 71 | jp | 81
+Japan | NTT Docomo | 440 | 32 | jp | 81
+Japan | NTT Docomo | 440 | 61 | jp | 81
+Japan | NTT Docomo | 440 | 18 | jp | 81
+Japan | NTT Docomo | 441 | 91 | jp | 81
+Japan | NTT Docomo | 441 | 93 | jp | 81
+Japan | NTT Docomo | 441 | 40 | jp | 81
+Japan | NTT Docomo | 440 | 66 | jp | 81
+Japan | NTT Docomo | 440 | 35 | jp | 81
+Japan | NTT Docomo | 440 | 29 | jp | 81
+Japan | NTT Docomo | 440 | 9 | jp | 81
+Japan | NTT Docomo | 440 | 49 | jp | 81
+Japan | NTT Docomo | 440 | 33 | jp | 81
+Japan | NTT Docomo | 440 | 60 | jp | 81
+Japan | NTT Docomo | 440 | 19 | jp | 81
+Japan | NTT Docomo | 441 | 90 | jp | 81
+Japan | NTT Docomo | 441 | 94 | jp | 81
+Japan | NTT Docomo | 441 | 41 | jp | 81
+Japan | NTT Docomo | 440 | 67 | jp | 81
+Japan | NTT Docomo | 440 | 14 | jp | 81
+Japan | NTT Docomo | 440 | 30 | jp | 81
+Japan | NTT Docomo | 440 | 10 | jp | 81
+Japan | NTT Docomo | 440 | 62 | jp | 81
+Japan | NTT Docomo | 440 | 39 | jp | 81
+Japan | NTT Docomo | 440 | 24 | jp | 81
+Japan | NTT Docomo | 441 | 45 | jp | 81
+Japan | NTT Docomo | 441 | 98 | jp | 81
+Japan | NTT Docomo | 441 | 42 | jp | 81
+Japan | NTT Docomo | 440 | 68 | jp | 81
+Japan | NTT Docomo | 440 | 15 | jp | 81
+Japan | NTT Docomo | 440 | 26 | jp | 81
+Japan | NTT Docomo | 440 | 11 | jp | 81
+Japan | NTT Docomo | 440 | 63 | jp | 81
+Japan | NTT Docomo | 440 | 1 | jp | 81
+Japan | NTT Docomo | 440 | 38 | jp | 81
+Japan | NTT Docomo | 440 | 13 | jp | 81
+Japan | NTT Docomo | 440 | 23 | jp | 81
+Japan | NTT Docomo | 440 | 21 | jp | 81
+Japan | NTT Docomo | 441 | 44 | jp | 81
+Japan | NTT Docomo | 441 | 99 | jp | 81
+Japan | NTT Docomo | 440 | 34 | jp | 81
+Japan | NTT Docomo | 440 | 69 | jp | 81
+Japan | NTT Docomo | 440 | 16 | jp | 81
+Japan | NTT Docomo | 440 | 25 | jp | 81
+Japan | NTT Docomo | 440 | 64 | jp | 81
+Japan | NTT Docomo | 440 | 37 | jp | 81
+Japan | NTT Docomo | 440 | 27 | jp | 81
+Japan | NTT Docomo | 440 | 2 | jp | 81
+Japan | NTT Docomo | 440 | 22 | jp | 81
+Japan | NTT Docomo | 441 | 43 | jp | 81
+Japan | NTT Docomo | 440 | 31 | jp | 81
+Japan | NTT Docomo | 440 | 87 | jp | 81
+Japan | NTT Docomo | 440 | 17 | jp | 81
+Japan | NTT Docomo | 441 | 92 | jp | 81
+Japan | NTT Docomo | 440 | 65 | jp | 81
+Japan | NTT Docomo | 440 | 36 | jp | 81
+Japan | NTT Docomo | 440 | 28 | jp | 81
+Japan | NTT Docomo | 440 | 3 | jp | 81
+Japan | NTT Docomo | 440 | 12 | jp | 81
+Japan | NTT Docomo | 440 | 58 | jp | 81
+Japan | NTT Docomo | 440 | 99 | jp | 81
+Japan | Okinawa Cellular Telephone | 440 | 78 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 43 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 93 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 48 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 6 | jp | 81
+Japan | SoftBank Mobile Corp | 441 | 61 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 44 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 94 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 4 | jp | 81
+Japan | SoftBank Mobile Corp | 441 | 62 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 45 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 20 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 96 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 40 | jp | 81
+Japan | SoftBank Mobile Corp | 441 | 63 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 47 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 95 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 41 | jp | 81
+Japan | SoftBank Mobile Corp | 441 | 64 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 46 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 97 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 42 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 90 | jp | 81
+Japan | SoftBank Mobile Corp | 441 | 65 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 92 | jp | 81
+Japan | SoftBank Mobile Corp | 440 | 98 | jp | 81
+Japan | KDDI Corporation | 440 | 85 | jp | 81
+Japan | KDDI Corporation | 440 | 83 | jp | 81
+Japan | KDDI Corporation | 440 | 81 | jp | 81
+Japan | KDDI Corporation | 440 | 80 | jp | 81
+Japan | KDDI Corporation | 440 | 86 | jp | 81
+Japan | KDDI Corporation | 440 | 84 | jp | 81
+Japan | KDDI Corporation | 440 | 82 | jp | 81
+Jordan | Orange/Petra | 416 | 77 | jo | 962
+Jordan | Umniah Mobile Co. | 416 | 3 | jo | 962
+Jordan | Xpress | 416 | 2 | jo | 962
+Jordan | ZAIN /J.M.T.S | 416 | 1 | jo | 962
+Kazakhstan | Beeline/KaR-Tel LLP | 401 | 1 | kz | 7
+Kazakhstan | Dalacom/Altel | 401 | 7 | kz | 7
+Kazakhstan | K-Cell | 401 | 2 | kz | 7
+Kazakhstan | Tele2/NEO/MTS | 401 | 77 | kz | 7
+Kenya | Econet Wireless | 639 | 5 | ke | 254
+Kenya | Orange | 639 | 7 | ke | 254
+Kenya | Safaricom Ltd. | 639 | 2 | ke | 254
+Kenya | Airtel/Zain/Celtel Ltd. | 639 | 3 | ke | 254
+Kiribati | Kiribati Frigate | 545 | 9 | ki | 686
+Korea N., Dem. People's Rep. | Sun Net | 467 | 193 | kp | 850
+Korea S, Republic of | KT Freetel Co. Ltd. | 450 | 4 | kr | 82
+Korea S, Republic of | KT Freetel Co. Ltd. | 450 | 8 | kr | 82
+Korea S, Republic of | KT Freetel Co. Ltd. | 450 | 2 | kr | 82
+Korea S, Republic of | LG Telecom | 450 | 6 | kr | 82
+Korea S, Republic of | SK Telecom | 450 | 3 | kr | 82
+Korea S, Republic of | SK Telecom Co. Ltd | 450 | 5 | kr | 82
+Kuwait | Viva | 419 | 4 | kw | 965
+Kuwait | Wataniya | 419 | 3 | kw | 965
+Kuwait | Zain | 419 | 2 | kw | 965
+Kyrgyzstan | AkTel LLC | 437 | 3 | kg | 996
+Kyrgyzstan | Beeline/Bitel | 437 | 1 | kg | 996
+Kyrgyzstan | MEGACOM | 437 | 5 | kg | 996
+Kyrgyzstan | O!/NUR Telecom | 437 | 9 | kg | 996
+Laos P.D.R. | ETL Mobile | 457 | 2 | la | 856
+Laos P.D.R. | Lao Tel | 457 | 1 | la | 856
+Laos P.D.R. | Beeline/Tigo/Millicom | 457 | 8 | la | 856
+Laos P.D.R. | UNITEL/LAT | 457 | 3 | la | 856
+Latvia | Bite | 247 | 5 | lv | 371
+Latvia | Latvian Mobile Phone | 247 | 1 | lv | 371
+Latvia | SIA Camel Mobile | 247 | 9 | lv | 371
+Latvia | SIA IZZI | 247 | 8 | lv | 371
+Latvia | SIA Master Telecom | 247 | 7 | lv | 371
+Latvia | SIA Rigatta | 247 | 6 | lv | 371
+Latvia | Tele2 | 247 | 2 | lv | 371
+Latvia | TRIATEL/Telekom Baltija | 247 | 3 | lv | 371
+Lebanon | Cellis | 415 | 35 | lb | 961
+Lebanon | Cellis | 415 | 33 | lb | 961
+Lebanon | Cellis | 415 | 32 | lb | 961
+Lebanon | FTML Cellis | 415 | 34 | lb | 961
+Lebanon | MIC2/LibanCell/MTC | 415 | 37 | lb | 961
+Lebanon | MIC2/LibanCell/MTC | 415 | 39 | lb | 961
+Lebanon | MIC2/LibanCell/MTC | 415 | 38 | lb | 961
+Lebanon | MIC1 (Alfa) | 415 | 1 | lb | 961
+Lebanon | MIC2/LibanCell/MTC | 415 | 3 | lb | 961
+Lebanon | MIC2/LibanCell/MTC | 415 | 36 | lb | 961
+Lesotho | Econet/Ezi-cel | 651 | 2 | ls | 266
+Lesotho | Vodacom Lesotho | 651 | 1 | ls | 266
+Liberia | CELLCOM | 618 | 7 | lr | 231
+Liberia | Comium BVI | 618 | 4 | lr | 231
+Liberia | Libercell | 618 | 2 | lr | 231
+Liberia | LibTelco | 618 | 20 | lr | 231
+Liberia | Lonestar | 618 | 1 | lr | 231
+Libya | Al-Madar | 606 | 2 | ly | 218
+Libya | Al-Madar | 606 | 1 | ly | 218
+Libya | Hatef | 606 | 6 | ly | 218
+Libya | Libyana | 606 | 0 | ly | 218
+Libya | Libyana | 606 | 3 | ly | 218
+Liechtenstein | CUBIC (Liechtenstein | 295 | 6 | li | 423
+Liechtenstein | First Mobile AG | 295 | 7 | li | 423
+Liechtenstein | Orange | 295 | 2 | li | 423
+Liechtenstein | Swisscom FL AG | 295 | 1 | li | 423
+Liechtenstein | Alpmobile/Tele2 | 295 | 77 | li | 423
+Liechtenstein | Telecom FL1 AG | 295 | 5 | li | 423
+Lithuania | Bite | 246 | 2 | lt | 370
+Lithuania | Omnitel | 246 | 1 | lt | 370
+Lithuania | Tele2 | 246 | 3 | lt | 370
+Luxembourg | Millicom Tango GSM | 270 | 77 | lu | 352
+Luxembourg | P+T/Post LUXGSM | 270 | 1 | lu | 352
+Luxembourg | Orange/VOXmobile S.A. | 270 | 99 | lu | 352
+Macao, China | C.T.M. TELEMOVEL+ | 455 | 1 | mo | 853
+Macao, China | C.T.M. TELEMOVEL+ | 455 | 4 | mo | 853
+Macao, China | China Telecom | 455 | 2 | mo | 853
+Macao, China | Hutchison Telephone Co. Ltd | 455 | 5 | mo | 853
+Macao, China | Hutchison Telephone Co. Ltd | 455 | 3 | mo | 853
+Macao, China | Smartone Mobile | 455 | 0 | mo | 853
+Macao, China | Smartone Mobile | 455 | 6 | mo | 853
+Macedonia | ONE/Cosmofone | 294 | 75 | mk | 389
+Macedonia | ONE/Cosmofone | 294 | 2 | mk | 389
+Macedonia | T-Mobile/Mobimak | 294 | 1 | mk | 389
+Macedonia | VIP Mobile | 294 | 3 | mk | 389
+Madagascar | Airtel/MADACOM | 646 | 1 | mg | 261
+Madagascar | Orange/Soci | 646 | 2 | mg | 261
+Madagascar | Sacel | 646 | 3 | mg | 261
+Madagascar | Telma | 646 | 4 | mg | 261
+Malawi | TNM/Telekom Network Ltd. | 650 | 1 | mw | 265
+Malawi | Airtel/Zain/Celtel ltd. | 650 | 10 | mw | 265
+Malaysia | Art900 | 502 | 1 | my | 60
+Malaysia | Baraka Telecom Sdn Bhd | 502 | 151 | my | 60
+Malaysia | CelCom | 502 | 19 | my | 60
+Malaysia | CelCom | 502 | 198 | my | 60
+Malaysia | CelCom | 502 | 13 | my | 60
+Malaysia | Digi Telecommunications | 502 | 16 | my | 60
+Malaysia | Digi Telecommunications | 502 | 10 | my | 60
+Malaysia | Electcoms Wireless Sdn Bhd | 502 | 20 | my | 60
+Malaysia | Maxis | 502 | 17 | my | 60
+Malaysia | Maxis | 502 | 12 | my | 60
+Malaysia | MTX Utara | 502 | 11 | my | 60
+Malaysia | Webe/Packet One Networks (Malaysia) Sdn Bhd | 502 | 153 | my | 60
+Malaysia | Samata Communications Sdn Bhd | 502 | 155 | my | 60
+Malaysia | Tron/Talk Focus Sdn Bhd | 502 | 154 | my | 60
+Malaysia | U Mobile | 502 | 18 | my | 60
+Malaysia | XOX Com Sdn Bhd | 502 | 195 | my | 60
+Malaysia | YES | 502 | 152 | my | 60
+Maldives | Dhiraagu/C&amp;W | 472 | 1 | mv | 960
+Maldives | Ooredo/Wataniya | 472 | 2 | mv | 960
+Mali | Malitel | 610 | 1 | ml | 223
+Mali | Orange/IKATEL | 610 | 2 | ml | 223
+Malta | GO Mobile | 278 | 21 | mt | 356
+Malta | Melita | 278 | 77 | mt | 356
+Malta | Vodafone | 278 | 1 | mt | 356
+Martinique (French Department of) | UTS Caraibe | 340 | 12 | mq | 596
+Mauritania | Chinguitel SA | 609 | 2 | mr | 222
+Mauritania | Mattel | 609 | 1 | mr | 222
+Mauritania | Mauritel | 609 | 10 | mr | 222
+Mauritius | Emtel Ltd | 617 | 10 | mu | 230
+Mauritius | Mahanagar Telephone | 617 | 3 | mu | 230
+Mauritius | Mahanagar Telephone | 617 | 2 | mu | 230
+Mauritius | Orange/Cellplus | 617 | 1 | mu | 230
+Mexico | AT&amp;T/IUSACell | 334 | 50 | mx | 52
+Mexico | AT&amp;T/IUSACell | 334 | 50 | mx | 52
+Mexico | AT&amp;T/IUSACell | 334 | 40 | mx | 52
+Mexico | AT&amp;T/IUSACell | 334 | 4 | mx | 52
+Mexico | Movistar/Pegaso | 334 | 30 | mx | 52
+Mexico | Movistar/Pegaso | 334 | 3 | mx | 52
+Mexico | NEXTEL | 334 | 90 | mx | 52
+Mexico | NEXTEL | 334 | 10 | mx | 52
+Mexico | NEXTEL | 334 | 1 | mx | 52
+Mexico | NEXTEL | 334 | 9 | mx | 52
+Mexico | Operadora Unefon SA de CV | 334 | 80 | mx | 52
+Mexico | Operadora Unefon SA de CV | 334 | 70 | mx | 52
+Mexico | SAI PCS | 334 | 60 | mx | 52
+Mexico | TelCel/America Movil | 334 | 20 | mx | 52
+Mexico | TelCel/America Movil | 334 | 2 | mx | 52
+Micronesia | FSM Telecom | 550 | 1 | fm | 691
+Moldova | Eventis Mobile | 259 | 4 | md | 373
+Moldova | IDC/Unite | 259 | 5 | md | 373
+Moldova | IDC/Unite | 259 | 3 | md | 373
+Moldova | IDC/Unite | 259 | 99 | md | 373
+Moldova | Moldcell | 259 | 2 | md | 373
+Moldova | Orange/Voxtel | 259 | 1 | md | 373
+Monaco | Monaco Telecom | 212 | 10 | mc | 377
+Monaco | Monaco Telecom | 212 | 1 | mc | 377
+Mongolia | G-Mobile Corporation Ltd | 428 | 98 | mn | 976
+Mongolia | Mobicom | 428 | 99 | mn | 976
+Mongolia | Skytel Co. Ltd | 428 | 91 | mn | 976
+Mongolia | Skytel Co. Ltd | 428 | 0 | mn | 976
+Mongolia | Unitel | 428 | 88 | mn | 976
+Montenegro | Monet/T-mobile | 297 | 2 | me | 382
+Montenegro | Mtel | 297 | 3 | me | 382
+Montenegro | Telenor/Promonte GSM | 297 | 1 | me | 382
+Montserrat | Cable &amp; Wireless | 354 | 860 | ms | 1664
+Morocco | IAM/Itissallat | 604 | 1 | ma | 212
+Morocco | INWI/WANA | 604 | 2 | ma | 212
+Morocco | Medi Telecom | 604 | 0 | ma | 212
+Mozambique | mCel | 643 | 1 | mz | 258
+Mozambique | Movitel | 643 | 3 | mz | 258
+Mozambique | Vodacom | 643 | 4 | mz | 258
+Myanmar (Burma) | Myanmar Post &amp; Teleco. | 414 | 1 | mm | 95
+Myanmar (Burma) | Oreedoo | 414 | 5 | mm | 95
+Myanmar (Burma) | Telenor | 414 | 6 | mm | 95
+Namibia | Leo / Orascom | 649 | 3 | na | 264
+Namibia | MTC | 649 | 1 | na | 264
+Namibia | Switch/Nam. Telec. | 649 | 2 | na | 264
+Nepal | Ncell | 429 | 2 | np | 977
+Nepal | NT Mobile / Namaste | 429 | 1 | np | 977
+Nepal | Smart Cell | 429 | 4 | np | 977
+Netherlands | 6GMOBILE BV | 204 | 14 | nl | 31
+Netherlands | Aspider Solutions | 204 | 23 | nl | 31
+Netherlands | Elephant Talk Communications Premium Rate Services Netherlands BV | 204 | 5 | nl | 31
+Netherlands | Intercity Mobile Communications BV | 204 | 17 | nl | 31
+Netherlands | KPN Telecom B.V. | 204 | 10 | nl | 31
+Netherlands | KPN Telecom B.V. | 204 | 8 | nl | 31
+Netherlands | KPN Telecom B.V. | 204 | 69 | nl | 31
+Netherlands | KPN/Telfort | 204 | 12 | nl | 31
+Netherlands | Lancelot BV | 204 | 28 | nl | 31
+Netherlands | Lycamobile Ltd | 204 | 9 | nl | 31
+Netherlands | Mundio/Vectone Mobile | 204 | 6 | nl | 31
+Netherlands | NS Railinfrabeheer B.V. | 204 | 21 | nl | 31
+Netherlands | Private Mobility Nederland BV | 204 | 24 | nl | 31
+Netherlands | T-Mobile B.V. | 204 | 98 | nl | 31
+Netherlands | T-Mobile B.V. | 204 | 16 | nl | 31
+Netherlands | T-mobile/former Orange | 204 | 20 | nl | 31
+Netherlands | Tele2 | 204 | 2 | nl | 31
+Netherlands | Teleena Holding BV | 204 | 7 | nl | 31
+Netherlands | Unify Mobile | 204 | 68 | nl | 31
+Netherlands | UPC Nederland BV | 204 | 18 | nl | 31
+Netherlands | Vodafone Libertel | 204 | 4 | nl | 31
+Netherlands | Voiceworks Mobile BV | 204 | 3 | nl | 31
+Netherlands | Ziggo BV | 204 | 15 | nl | 31
+Netherlands Antilles | Cingular Wireless | 362 | 630 | an | 599
+Netherlands Antilles | TELCELL GSM | 362 | 51 | an | 599
+Netherlands Antilles | SETEL GSM | 362 | 91 | an | 599
+Netherlands Antilles | UTS Wireless | 362 | 951 | an | 599
+New Caledonia | OPT Mobilis | 546 | 1 | nc | 687
+New Zealand | 2degrees | 530 | 28 | nz | 64
+New Zealand | Spark/NZ Telecom | 530 | 5 | nz | 64
+New Zealand | Spark/NZ Telecom | 530 | 2 | nz | 64
+New Zealand | Telstra | 530 | 4 | nz | 64
+New Zealand | Two Degrees Mobile Ltd | 530 | 24 | nz | 64
+New Zealand | Vodafone | 530 | 1 | nz | 64
+New Zealand | Walker Wireless Ltd. | 530 | 3 | nz | 64
+Nicaragua | Empresa Nicaraguense de Telecomunicaciones SA (ENITEL) | 710 | 21 | ni | 505
+Nicaragua | Movistar | 710 | 30 | ni | 505
+Nicaragua | Claro | 710 | 73 | ni | 505
+Niger | MOOV/TeleCel | 614 | 3 | ne | 227
+Niger | Orange/Sahelc. | 614 | 4 | ne | 227
+Niger | Orange/Sahelc. | 614 | 1 | ne | 227
+Niger | Airtel/Zain/CelTel | 614 | 2 | ne | 227
+Nigeria | Airtel/ZAIN/Econet | 621 | 20 | ng | 234
+Nigeria | ETISALAT | 621 | 60 | ng | 234
+Nigeria | Glo Mobile | 621 | 50 | ng | 234
+Nigeria | M-Tel/Nigeria Telecom. Ltd. | 621 | 40 | ng | 234
+Nigeria | MTN | 621 | 30 | ng | 234
+Nigeria | Starcomms | 621 | 99 | ng | 234
+Nigeria | Visafone | 621 | 25 | ng | 234
+Nigeria | Visafone | 621 | 1 | ng | 234
+Niue | Niue Telecom | 555 | 1 | nu | 683
+Norway | Com4 AS | 242 | 9 | no | 47
+Norway | Jernbaneverket (GSM-R) | 242 | 20 | no | 47
+Norway | Jernbaneverket (GSM-R) | 242 | 21 | no | 47
+Norway | Lycamobile Ltd | 242 | 23 | no | 47
+Norway | Netcom | 242 | 2 | no | 47
+Norway | Network Norway AS | 242 | 22 | no | 47
+Norway | Network Norway AS | 242 | 5 | no | 47
+Norway | ICE Nordisk Mobiltelefon AS | 242 | 6 | no | 47
+Norway | TDC Mobil A/S | 242 | 8 | no | 47
+Norway | Tele2 | 242 | 4 | no | 47
+Norway | Telenor | 242 | 12 | no | 47
+Norway | Telenor | 242 | 1 | no | 47
+Norway | Teletopia | 242 | 3 | no | 47
+Norway | Ventelo AS | 242 | 7 | no | 47
+Norway | Ventelo AS | 242 | 17 | no | 47
+Oman | Nawras | 422 | 3 | om | 968
+Oman | Oman Mobile/GTO | 422 | 2 | om | 968
+Pakistan | Instaphone | 410 | 8 | pk | 92
+Pakistan | Mobilink | 410 | 1 | pk | 92
+Pakistan | Telenor | 410 | 6 | pk | 92
+Pakistan | UFONE/PAKTel | 410 | 3 | pk | 92
+Pakistan | Warid Telecom | 410 | 7 | pk | 92
+Pakistan | ZONG/CMPak | 410 | 4 | pk | 92
+Palau (Republic of) | Palau Mobile Corp. (PMC) (Palau | 552 | 80 | pw | 680
+Palau (Republic of) | Palau National Communications Corp. (PNCC) (Palau | 552 | 1 | pw | 680
+Palestinian Territory | Jawwal | 425 | 5 | ps | 970
+Palestinian Territory | Wataniya Mobile | 425 | 6 | ps | 970
+Panama | Cable &amp; W./Mas Movil | 714 | 1 | pa | 507
+Panama | Claro | 714 | 3 | pa | 507
+Panama | Digicel | 714 | 4 | pa | 507
+Panama | Movistar | 714 | 20 | pa | 507
+Panama | Movistar | 714 | 2 | pa | 507
+Papua New Guinea | Digicel | 537 | 3 | pg | 675
+Papua New Guinea | GreenCom PNG Ltd | 537 | 2 | pg | 675
+Papua New Guinea | Pacific Mobile | 537 | 1 | pg | 675
+Paraguay | Claro/Hutchison | 744 | 2 | py | 595
+Paraguay | Compa | 744 | 3 | py | 595
+Paraguay | Hola/VOX | 744 | 1 | py | 595
+Paraguay | TIM/Nucleo/Personal | 744 | 5 | py | 595
+Paraguay | Tigo/Telecel | 744 | 4 | py | 595
+Peru | Claro /Amer.Mov./TIM | 716 | 10 | pe | 51
+Peru | Claro /Amer.Mov./TIM | 716 | 20 | pe | 51
+Peru | GlobalStar | 716 | 1 | pe | 51
+Peru | GlobalStar | 716 | 2 | pe | 51
+Peru | Movistar | 716 | 6 | pe | 51
+Peru | Nextel | 716 | 7 | pe | 51
+Peru | Nextel | 716 | 17 | pe | 51
+Peru | Viettel Mobile | 716 | 15 | pe | 51
+Philippines | Fix Line | 515 | 0 | ph | 63
+Philippines | Globe Telecom | 515 | 2 | ph | 63
+Philippines | Globe Telecom | 515 | 1 | ph | 63
+Philippines | Next Mobile | 515 | 88 | ph | 63
+Philippines | RED Mobile/Cure | 515 | 18 | ph | 63
+Philippines | Smart | 515 | 3 | ph | 63
+Philippines | SUN/Digitel | 515 | 5 | ph | 63
+Poland | Aero2 SP. | 260 | 17 | pl | 48
+Poland | AMD Telecom. | 260 | 18 | pl | 48
+Poland | CallFreedom Sp. z o.o. | 260 | 38 | pl | 48
+Poland | Cyfrowy POLSAT S.A. | 260 | 12 | pl | 48
+Poland | e-Telko | 260 | 8 | pl | 48
+Poland | Lycamobile | 260 | 9 | pl | 48
+Poland | Mobyland | 260 | 16 | pl | 48
+Poland | Mundio Mobile Sp. z o.o. | 260 | 36 | pl | 48
+Poland | Play/P4 | 260 | 7 | pl | 48
+Poland | NORDISK Polska | 260 | 11 | pl | 48
+Poland | Orange/IDEA/Centertel | 260 | 5 | pl | 48
+Poland | Orange/IDEA/Centertel | 260 | 3 | pl | 48
+Poland | PKP Polskie Linie Kolejowe S.A. | 260 | 35 | pl | 48
+Poland | Play/P4 | 260 | 6 | pl | 48
+Poland | Play/P4 | 260 | 98 | pl | 48
+Poland | Polkomtel/Plus | 260 | 1 | pl | 48
+Poland | Sferia | 260 | 10 | pl | 48
+Poland | Sferia | 260 | 14 | pl | 48
+Poland | Sferia | 260 | 13 | pl | 48
+Poland | T-Mobile/ERA | 260 | 34 | pl | 48
+Poland | T-Mobile/ERA | 260 | 2 | pl | 48
+Poland | Tele2 | 260 | 15 | pl | 48
+Poland | Tele2 | 260 | 4 | pl | 48
+Portugal | CTT - Correios de Portugal SA | 268 | 4 | pt | 351
+Portugal | NOS/Optimus | 268 | 3 | pt | 351
+Portugal | NOS/Optimus | 268 | 7 | pt | 351
+Portugal | MEO/TMN | 268 | 6 | pt | 351
+Portugal | Vodafone | 268 | 1 | pt | 351
+Puerto Rico | Puerto Rico Telephone Company Inc. (PRTC) | 330 | 110 | pr | 
+Puerto Rico | Puerto Rico Telephone Company Inc. (PRTC) | 330 | 11 | pr | 
+Qatar | Ooredoo/Qtel | 427 | 1 | qa | 974
+Qatar | Vodafone | 427 | 2 | qa | 974
+Reunion | Orange | 647 | 0 | re | 262
+Reunion | Outremer Telecom | 647 | 2 | re | 262
+Reunion | SFR | 647 | 10 | re | 262
+Romania | Cosmote | 226 | 3 | ro | 40
+Romania | Enigma Systems | 226 | 11 | ro | 40
+Romania | Orange | 226 | 10 | ro | 40
+Romania | RCS&amp;RDS Digi Mobile | 226 | 5 | ro | 40
+Romania | Romtelecom SA | 226 | 2 | ro | 40
+Romania | Telemobil/Zapp | 226 | 6 | ro | 40
+Romania | Vodafone | 226 | 1 | ro | 40
+Romania | Telemobil/Zapp | 226 | 4 | ro | 40
+Russian Federation | Baykal Westcom | 250 | 12 | ru | 79
+Russian Federation | BeeLine/VimpelCom | 250 | 28 | ru | 79
+Russian Federation | DTC/Don Telecom | 250 | 10 | ru | 79
+Russian Federation | Kuban GSM | 250 | 13 | ru | 79
+Russian Federation | MOTIV/LLC Ekaterinburg-2000 | 250 | 35 | ru | 79
+Russian Federation | Megafon | 250 | 2 | ru | 79
+Russian Federation | MTS | 250 | 1 | ru | 79
+Russian Federation | NCC | 250 | 3 | ru | 79
+Russian Federation | NTC | 250 | 16 | ru | 79
+Russian Federation | OJSC Altaysvyaz | 250 | 19 | ru | 79
+Russian Federation | Orensot | 250 | 11 | ru | 79
+Russian Federation | Printelefone | 250 | 92 | ru | 79
+Russian Federation | Sibchallenge | 250 | 4 | ru | 79
+Russian Federation | StavTelesot | 250 | 44 | ru | 79
+Russian Federation | Tele2/ECC/Volgogr. | 250 | 20 | ru | 79
+Russian Federation | Telecom XXL | 250 | 93 | ru | 79
+Russian Federation | UralTel | 250 | 39 | ru | 79
+Russian Federation | UralTel | 250 | 17 | ru | 79
+Russian Federation | BeeLine/VimpelCom | 250 | 99 | ru | 79
+Russian Federation | Yenisey Telecom | 250 | 5 | ru | 79
+Russian Federation | ZAO SMARTS | 250 | 15 | ru | 79
+Russian Federation | ZAO SMARTS | 250 | 7 | ru | 79
+Rwanda | Airtel | 635 | 14 | rw | 250
+Rwanda | MTN/Rwandacell | 635 | 10 | rw | 250
+Rwanda | TIGO | 635 | 13 | rw | 250
+Saint Kitts and Nevis | Cable &amp; Wireless | 356 | 110 | kn | 1869
+Saint Kitts and Nevis | Digicel | 356 | 50 | kn | 1869
+Saint Kitts and Nevis | UTS Cariglobe | 356 | 70 | kn | 1869
+Saint Lucia | Cable &amp; Wireless | 358 | 110 | lc | 1758
+Saint Lucia | Cingular Wireless | 358 | 30 | lc | 1758
+Saint Lucia | Digicel (St Lucia) Limited | 358 | 50 | lc | 1758
+Samoa | Samoatel Mobile | 549 | 27 | ws | 685
+Samoa | Telecom Samoa Cellular Ltd. | 549 | 1 | ws | 685
+San Marino | Prima Telecom | 292 | 1 | sm | 378
+Sao Tome &amp; Principe | CSTmovel | 626 | 1 | st | 239
+Satellite Networks | AeroMobile | 901 | 14 | n/a | 870
+Satellite Networks | InMarSAT | 901 | 11 | n/a | 870
+Satellite Networks | Maritime Communications Partner AS | 901 | 12 | n/a | 870
+Satellite Networks | Thuraya Satellite | 901 | 5 | n/a | 870
+Saudi Arabia | Zain | 420 | 7 | sa | 966
+Saudi Arabia | Etihad/Etisalat/Mobily | 420 | 3 | sa | 966
+Saudi Arabia | STC/Al Jawal | 420 | 1 | sa | 966
+Saudi Arabia | Virgin Mobile | 420 | 5 | sa | 966
+Saudi Arabia | Zain | 420 | 4 | sa | 966
+Senegal | Expresso/Sudatel | 608 | 3 | sn | 221
+Senegal | Orange/Sonatel | 608 | 1 | sn | 221
+Senegal | TIGO/Sentel GSM | 608 | 2 | sn | 221
+Serbia | MTS/Telekom Srbija | 220 | 3 | rs | 381
+Serbia | Telenor/Mobtel | 220 | 1 | rs | 381
+Serbia | Telenor/Mobtel | 220 | 2 | rs | 381
+Serbia | VIP Mobile | 220 | 5 | rs | 381
+Seychelles | Airtel | 633 | 10 | sc | 248
+Seychelles | C&amp;W | 633 | 1 | sc | 248
+Seychelles | Smartcom | 633 | 2 | sc | 248
+Sierra Leone | Africel | 619 | 3 | sl | 232
+Sierra Leone | Airtel/Zain/Celtel | 619 | 1 | sl | 232
+Sierra Leone | Comium | 619 | 4 | sl | 232
+Sierra Leone | Africel | 619 | 5 | sl | 232
+Sierra Leone | Tigo/Millicom | 619 | 2 | sl | 232
+Sierra Leone | Mobitel | 619 | 25 | sl | 232
+Singapore | GRID Communications Pte Ltd | 525 | 12 | sg | 65
+Singapore | MobileOne Ltd | 525 | 3 | sg | 65
+Singapore | Singtel | 525 | 1 | sg | 65
+Singapore | Singtel | 525 | 7 | sg | 65
+Singapore | Singtel | 525 | 2 | sg | 65
+Singapore | Starhub | 525 | 6 | sg | 65
+Singapore | Starhub | 525 | 5 | sg | 65
+Slovakia | 4Ka | 231 | 3 | sk | 421
+Slovakia | O2 | 231 | 6 | sk | 421
+Slovakia | Orange | 231 | 5 | sk | 421
+Slovakia | Orange | 231 | 1 | sk | 421
+Slovakia | Orange | 231 | 15 | sk | 421
+Slovakia | T-Mobile | 231 | 2 | sk | 421
+Slovakia | T-Mobile | 231 | 4 | sk | 421
+Slovakia | Zeleznice Slovenskej republiky (ZSR) | 231 | 99 | sk | 421
+Slovenia | Mobitel | 293 | 41 | si | 386
+Slovenia | SI.Mobil | 293 | 40 | si | 386
+Slovenia | Slovenske zeleznice d.o.o. | 293 | 10 | si | 386
+Slovenia | T-2 d.o.o. | 293 | 64 | si | 386
+Slovenia | Telemach/TusMobil/VEGA | 293 | 70 | si | 386
+Solomon Islands | bemobile | 540 | 2 | sb | 677
+Solomon Islands | BREEZE | 540 | 10 | sb | 677
+Solomon Islands | BREEZE | 540 | 1 | sb | 677
+Somalia | Golis | 637 | 30 | so | 252
+Somalia | HorTel | 637 | 19 | so | 252
+Somalia | Nationlink | 637 | 60 | so | 252
+Somalia | Nationlink | 637 | 10 | so | 252
+Somalia | Somafone | 637 | 4 | so | 252
+Somalia | Telcom Mobile Somalia | 637 | 82 | so | 252
+Somalia | Telesom | 637 | 1 | so | 252
+South Africa | 8.ta | 655 | 2 | za | 27
+South Africa | Cape Town Metropolitan | 655 | 21 | za | 27
+South Africa | Cell C | 655 | 7 | za | 27
+South Africa | MTN | 655 | 12 | za | 27
+South Africa | MTN | 655 | 10 | za | 27
+South Africa | Sentech | 655 | 6 | za | 27
+South Africa | Vodacom | 655 | 1 | za | 27
+South Africa | Wireless Business Solutions (Pty) Ltd | 655 | 19 | za | 27
+South Sudan (Republic of) | Gemtel Ltd (South Sudan | 659 | 3 | ss | 
+South Sudan (Republic of) | MTN South Sudan (South Sudan | 659 | 2 | ss | 
+South Sudan (Republic of) | Network of The World Ltd (NOW) (South Sudan | 659 | 4 | ss | 
+South Sudan (Republic of) | Zain South Sudan (South Sudan | 659 | 6 | ss | 
+Spain | Lycamobile SL | 214 | 23 | es | 34
+Spain | Digi Spain Telecom SL | 214 | 22 | es | 34
+Spain | BT Espana SAU | 214 | 15 | es | 34
+Spain | Cableuropa SAU (ONO) | 214 | 18 | es | 34
+Spain | Euskaltel SA | 214 | 8 | es | 34
+Spain | fonYou Wireless SL | 214 | 20 | es | 34
+Spain | Jazz Telecom SAU | 214 | 21 | es | 34
+Spain | Lleida | 214 | 26 | es | 34
+Spain | Lycamobile SL | 214 | 25 | es | 34
+Spain | Movistar | 214 | 7 | es | 34
+Spain | Movistar | 214 | 5 | es | 34
+Spain | Orange | 214 | 3 | es | 34
+Spain | Orange | 214 | 9 | es | 34
+Spain | Orange | 214 | 11 | es | 34
+Spain | R Cable y Telec. Galicia SA | 214 | 17 | es | 34
+Spain | Simyo/KPN | 214 | 19 | es | 34
+Spain | Telecable de Asturias SA | 214 | 16 | es | 34
+Spain | Truphone | 214 | 27 | es | 34
+Spain | Vodafone | 214 | 1 | es | 34
+Spain | Vodafone Enabler Espana SL | 214 | 6 | es | 34
+Spain | Yoigo | 214 | 4 | es | 34
+Sri Lanka | Airtel | 413 | 5 | lk | 94
+Sri Lanka | Etisalat/Tigo | 413 | 3 | lk | 94
+Sri Lanka | H3G Hutchison | 413 | 8 | lk | 94
+Sri Lanka | Mobitel Ltd. | 413 | 1 | lk | 94
+Sri Lanka | MTN/Dialog | 413 | 2 | lk | 94
+St. Pierre &amp; Miquelon | Ameris | 308 | 1 | pm | 508
+St. Vincent &amp; Gren. | C &amp; W | 360 | 110 | vc | 1784
+St. Vincent &amp; Gren. | Cingular | 360 | 100 | vc | 1784
+St. Vincent &amp; Gren. | Cingular | 360 | 10 | vc | 1784
+St. Vincent &amp; Gren. | Digicel | 360 | 50 | vc | 1784
+St. Vincent &amp; Gren. | Digicel | 360 | 70 | vc | 1784
+Sudan | Canar Telecom | 634 | 0 | sd | 249
+Sudan | MTN | 634 | 2 | sd | 249
+Sudan | MTN | 634 | 22 | sd | 249
+Sudan | Sudani One | 634 | 15 | sd | 249
+Sudan | Sudani One | 634 | 7 | sd | 249
+Sudan | Vivacell | 634 | 5 | sd | 249
+Sudan | Vivacell | 634 | 8 | sd | 249
+Sudan | ZAIN/Mobitel | 634 | 6 | sd | 249
+Sudan | ZAIN/Mobitel | 634 | 1 | sd | 249
+Suriname | Digicel | 746 | 3 | sr | 597
+Suriname | Telesur | 746 | 1 | sr | 597
+Suriname | Telecommunicatiebedrijf Suriname (TELESUR) | 746 | 2 | sr | 597
+Suriname | UNIQA | 746 | 4 | sr | 597
+Swaziland | Swazi MTN | 653 | 10 | sz | 268
+Swaziland | SwaziTelecom | 653 | 1 | sz | 268
+Sweden | 42 Telecom AB | 240 | 16 | se | 46
+Sweden | 42 Telecom AB | 240 | 35 | se | 46
+Sweden | Beepsend | 240 | 26 | se | 46
+Sweden | NextGen Mobile Ltd (CardBoardFish) | 240 | 30 | se | 46
+Sweden | CoolTEL Aps | 240 | 28 | se | 46
+Sweden | Digitel Mobile Srl | 240 | 25 | se | 46
+Sweden | Eu Tel AB | 240 | 22 | se | 46
+Sweden | Fogg Mobile AB | 240 | 27 | se | 46
+Sweden | Generic Mobile Systems Sweden AB | 240 | 18 | se | 46
+Sweden | Gotalandsnatet AB | 240 | 17 | se | 46
+Sweden | H3G Access AB | 240 | 2 | se | 46
+Sweden | H3G Access AB | 240 | 4 | se | 46
+Sweden | ID Mobile | 240 | 36 | se | 46
+Sweden | Infobip Ltd. | 240 | 23 | se | 46
+Sweden | Lindholmen Science Park AB | 240 | 11 | se | 46
+Sweden | Lycamobile Ltd | 240 | 12 | se | 46
+Sweden | Mercury International Carrier Services | 240 | 29 | se | 46
+Sweden | Mundio Mobile (Sweden) Ltd | 240 | 19 | se | 46
+Sweden | Spring Mobil AB | 240 | 10 | se | 46
+Sweden | Svenska UMTS-N | 240 | 5 | se | 46
+Sweden | TDC Sverige AB | 240 | 14 | se | 46
+Sweden | Tele2 Sverige AB | 240 | 7 | se | 46
+Sweden | Telenor (Vodafone) | 240 | 24 | se | 46
+Sweden | Telenor (Vodafone) | 240 | 8 | se | 46
+Sweden | Telenor (Vodafone) | 240 | 6 | se | 46
+Sweden | Telia Mobile | 240 | 1 | se | 46
+Sweden | Ventelo Sverige AB | 240 | 13 | se | 46
+Sweden | Wireless Maingate AB | 240 | 20 | se | 46
+Sweden | Wireless Maingate Nordic AB | 240 | 15 | se | 46
+Switzerland | BebbiCell AG | 228 | 51 | ch | 41
+Switzerland | Comfone AG | 228 | 9 | ch | 41
+Switzerland | Comfone AG | 228 | 5 | ch | 41
+Switzerland | TDC Sunrise | 228 | 7 | ch | 41
+Switzerland | Lycamobile AG | 228 | 54 | ch | 41
+Switzerland | Mundio Mobile AG | 228 | 52 | ch | 41
+Switzerland | Salt/Orange | 228 | 3 | ch | 41
+Switzerland | Swisscom | 228 | 1 | ch | 41
+Switzerland | TDC Sunrise | 228 | 12 | ch | 41
+Switzerland | TDC Sunrise | 228 | 2 | ch | 41
+Switzerland | TDC Sunrise | 228 | 8 | ch | 41
+Switzerland | upc cablecom GmbH | 228 | 53 | ch | 41
+Syrian Arab Republic | MTN/Spacetel | 417 | 2 | sy | 963
+Syrian Arab Republic | Syriatel Holdings | 417 | 9 | sy | 963
+Syrian Arab Republic | Syriatel Holdings | 417 | 1 | sy | 963
+Taiwan | ACeS Taiwan - ACeS Taiwan Telecommunications Co Ltd | 466 | 68 | tw | 886
+Taiwan | Asia Pacific Telecom Co. Ltd (APT) | 466 | 5 | tw | 886
+Taiwan | Chunghwa Telecom LDM | 466 | 11 | tw | 886
+Taiwan | Chunghwa Telecom LDM | 466 | 92 | tw | 886
+Taiwan | Far EasTone | 466 | 2 | tw | 886
+Taiwan | Far EasTone | 466 | 6 | tw | 886
+Taiwan | Far EasTone | 466 | 3 | tw | 886
+Taiwan | Far EasTone | 466 | 1 | tw | 886
+Taiwan | Far EasTone | 466 | 7 | tw | 886
+Taiwan | Global Mobile Corp. | 466 | 10 | tw | 886
+Taiwan | International Telecom Co. Ltd (FITEL) | 466 | 56 | tw | 886
+Taiwan | KG Telecom | 466 | 88 | tw | 886
+Taiwan | Mobitai | 466 | 93 | tw | 886
+Taiwan | TransAsia | 466 | 99 | tw | 886
+Taiwan | Taiwan Cellular | 466 | 97 | tw | 886
+Taiwan | T-Star/VIBO | 466 | 89 | tw | 886
+Taiwan | VMAX Telecom Co. Ltd | 466 | 9 | tw | 886
+Tajikistan | Babilon-M | 436 | 4 | tk | 992
+Tajikistan | Bee Line | 436 | 5 | tk | 992
+Tajikistan | CJSC Indigo Tajikistan | 436 | 2 | tk | 992
+Tajikistan | Tcell/JC Somoncom | 436 | 12 | tk | 992
+Tajikistan | MLT/TT mobile | 436 | 3 | tk | 992
+Tajikistan | Tcell/JC Somoncom | 436 | 1 | tk | 992
+Tanzania | Benson Informatics Ltd | 640 | 8 | tz | 255
+Tanzania | Dovetel (T) Ltd | 640 | 6 | tz | 255
+Tanzania | ExcellentCom (T) Ltd | 640 | 9 | tz | 255
+Tanzania | Smile Communications Tanzania Ltd | 640 | 11 | tz | 255
+Tanzania | Tanzania Telecommunications Company Ltd (TTCL) | 640 | 7 | tz | 255
+Tanzania | TIGO/MIC | 640 | 2 | tz | 255
+Tanzania | Tri Telecomm. Ltd. | 640 | 1 | tz | 255
+Tanzania | Vodacom Ltd | 640 | 4 | tz | 255
+Tanzania | Airtel/ZAIN/Celtel | 640 | 5 | tz | 255
+Tanzania | Zantel/Zanzibar Telecom | 640 | 3 | tz | 255
+Thailand | ACeS Thailand - ACeS Regional Services Co Ltd | 520 | 20 | th | 66
+Thailand | ACT Mobile | 520 | 15 | th | 66
+Thailand | Advanced Wireless Networks/AWN | 520 | 3 | th | 66
+Thailand | AIS/Advanced Info Service | 520 | 1 | th | 66
+Thailand | Digital Phone Co. | 520 | 23 | th | 66
+Thailand | Hutch/CAT CDMA | 520 | 0 | th | 66
+Thailand | Total Access (DTAC) | 520 | 18 | th | 66
+Thailand | Total Access (DTAC) | 520 | 5 | th | 66
+Thailand | True Move/Orange | 520 | 4 | th | 66
+Thailand | True Move/Orange | 520 | 99 | th | 66
+Timor-Leste | Telin/ Telkomcel | 514 | 1 | tp | 670
+Timor-Leste | Timor Telecom | 514 | 2 | tp | 670
+Togo | Telecel/MOOV | 615 | 2 | tg | 228
+Togo | Telecel/MOOV | 615 | 3 | tg | 228
+Togo | Togo Telecom/TogoCELL | 615 | 1 | tg | 228
+Tonga | Shoreline Communication | 539 | 43 | to | 676
+Tonga | Tonga Communications | 539 | 1 | to | 676
+Trinidad and Tobago | Bmobile/TSTT | 374 | 12 | tt | 1868
+Trinidad and Tobago | Bmobile/TSTT | 374 | 120 | tt | 1868
+Trinidad and Tobago | Digicel | 374 | 130 | tt | 1868
+Trinidad and Tobago | LaqTel Ltd. | 374 | 140 | tt | 1868
+Tunisia | Orange | 605 | 1 | tn | 216
+Tunisia | Oreedo/Orascom | 605 | 3 | tn | 216
+Tunisia | TuniCell/Tunisia Telecom | 605 | 2 | tn | 216
+Turkey | AVEA/Aria | 286 | 3 | tr | 90
+Turkey | AVEA/Aria | 286 | 4 | tr | 90
+Turkey | Turkcell | 286 | 1 | tr | 90
+Turkey | Vodafone-Telsim | 286 | 2 | tr | 90
+Turkmenistan | MTS/Barash Communication | 438 | 1 | tm | 993
+Turkmenistan | Altyn Asyr/TM-Cell | 438 | 2 | tm | 993
+Turks and Caicos Islands | Cable &amp; Wireless (TCI) Ltd | 376 | 350 | tc | 
+Turks and Caicos Islands | Digicel TCI Ltd | 376 | 50 | tc | 
+Turks and Caicos Islands | IslandCom Communications Ltd. | 376 | 352 | tc | 
+Tuvalu | Tuvalu Telecommunication Corporation (TTC) | 553 | 1 | tv | 
+Uganda | Airtel/Celtel | 641 | 1 | ug | 256
+Uganda | i-Tel Ltd | 641 | 66 | ug | 256
+Uganda | K2 Telecom Ltd | 641 | 30 | ug | 256
+Uganda | MTN Ltd. | 641 | 10 | ug | 256
+Uganda | Orange | 641 | 14 | ug | 256
+Uganda | Smile Communications Uganda Ltd | 641 | 33 | ug | 256
+Uganda | Suretelecom Uganda Ltd | 641 | 18 | ug | 256
+Uganda | Uganda Telecom Ltd. | 641 | 11 | ug | 256
+Uganda | Airtel/Warid | 641 | 22 | ug | 256
+Ukraine | Astelit/LIFE | 255 | 6 | ua | 380
+Ukraine | Golden Telecom | 255 | 5 | ua | 380
+Ukraine | Golden Telecom | 255 | 39 | ua | 380
+Ukraine | Intertelecom Ltd (IT) | 255 | 4 | ua | 380
+Ukraine | KyivStar | 255 | 67 | ua | 380
+Ukraine | KyivStar | 255 | 3 | ua | 380
+Ukraine | Telesystems Of Ukraine CJSC (TSU) | 255 | 21 | ua | 380
+Ukraine | TriMob LLC | 255 | 7 | ua | 380
+Ukraine | UMC/MTS | 255 | 50 | ua | 380
+Ukraine | Beeline | 255 | 2 | ua | 380
+Ukraine | UMC/MTS | 255 | 1 | ua | 380
+Ukraine | Beeline | 255 | 68 | ua | 380
+United Arab Emirates | DU | 424 | 3 | ae | 971
+United Arab Emirates | Etisalat | 431 | 2 | ae | 971
+United Arab Emirates | Etisalat | 424 | 2 | ae | 971
+United Arab Emirates | Etisalat | 430 | 2 | ae | 971
+United Kingdom | Airtel/Vodafone | 234 | 3 | gb | 44
+United Kingdom | BT Group | 234 | 77 | gb | 44
+United Kingdom | BT Group | 234 | 76 | gb | 44
+United Kingdom | Cable and Wireless | 234 | 7 | gb | 44
+United Kingdom | Cable and Wireless | 234 | 92 | gb | 44
+United Kingdom | Cable and Wireless Isle of Man | 234 | 36 | gb | 44
+United Kingdom | Cloud9/wire9 Tel. | 234 | 18 | gb | 44
+United Kingdom | Everyth. Ev.wh. | 235 | 2 | gb | 44
+United Kingdom | FlexTel | 234 | 17 | gb | 44
+United Kingdom | Guernsey Telecoms | 234 | 55 | gb | 44
+United Kingdom | HaySystems | 234 | 14 | gb | 44
+United Kingdom | H3G Hutchinson | 234 | 94 | gb | 44
+United Kingdom | H3G Hutchinson | 234 | 20 | gb | 44
+United Kingdom | Inquam Telecom Ltd | 234 | 75 | gb | 44
+United Kingdom | Jersey Telecom | 234 | 50 | gb | 44
+United Kingdom | JSC Ingenicum | 234 | 35 | gb | 44
+United Kingdom | Lycamobile | 234 | 26 | gb | 44
+United Kingdom | Manx Telecom | 234 | 58 | gb | 44
+United Kingdom | Mapesbury C. Ltd | 234 | 1 | gb | 44
+United Kingdom | Marthon Telecom | 234 | 28 | gb | 44
+United Kingdom | O2 Ltd. | 234 | 10 | gb | 44
+United Kingdom | O2 Ltd. | 234 | 2 | gb | 44
+United Kingdom | O2 Ltd. | 234 | 11 | gb | 44
+United Kingdom | OnePhone | 234 | 8 | gb | 44
+United Kingdom | Opal Telecom | 234 | 16 | gb | 44
+United Kingdom | Everyth. Ev.wh./Orange | 234 | 33 | gb | 44
+United Kingdom | Everyth. Ev.wh./Orange | 234 | 34 | gb | 44
+United Kingdom | PMN/Teleware | 234 | 19 | gb | 44
+United Kingdom | Railtrack Plc | 234 | 12 | gb | 44
+United Kingdom | Routotelecom | 234 | 22 | gb | 44
+United Kingdom | Stour Marine | 234 | 24 | gb | 44
+United Kingdom | Synectiv Ltd. | 234 | 37 | gb | 44
+United Kingdom | Everyth. Ev.wh./T-Mobile | 234 | 31 | gb | 44
+United Kingdom | Everyth. Ev.wh./T-Mobile | 234 | 30 | gb | 44
+United Kingdom | Everyth. Ev.wh./T-Mobile | 234 | 32 | gb | 44
+United Kingdom | Vodafone | 234 | 27 | gb | 44
+United Kingdom | Tismi | 234 | 9 | gb | 44
+United Kingdom | Truphone | 234 | 25 | gb | 44
+United Kingdom | Jersey Telecom | 234 | 51 | gb | 44
+United Kingdom | Vectofone Mobile Wifi | 234 | 23 | gb | 44
+United Kingdom | Vodafone | 234 | 15 | gb | 44
+United Kingdom | Vodafone | 234 | 91 | gb | 44
+United Kingdom | Wave Telecom Ltd | 234 | 78 | gb | 44
+United States | Aeris Comm. Inc. | 310 | 850 | us | 1
+United States | Airtel Wireless LLC | 310 | 510 | us | 1
+United States | Allied Wireless Communications Corporation | 312 | 90 | us | 1
+United States | Arctic Slope Telephone Association Cooperative Inc. | 310 | 710 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 410 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 380 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 170 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 150 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 680 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 70 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 560 | us | 1
+United States | AT&amp;T Wireless Inc. | 310 | 980 | us | 1
+United States | Bluegrass Wireless LLC | 311 | 810 | us | 1
+United States | Bluegrass Wireless LLC | 311 | 800 | us | 1
+United States | Bluegrass Wireless LLC | 311 | 440 | us | 1
+United States | Cable &amp; Communications Corp. | 310 | 900 | us | 1
+United States | California RSA No. 3 Limited Partnership | 311 | 590 | us | 1
+United States | Cambridge Telephone Company Inc. | 311 | 500 | us | 1
+United States | Caprock Cellular Ltd. | 310 | 830 | us | 1
+United States | Verizon Wireless | 311 | 110 | us | 1
+United States | Verizon Wireless | 311 | 285 | us | 1
+United States | Verizon Wireless | 311 | 274 | us | 1
+United States | Verizon Wireless | 311 | 390 | us | 1
+United States | Verizon Wireless | 310 | 10 | us | 1
+United States | Verizon Wireless | 311 | 279 | us | 1
+United States | Verizon Wireless | 311 | 484 | us | 1
+United States | Verizon Wireless | 310 | 910 | us | 1
+United States | Verizon Wireless | 311 | 284 | us | 1
+United States | Verizon Wireless | 311 | 489 | us | 1
+United States | Verizon Wireless | 311 | 273 | us | 1
+United States | Verizon Wireless | 311 | 289 | us | 1
+United States | Verizon Wireless | 310 | 4 | us | 1
+United States | Verizon Wireless | 311 | 278 | us | 1
+United States | Verizon Wireless | 311 | 483 | us | 1
+United States | Verizon Wireless | 310 | 890 | us | 1
+United States | Verizon Wireless | 311 | 283 | us | 1
+United States | Verizon Wireless | 311 | 488 | us | 1
+United States | Verizon Wireless | 311 | 272 | us | 1
+United States | Verizon Wireless | 311 | 288 | us | 1
+United States | Verizon Wireless | 311 | 277 | us | 1
+United States | Verizon Wireless | 311 | 482 | us | 1
+United States | Verizon Wireless | 310 | 590 | us | 1
+United States | Verizon Wireless | 311 | 282 | us | 1
+United States | Verizon Wireless | 311 | 487 | us | 1
+United States | Verizon Wireless | 311 | 271 | us | 1
+United States | Verizon Wireless | 311 | 287 | us | 1
+United States | Verizon Wireless | 311 | 276 | us | 1
+United States | Verizon Wireless | 311 | 481 | us | 1
+United States | Verizon Wireless | 310 | 13 | us | 1
+United States | Verizon Wireless | 311 | 281 | us | 1
+United States | Verizon Wireless | 311 | 486 | us | 1
+United States | Verizon Wireless | 311 | 270 | us | 1
+United States | Verizon Wireless | 311 | 286 | us | 1
+United States | Verizon Wireless | 311 | 275 | us | 1
+United States | Verizon Wireless | 311 | 480 | us | 1
+United States | Verizon Wireless | 310 | 12 | us | 1
+United States | Verizon Wireless | 311 | 280 | us | 1
+United States | Verizon Wireless | 311 | 485 | us | 1
+United States | Cellular Network Partnership LLC | 310 | 360 | us | 1
+United States | Cellular Network Partnership LLC | 312 | 280 | us | 1
+United States | Cellular Network Partnership LLC | 312 | 270 | us | 1
+United States | Choice Phone LLC | 311 | 120 | us | 1
+United States | Choice Phone LLC | 310 | 480 | us | 1
+United States | Cincinnati Bell Wireless LLC | 310 | 420 | us | 1
+United States | Cingular Wireless | 310 | 180 | us | 1
+United States | Coleman County Telco /Trans TX | 310 | 620 | us | 1
+United States | Consolidated Telcom | 310 | 6 | us | 1
+United States | Consolidated Telcom | 310 | 60 | us | 1
+United States | Cross Valliant Cellular Partnership | 310 | 700 | us | 1
+United States | Cross Wireless Telephone Co. | 312 | 30 | us | 1
+United States | Cross Wireless Telephone Co. | 311 | 140 | us | 1
+United States | Custer Telephone Cooperative Inc. | 312 | 40 | us | 1
+United States | Dobson Cellular Systems | 310 | 440 | us | 1
+United States | E.N.M.R. Telephone Coop. | 310 | 990 | us | 1
+United States | East Kentucky Network LLC | 312 | 130 | us | 1
+United States | East Kentucky Network LLC | 312 | 120 | us | 1
+United States | East Kentucky Network LLC | 310 | 750 | us | 1
+United States | Edge Wireless LLC | 310 | 90 | us | 1
+United States | Elkhart TelCo. / Epic Touch Co. | 310 | 610 | us | 1
+United States | Farmers | 311 | 311 | us | 1
+United States | Fisher Wireless Services Inc. | 311 | 460 | us | 1
+United States | GCI Communication Corp. | 311 | 370 | us | 1
+United States | GCI Communication Corp. | 310 | 430 | us | 1
+United States | Get Mobile Inc. | 310 | 920 | us | 1
+United States | Illinois Valley Cellular RSA 2 Partnership | 311 | 340 | us | 1
+United States | Iowa RSA No. 2 Limited Partnership | 312 | 170 | us | 1
+United States | Iowa RSA No. 2 Limited Partnership | 311 | 410 | us | 1
+United States | Iowa Wireless Services LLC | 310 | 770 | us | 1
+United States | Jasper | 310 | 650 | us | 1
+United States | Kaplan Telephone Company Inc. | 310 | 870 | us | 1
+United States | Keystone Wireless LLC | 310 | 690 | us | 1
+United States | Keystone Wireless LLC | 312 | 180 | us | 1
+United States | Lamar County Cellular | 311 | 310 | us | 1
+United States | Leap Wireless International Inc. | 310 | 16 | us | 1
+United States | Matanuska Tel. Assn. Inc. | 310 | 40 | us | 1
+United States | Message Express Co. / Airlink PCS | 310 | 780 | us | 1
+United States | Michigan Wireless LLC | 311 | 330 | us | 1
+United States | Minnesota South. Wirel. Co. / Hickory | 310 | 400 | us | 1
+United States | Missouri RSA No 5 Partnership | 311 | 920 | us | 1
+United States | Missouri RSA No 5 Partnership | 311 | 20 | us | 1
+United States | Missouri RSA No 5 Partnership | 311 | 10 | us | 1
+United States | Missouri RSA No 5 Partnership | 312 | 220 | us | 1
+United States | Missouri RSA No 5 Partnership | 312 | 10 | us | 1
+United States | Mohave Cellular LP | 310 | 350 | us | 1
+United States | MTPCS LLC | 310 | 570 | us | 1
+United States | NEP Cellcorp Inc. | 310 | 290 | us | 1
+United States | Nevada Wireless LLC | 310 | 34 | us | 1
+United States | New-Cell Inc. | 310 | 600 | us | 1
+United States | Nexus Communications Inc. | 311 | 300 | us | 1
+United States | North Carolina RSA 3 Cellular Tel. Co. | 310 | 130 | us | 1
+United States | North Dakota Network Company | 311 | 610 | us | 1
+United States | North Dakota Network Company | 312 | 230 | us | 1
+United States | Northeast Colorado Cellular Inc. | 310 | 450 | us | 1
+United States | Northeast Wireless Networks LLC | 311 | 710 | us | 1
+United States | Northstar | 310 | 670 | us | 1
+United States | Northstar | 310 | 11 | us | 1
+United States | Northwest Missouri Cellular Limited Partnership | 311 | 420 | us | 1
+United States | Panhandle Telephone Cooperative Inc. | 310 | 760 | us | 1
+United States | PCS ONE | 310 | 580 | us | 1
+United States | PetroCom | 311 | 170 | us | 1
+United States | Pine Belt Cellular, Inc. | 311 | 670 | us | 1
+United States | Plateau Telecommunications Inc. | 310 | 100 | us | 1
+United States | Poka Lambro Telco Ltd. | 310 | 940 | us | 1
+United States | Public Service Cellular Inc. | 310 | 500 | us | 1
+United States | RSA 1 Limited Partnership | 312 | 160 | us | 1
+United States | RSA 1 Limited Partnership | 311 | 430 | us | 1
+United States | Sagebrush Cellular Inc. | 311 | 350 | us | 1
+United States | SIMMETRY | 310 | 46 | us | 1
+United States | SLO Cellular Inc / Cellular One of San Luis | 311 | 260 | us | 1
+United States | Smith Bagley Inc. | 310 | 320 | us | 1
+United States | Southern Communications Services Inc. | 316 | 11 | us | 1
+United States | Sprint Spectrum | 312 | 530 | us | 1
+United States | Sprint Spectrum | 310 | 120 | us | 1
+United States | Sprint Spectrum | 316 | 10 | us | 1
+United States | Sprint Spectrum | 312 | 190 | us | 1
+United States | Sprint Spectrum | 311 | 880 | us | 1
+United States | Sprint Spectrum | 311 | 870 | us | 1
+United States | Sprint Spectrum | 311 | 490 | us | 1
+United States | T-Mobile | 310 | 240 | us | 1
+United States | T-Mobile | 310 | 660 | us | 1
+United States | T-Mobile | 310 | 230 | us | 1
+United States | T-Mobile | 310 | 31 | us | 1
+United States | T-Mobile | 310 | 220 | us | 1
+United States | T-Mobile | 310 | 270 | us | 1
+United States | T-Mobile | 310 | 210 | us | 1
+United States | T-Mobile | 310 | 260 | us | 1
+United States | T-Mobile | 310 | 200 | us | 1
+United States | T-Mobile | 310 | 250 | us | 1
+United States | T-Mobile | 310 | 160 | us | 1
+United States | T-Mobile | 310 | 300 | us | 1
+United States | T-Mobile | 310 | 280 | us | 1
+United States | T-Mobile | 310 | 330 | us | 1
+United States | T-Mobile | 310 | 800 | us | 1
+United States | T-Mobile | 310 | 310 | us | 1
+United States | Telemetrix Inc. | 310 | 740 | us | 1
+United States | Texas RSA 15B2 Limited Partnership | 310 | 860 | us | 1
+United States | Thumb Cellular Limited Partnership | 311 | 50 | us | 1
+United States | Thumb Cellular Limited Partnership | 311 | 830 | us | 1
+United States | TMP Corporation | 310 | 460 | us | 1
+United States | Triton PCS | 310 | 490 | us | 1
+United States | Uintah Basin Electronics Telecommunications Inc. | 312 | 290 | us | 1
+United States | Uintah Basin Electronics Telecommunications Inc. | 311 | 860 | us | 1
+United States | Uintah Basin Electronics Telecommunications Inc. | 310 | 960 | us | 1
+United States | Union Telephone Co. | 310 | 20 | us | 1
+United States | United States Cellular Corp. | 311 | 220 | us | 1
+United States | United States Cellular Corp. | 310 | 730 | us | 1
+United States | United Wireless Communications Inc. | 311 | 650 | us | 1
+United States | USA 3650 AT&amp;T | 310 | 38 | us | 1
+United States | VeriSign | 310 | 520 | us | 1
+United States | West Virginia Wireless | 310 | 530 | us | 1
+United States | Westlink Communications, LLC | 310 | 340 | us | 1
+United States | Wisconsin RSA #7 Limited Partnership | 311 | 70 | us | 1
+United States | Yorkville Telephone Cooperative | 310 | 390 | us | 1
+Uruguay | Ancel/Antel | 748 | 1 | uy | 598
+Uruguay | Ancel/Antel | 748 | 3 | uy | 598
+Uruguay | Claro/AM Wireless | 748 | 10 | uy | 598
+Uruguay | MOVISTAR | 748 | 7 | uy | 598
+Uzbekistan | Bee Line/Unitel | 434 | 4 | uz | 998
+Uzbekistan | Buztel | 434 | 1 | uz | 998
+Uzbekistan | MTS/Uzdunrobita | 434 | 7 | uz | 998
+Uzbekistan | Ucell/Coscom | 434 | 5 | uz | 998
+Uzbekistan | Uzmacom | 434 | 2 | uz | 998
+Vanuatu | DigiCel | 541 | 5 | vu | 678
+Vanuatu | SMILE | 541 | 1 | vu | 678
+Venezuela | DigiTel C.A. | 734 | 3 | ve | 58
+Venezuela | DigiTel C.A. | 734 | 2 | ve | 58
+Venezuela | DigiTel C.A. | 734 | 1 | ve | 58
+Venezuela | Movilnet C.A. | 734 | 6 | ve | 58
+Venezuela | Movistar/TelCel | 734 | 4 | ve | 58
+Viet Nam | Beeline | 452 | 7 | vn | 84
+Viet Nam | Mobifone | 452 | 1 | vn | 84
+Viet Nam | S-Fone/Telecom | 452 | 3 | vn | 84
+Viet Nam | VietnaMobile | 452 | 5 | vn | 84
+Viet Nam | Viettel Mobile | 452 | 6 | vn | 84
+Viet Nam | Viettel Mobile | 452 | 4 | vn | 84
+Viet Nam | Viettel Mobile | 452 | 8 | vn | 84
+Viet Nam | Vinaphone | 452 | 2 | vn | 84
+Virgin Islands, U.S. | Digicel | 376 | 50 | vi | 1340
+Yemen | HITS/Y Unitel | 421 | 4 | ye | 967
+Yemen | MTN/Spacetel | 421 | 2 | ye | 967
+Yemen | Sabaphone | 421 | 1 | ye | 967
+Yemen | Yemen Mob. CDMA | 421 | 3 | ye | 967
+Zambia | Zamtel/Cell Z/MTS | 645 | 3 | zm | 260
+Zambia | MTN/Telecel | 645 | 2 | zm | 260
+Zambia | Airtel/Zain/Celtel | 645 | 1 | zm | 260
+Zimbabwe | Econet | 648 | 4 | zw | 263
+Zimbabwe | Net One | 648 | 1 | zw | 263
+Zimbabwe | Telecel | 648 | 3 | zw | 263</value>
+  </data>
+  <data name="LocaleLanguages" xml:space="preserve">
+    <value>Arabic (Oman)|ar_OM|ar-OM
+Vietnam|VI_VN|VI_VN
+Arabic (Saudi Arabia)|ar_SA|ar-SA
+Argentina|es_AR|es-AR
+Australia|en_AU|en-AU
+Austria|de_AT|de-AT
+Bahrain|ar_BH|ar-BH
+Brazil|pt_BR|pt-BR
+Canada|en_CA|en-CA
+Egypt|AR_EG|AR_EG
+Finland|FI_FI|FI_FI
+Chile|es_CL|es-CL
+Peru|ES_PE|ES_PE
+China|ZH_CN|ZH_CN
+Czech,Czechia (Czech Republic),Czechia|cs_CZ|cs-CZ
+Danish (Denmark)|da_DK|da-DK
+Dutch (Belgium)|nl_BE|nl-BE
+Dutch (Netherlands)|nl_NL|nl-NL
+English (United States)|en_US|en-US
+French,Guadeloupe,Martinique,Réunion,Reunion (France)|fr_FR|fr
+Germany|de_DE|de-DE
+Greek (Greece)|el_GR|el-GR
+Hindi (India)|hi_IN|hi-IN
+Hong Kong|zh_HK|zh-HK 
+Hungarian (Hungary)|hu_HU|hu-HU
+Arabic (Kuwait)|ar_KW|ar-KW
+Republic of Korea,KOREA, REPUBLIC OF, Korean (Korea)|ko_KR|ko-KR
+Iceland|is_IS|is-IS
+Indonesian (Indonesia)|id_ID|id-ID
+Iraq|ar_IQ|ar-IQ
+Farsi (Iran)|fa_IR|fa-IR
+Finnish (Finland)|fi_FI|fi-FI
+Ireland|ga_IE|ga-IE
+Israel|he_IL|he-IL
+Italian (Italy)|it_IT|it-IT
+Japanese (Japan)|ja_JP|ja-JP
+Jordan|ar_JO|ar-JO
+Hashemite Kingdom of Jordan|ar_JO|ar-JO
+Latvian (Latvia)|lv_LV|lv-LV
+Lebanon|ar_LB|ar-LB
+Macao (Macau)|zh_MO|zh-Hant-MO
+Malay (Malaysia)|ms_MY|ms-MY
+New Zealand|en_NZ|en-NZ
+Norwegian (Bokmål,Bokmal) (Norway)|nb_NO|nb-NO
+Polish (Poland)|pl_PL|pl-PL
+Portuguese (Portugal)|pt_PT|pt-PT
+Tagalog (Philippines)|tl_PH|tl-PH
+English (Republic of the Philippines)|en_PH|en-PH
+Qatar|ar_QA|ar-QA
+Romanian (Romania)|ro_RO|ro-RO
+Russian (Russia)|ru_RU|ru-RU
+Singapore|en_SG|en-SG
+Slovak (Slovakia)|sk_SK|sk-SK
+Slovenian (Slovenia)|sl_SI|sl-SI
+South Africa|en_ZA|en-ZA
+Spain|es_ES|es-ES
+Spanish (Colombia)|es_CO|es-CO
+Spanish (Mexico)|es_MX|es-MX
+Spanish (Ecuador)|es_EC|es-EC
+Spanish (Costa Rica)|es_CR|es-CR
+Sri Lanka|si_LK|si-LK
+Swedish (Sweden)|sv_SE|sv-SE
+Switzerland|de_CH|de-CH
+Taiwan|zh_TW|zh-TW
+Tanzania|en_TZ|en-TZ
+Thai (Thailand)|th_TH|th-TH
+Tunisia|ar_TN|ar-TN
+Turkish (Turkey)|tr_TR|tr-TR
+United Arab Emirates(U.A.E.)|ar_AE|ar-AE
+United Kingdom|en_GB|en-GB Peru|ES_PE|ES_PE</value>
+  </data>
+  <data name="Modembylee" xml:space="preserve">
+    <value>iPhone5,1|8.0|12A365|7.03.00|2014
+iPhone5,1|8.0.1|12A402|7.03.00|2014
+iPhone5,1|8.0.2|12A405|7.03.00|2014
+iphone5,1|8.1|12b410|7.03.00|2014
+iPhone5,1|8.1|12B411|7.03.00|2014
+iPhone5,1|8.1.1|12B435|7.03.00|2014
+iPhone5,1|8.1.2|12B440|7.03.00|2014
+iPhone5,1|8.1.3|12B466|7.03.00|2015
+iPhone5,1|8.2|12D508|7.03.00|2015
+iPhone5,1|8.3|12F69|8.01.00|2015
+iPhone5,1|8.3|12F70|8.01.00|2015
+iPhone5,1|8.4|12H143|8.02.00|2015
+iPhone5,1|8.4.1|12H321|8.02.00|2015
+iPhone5,2|8.0|12A365|7.03.00|2014
+iPhone5,2|8.0.1|12A402|7.03.00|2014
+iPhone5,2|8.0.2|12A405|7.03.00|2014
+iphone5,2|8.1|12b410|7.03.00|2014
+iPhone5,2|8.1|12B411|7.03.00|2014
+iPhone5,2|8.1.1|12B435|7.03.00|2014
+iPhone5,2|8.1.2|12B440|7.03.00|2014
+iPhone5,2|8.1.3|12B466|7.03.00|2015
+iPhone5,2|8.2|12D508|7.03.00|2015
+iPhone5,2|8.3|12F69|8.01.00|2015
+iPhone5,2|8.3|12F70|8.01.00|2015
+iPhone5,2|8.4|12H143|8.02.00|2015
+iPhone5,2|8.4.1|12H321|8.02.00|2015
+iPhone5,3|8.0|12A365|3.09.01|2014
+iPhone5,3|8.0.1|12A402|3.09.01|2014
+iPhone5,3|8.0.2|12A405|3.09.01|2014
+iphone5,3|8.1|12b410|3.11.00|2014
+iPhone5,3|8.1|12B411|3.11.00|2014
+iPhone5,3|8.1.1|12B435|3.11.00|2014
+iPhone5,3|8.1.2|12B440|3.11.00|2014
+iPhone5,3|8.1.3|12B466|3.11.00|2015
+iPhone5,3|8.2|12D508|3.11.00|2015
+iPhone5,3|8.3|12F69|4.01.00|2015
+iPhone5,3|8.3|12F70|4.01.00|2015
+iPhone5,3|8.4|12H143|4.03.00|2015
+iPhone5,3|8.4.1|12H321|4.03.00|2015
+iPhone5,4|8.0|12A365|3.09.01|2014
+iPhone5,4|8.0.1|12A402|3.09.01|2014
+iPhone5,4|8.0.2|12A405|3.09.01|2014
+iphone5,4|8.1|12b410|3.11.00|2014
+iPhone5,4|8.1|12B411|3.11.00|2014
+iPhone5,4|8.1.1|12B435|3.11.00|2014
+iPhone5,4|8.1.2|12B440|3.11.00|2014
+iPhone5,4|8.1.3|12B466|3.11.00|2015
+iPhone5,4|8.2|12D508|3.11.00|2015
+iphone5,4|8.3|12f69|4.01.00|2015
+iPhone5,4|8.3|12F70|4.01.00|2015
+iPhone5,4|8.4|12H143|4.03.00|2015
+iPhone5,4|8.4.1|12H321|4.03.00|2015
+iPhone6,1|8.0|12A365|3.09.01|2014
+iPhone6,1|8.0.1|12A402|3.09.01|2014
+iPhone6,1|8.0.2|12A405|3.09.01|2014
+iphone6,1|8.1|12b410|3.11.00|2014
+iPhone6,1|8.1|12B411|3.11.00|2014
+iPhone6,1|8.1.1|12B435|3.11.00|2014
+iPhone6,1|8.1.2|12B440|3.11.00|2014
+iPhone6,1|8.1.3|12B466|3.11.00|2015
+iPhone6,1|8.2|12D508|3.11.00|2015
+iPhone6,1|8.3|12F69|4.01.00|2015
+iPhone6,1|8.3|12F70|4.01.00|2015
+iPhone6,1|8.4|12H143|4.03.00|2015
+iPhone6,1|8.4.1|12H321|4.03.00|2015
+iPhone6,2|8.0|12A365|3.09.01|2014
+iPhone6,2|8.0.1|12A402|3.09.01|2014
+iPhone6,2|8.0.2|12A405|3.09.01|2014
+iphone6,2|8.1|12b410|3.11.00|2014
+iPhone6,2|8.1|12B411|3.11.00|2014
+iPhone6,2|8.1.1|12B435|3.11.00|2014
+iPhone6,2|8.1.2|12B440|3.11.00|2014
+iPhone6,2|8.1.3|12B466|3.11.00|2015
+iPhone6,2|8.2|12D508|3.11.00|2015
+iPhone6,2|8.3|12F69|4.01.00|2015
+iPhone6,2|8.3|12F70|4.01.00|2015
+iPhone6,2|8.4|12H143|4.03.00|2015
+iPhone6,2|8.4.1|12H321|4.03.00|2015
+iPhone7,2|8.0|12A365|1.00.05|2014
+iPhone7,2|8.0.1|12A402|1.00.05|2014
+iPhone7,2|8.0.2|12A405|1.00.05|2014
+iphone7,2|8.1|12b410|1.04.00|2014
+iPhone7,2|8.1|12B411|1.04.00|2014
+iphone7,2|8.1.1|12B435|1.04.00|2014
+iPhone7,2|8.1.1|12B436|1.04.00|2014
+iPhone7,2|8.1.2|12B440|1.04.00|2014
+iPhone7,2|8.1.3|12B466|1.04.00|2015
+iPhone7,2|8.2|12D508|1.04.00|2015
+iPhone7,2|8.3|12F69|2.23.03|2015
+iPhone7,2|8.3|12F70|2.23.03|2015
+iPhone7,2|8.4|12H143|2.41.00|2015
+iPhone7,2|8.4.1|12H321|2.41.00|2015
+iPhone7,1|8.0|12A366|1.00.05|2014
+iPhone7,1|8.0.1|12A402|1.00.05|2014
+iPhone7,1|8.0.2|12A405|1.00.05|2014
+iphone7,1|8.1|12b410|1.04.00|2014
+iPhone7,1|8.1|12B411|1.04.00|2014
+iphone7,1|8.1.1|12b435|1.04.00|2014
+iPhone7,1|8.1.1|12B436|1.04.00|2014
+iPhone7,1|8.1.2|12B440|1.04.00|2014
+iPhone7,1|8.1.3|12B466|1.04.00|2015
+iPhone7,1|8.2|12D508|1.04.00|2015
+iPhone7,1|8.3|12F69|2.23.03|2015
+iPhone7,1|8.3|12F70|2.23.03|2015
+iPhone7,1|8.4|12H143|2.41.00|2015
+iPhone7,1|8.4.1|12H321|2.41.00|2015
+iPhone5,1|9.0|13A344|10.00.00|2015
+iPhone5,1|9.0.1|13A404|10.00.00|2015
+iPhone5,1|9.0.2|13A452|10.00.00|2015
+iPhone5,1|9.1|13B143|10.00.00|2015
+iPhone5,1|9.2|13C75|10.00.00|2015
+iPhone5,1|9.2.1|13D15|10.00.00|2016
+iPhone5,1|9.3|13E233|10.01.00|2016
+iPhone5,1|9.3|13E237|10.01.00|2016
+iPhone5,1|9.3.1|13E238|10.01.00|2016
+iPhone5,1|9.3.2|13F69|10.01.00|2016
+iPhone5,1|9.3.3|13G34|10.01.00|2016
+iPhone5,1|9.3.4|13G35|10.01.00|2016
+iPhone5,1|9.3.5|13G36|10.01.00|2016
+iPhone5,2|9.0|13A344|10.00.00|2015
+iPhone5,2|9.0.1|13A404|10.00.00|2015
+iPhone5,2|9.0.2|13A452|10.00.00|2015
+iPhone5,2|9.1|13B143|10.00.00|2015
+iPhone5,2|9.2|13C75|10.00.00|2015
+iPhone5,2|9.2.1|13D15|10.00.00|2016
+iPhone5,2|9.3|13E233|10.01.00|2016
+iPhone5,2|9.3|13E237|10.01.00|2016
+iPhone5,2|9.3.1|13E238|10.01.00|2016
+iPhone5,2|9.3.2|13F69|10.01.00|2016
+iPhone5,2|9.3.3|13G34|10.01.00|2016
+iPhone5,2|9.3.4|13G35|10.01.00|2016
+iPhone5,2|9.3.5|13G36|10.01.00|2016
+iPhone5,3|9.0|13A344|5.00.11|2015
+iPhone5,3|9.0.1|13A404|6.00.00|2015
+iPhone5,3|9.0.2|13A452|6.01.00|2015
+iPhone5,3|9.1|13B143|6.01.00|2015
+iPhone5,3|9.2|13C75|6.01.00|2015
+iPhone5,3|9.2.1|13D15|6.01.00|2016
+iPhone5,3|9.3|13E233|6.02.00|2016
+iPhone5,3|9.3|13E237|6.02.00|2016
+iPhone5,3|9.3.1|13E238|6.02.00|2016
+iPhone5,3|9.3.2|13F69|6.02.00|2016
+iPhone5,3|9.3.3|13G34|6.02.00|2016
+iPhone5,3|9.3.4|13G35|6.02.00|2016
+iPhone5,3|9.3.5|13G36|6.02.00|2016
+iPhone5,4|9.0|13A344|5.00.11|2015
+iPhone5,4|9.0.1|13A404|6.00.00|2015
+iPhone5,4|9.0.2|13A452|6.01.00|2015
+iPhone5,4|9.1|13B143|6.01.00|2015
+iPhone5,4|9.2|13C75|6.01.00|2015
+iPhone5,4|9.2.1|13D15|6.01.00|2016
+iPhone5,4|9.3|13E233|6.02.00|2016
+iPhone5,4|9.3|13E237|6.02.00|2016
+iPhone5,4|9.3.1|13E238|6.02.00|2016
+iPhone5,4|9.3.2|13F69|6.02.00|2016
+iPhone5,4|9.3.3|13G34|6.02.00|2016
+iPhone5,4|9.3.4|13G35|6.02.00|2016
+iPhone5,4|9.3.5|13G36|6.02.00|2016
+iPhone6,1|9.0|13A344|6.00.00|2015
+iPhone6,1|9.0.1|13A404|6.00.00|2015
+iPhone6,1|9.0.2|13A452|6.01.00|2015
+iPhone6,1|9.1|13B143|6.01.00|2015
+iPhone6,1|9.2|13C75|6.01.00|2015
+iPhone6,1|9.2.1|13D15|6.01.00|2016
+iPhone6,1|9.3|13E233|6.02.00|2016
+iPhone6,1|9.3|13E237|6.02.00|2016
+iPhone6,1|9.3.1|13E238|6.02.00|2016
+iPhone6,1|9.3.2|13F69|6.02.00|2016
+iPhone6,1|9.3.3|13G34|6.02.00|2016
+iPhone6,1|9.3.4|13G35|6.02.00|2016
+iPhone6,1|9.3.5|13G36|6.02.00|2016
+iPhone6,2|9.0|13A344|6.00.00|2015
+iPhone6,2|9.0.1|13A404|6.00.00|2015
+iPhone6,2|9.0.2|13A452|6.01.00|2015
+iPhone6,2|9.1|13B143|6.01.00|2015
+iPhone6,2|9.2|13C75|6.01.00|2015
+iPhone6,2|9.2.1|13D15|6.01.00|2016
+iPhone6,2|9.3|13E233|6.02.00|2016
+iPhone6,2|9.3|13E237|6.02.00|2016
+iPhone6,2|9.3.1|13E238|6.02.00|2016
+iPhone6,2|9.3.2|13F69|6.02.00|2016
+iPhone6,2|9.3.3|13G34|6.02.00|2016
+iPhone6,2|9.3.4|13G35|6.02.00|2016
+iPhone6,2|9.3.5|13G36|6.02.00|2016
+iPhone7,2|9.0|13A344|4.01.00|2015
+iPhone7,2|9.0.1|13A404|4.01.00|2015
+iPhone7,2|9.0.2|13A452|4.02.00|2015
+iPhone7,2|9.1|13B143|4.32.00|2015
+iPhone7,2|9.2|13C75|4.52.00|2015
+iPhone7,2|9.2.1|13D15|4.52.00|2016
+iPhone7,2|9.2.1|13D20|4.52.00|2016
+iPhone7,2|9.3|13E233|4.71.00|2016
+iPhone7,2|9.3.1|13E238|4.71.00|2016
+iPhone7,2|9.3.2|13F69|4.71.00|2016
+iPhone7,2|9.3.3|13G34|4.71.00|2016
+iPhone7,2|9.3.4|13G35|4.71.00|2016
+iPhone7,2|9.3.5|13G36|4.71.00|2016
+iPhone7,1|9.0|13A344|4.01.00|2015
+iPhone7,1|9.0.1|13A404|4.01.00|2015
+iPhone7,1|9.0.2|13A452|4.02.00|2015
+iPhone7,1|9.1|13B143|4.32.00|2015
+iPhone7,1|9.2|13C75|4.52.00|2015
+iPhone7,1|9.2.1|13D15|4.52.00|2016
+iPhone7,1|9.2.1|13D20|4.52.00|2016
+iPhone7,1|9.3|13E233|4.71.00|2016
+iPhone7,1|9.3.1|13E238|4.71.00|2016
+iPhone7,1|9.3.2|13F69|4.71.00|2016
+iPhone7,1|9.3.3|13G34|4.71.00|2016
+iPhone7,1|9.3.4|13G35|4.71.00|2016
+iPhone7,1|9.3.5|13G36|4.71.00|2016
+iPhone8,1|9.0|13A342|1.00.05|2015
+iPhone8,1|9.0.1|13A405|1.00.05|2015
+iPhone8,1|9.0.2|13A452|1.02.00|2015
+iphone8,1|9.1|13b139|1.14.00|2015
+iPhone8,1|9.1|13B143|1.14.00|2015
+iPhone8,1|9.2|13C75|1.23.00|2015
+iPhone8,1|9.2.1|13D15|1.23.00|2016
+iPhone8,1|9.2.1|13D20|1.23.00|2016
+iPhone8,1|9.3|13E234|1.60.00|2016
+iPhone8,1|9.3.1|13E238|1.60.00|2016
+iPhone8,1|9.3.2|13F69|1.60.00|2016
+iPhone8,1|9.3.3|13G34|1.60.00|2016
+iPhone8,1|9.3.4|13G35|1.60.00|2016
+iPhone8,1|9.3.5|13G36|1.60.00|2016
+iPhone8,2|9.0|13A343|1.00.05|2015
+iPhone8,2|9.0.1|13A405|1.00.05|2015
+iPhone8,2|9.0.2|13A452|1.02.00|2015
+iPhone8,2|9.1|13B143|1.14.00|2015
+iPhone8,2|9.2|13C75|1.23.00|2015
+iPhone8,2|9.2.1|13D15|1.23.00|2016
+iPhone8,2|9.2.1|13D20|1.23.00|2016
+iPhone8,2|9.3|13E234|1.60.00|2016
+iPhone8,2|9.3.1|13E238|1.60.00|2016
+iPhone8,2|9.3.2|13F69|1.60.00|2016
+iPhone8,2|9.3.3|13G34|1.60.00|2016
+iPhone8,2|9.3.4|13G35|1.60.00|2016
+iPhone8,2|9.3.5|13G36|1.60.00|2016
+iPhone8,4|9.3|13E233|4.71.00|2016
+iPhone8,4|9.3.1|13E238|4.71.00|2016
+iPhone8,4|9.3.2|13F69|4.71.00|2016
+iPhone8,4|9.3.3|13G34|4.71.00|2016
+iPhone8,4|9.3.4|13G35|4.71.00|2016
+iPhone8,4|9.3.5|13G36|4.71.00|2016
+iPhone5,1|10.0.1|14A403|11.01.00|2016
+iPhone5,1|10.0.2|14A456|11.01.00|2016
+iPhone5,1|10.1|14B72|11.01.00|2016
+iPhone5,1|10.1.1|14B100|11.01.00|2016
+iPhone5,1|10.1.1|14B150|11.01.00|2016
+iPhone5,1|10.2|14C92|11.21.00|2016
+iPhone5,1|10.2.1|14D27|11.21.00|2017
+iPhone5,1|10.3|14E277|11.51.00|2017
+iPhone5,1|10.3.1|14E304|11.51.00|2017
+iPhone5,1|10.3.2|14F89|11.60.00|2017
+iPhone5,1|10.3.3|14G60|11.60.00|2017
+iPhone5,2|10.0.1|14A403|11.01.00|2016
+iPhone5,2|10.0.2|14A456|11.01.00|2016
+iPhone5,2|10.1|14B72|11.01.00|2016
+iPhone5,2|10.1.1|14B100|11.01.00|2016
+iPhone5,2|10.1.1|14B150|11.01.00|2016
+iPhone5,2|10.2|14C92|11.21.00|2016
+iPhone5,2|10.2.1|14D27|11.21.00|2017
+iPhone5,2|10.3|14E277|11.51.00|2017
+iPhone5,2|10.3.1|14E304|11.51.00|2017
+iPhone5,2|10.3.2|14F89|11.60.00|2017
+iPhone5,2|10.3.3|14G60|11.60.00|2017
+iPhone5,3|10.0.1|14A403|7.01.00|2016
+iPhone5,3|10.0.2|14A456|7.01.00|2016
+iPhone5,3|10.1|14B72|7.01.00|2016
+iPhone5,3|10.1.1|14B100|7.01.00|2016
+iPhone5,3|10.1.1|14B150|7.01.00|2016
+iPhone5,3|10.2|14C92|7.21.00|2016
+iPhone5,3|10.2.1|14D27|7.21.00|2017
+iPhone5,3|10.3|14E277|7.51.00|2017
+iPhone5,3|10.3.1|14E304|7.51.00|2017
+iPhone5,3|10.3.2|14F89|7.60.00|2017
+iPhone5,3|10.3.3|14G60|7.60.00|2017
+iPhone5,4|10.0.1|14A403|7.01.00|2016
+iPhone5,4|10.0.2|14A456|7.01.00|2016
+iPhone5,4|10.1|14B72|7.01.00|2016
+iPhone5,4|10.1.1|14B100|7.01.00|2016
+iPhone5,4|10.1.1|14B150|7.01.00|2016
+iPhone5,4|10.2|14C92|7.21.00|2016
+iPhone5,4|10.2.1|14D27|11.21.00|2017
+iPhone5,4|10.3|14E277|11.51.00|2017
+iPhone5,4|10.3.1|14E304|11.51.00|2017
+iPhone5,4|10.3.2|14F89|7.60.00|2017
+iPhone5,4|10.3.3|14G60|7.60.00|2017
+iPhone6,1|10.0.1|14A403|7.01.00|2016
+iPhone6,1|10.0.2|14A456|7.01.00|2016
+iPhone6,1|10.1|14B72|7.01.00|2016
+iPhone6,1|10.1.1|14B100|7.01.00|2016
+iPhone6,1|10.1.1|14B150|7.01.00|2016
+iPhone6,1|10.2|14C92|7.21.00|2016
+iPhone6,1|10.2.1|14D27|7.21.00|2017
+iPhone6,1|10.3|14E277|7.51.00|2017
+iPhone6,1|10.3.1|14E304|7.51.00|2017
+iPhone6,1|10.3.2|14F89|7.60.00|2017
+iPhone6,1|10.3.3|14G60|7.60.00|2017
+iPhone6,2|10.0.1|14A403|7.01.00|2016
+iPhone6,2|10.0.2|14A456|7.01.00|2016
+iPhone6,2|10.1|14B72|7.01.00|2016
+iPhone6,2|10.1.1|14B100|7.01.00|2016
+iPhone6,2|10.1.1|14B150|7.01.00|2016
+iPhone6,2|10.2|14C92|7.21.00|2016
+iPhone6,2|10.2.1|14D27|7.21.00|2017
+iPhone6,2|10.3|14E277|7.51.00|2017
+iPhone6,2|10.3.1|14E304|7.51.00|2017
+iPhone6,2|10.3.2|14F89|7.60.00|2017
+iPhone6,2|10.3.3|14G60|7.60.00|2017
+iPhone7,2|10.0.1|14A403|5.24.00|2016
+iPhone7,2|10.0.2|14A456|5.24.00|2016
+iPhone7,2|10.1|14B72|5.26.00|2016
+iPhone7,2|10.1.1|14B100|5.26.00|2016
+iPhone7,2|10.1.1|14B150|5.26.00|2016
+iPhone7,2|10.2|14C92|5.32.00|2016
+iPhone7,2|10.2.1|14D27|5.32.00|2017
+iPhone7,2|10.3|14E277|5.51.00|2017
+iPhone7,2|10.3.1|14E304|5.51.00|2017
+iPhone7,2|10.3.2|14F89|5.62.00|2017
+iPhone7,2|10.3.3|14G60|5.62.00|2017
+iPhone7,1|10.0.1|14A403|5.24.00|2016
+iPhone7,1|10.0.2|14A456|5.24.00|2016
+iPhone7,1|10.1|14B72|5.26.00|2016
+iPhone7,1|10.1.1|14B100|5.26.00|2016
+iPhone7,1|10.1.1|14B150|5.26.00|2016
+iPhone7,1|10.2|14C92|5.32.00|2016
+iPhone7,1|10.2.1|14D27|5.32.00|2017
+iPhone7,1|10.3|14E277|5.51.00|2017
+iPhone7,1|10.3.1|14E304|5.51.00|2017
+iPhone7,1|10.3.2|14F89|5.62.00|2017
+iPhone7,1|10.3.3|14G60|5.62.00|2017
+iPhone8,1|10.0.1|14A403|2.30.00|2016
+iPhone8,1|10.0.2|14A456|2.30.00|2016
+iPhone8,1|10.1|14B72|2.36.00|2016
+iPhone8,1|10.1.1|14B100|2.36.00|2016
+iPhone8,1|10.1.1|14B150|2.36.00|2016
+iPhone8,1|10.2|14C92|2.41.00|2016
+iPhone8,1|10.2.1|14D27|2.41.00|2017
+iPhone8,1|10.3|14E277|2.54.00|2017
+iPhone8,1|10.3.1|14E304|2.54.00|2017
+iPhone8,1|10.3.2|14F89|2.61.00|2017
+iPhone8,1|10.3.3|14G60|2.61.00|2017
+iPhone8,2|10.0.1|14A403|2.30.00|2016
+iPhone8,2|10.0.2|14A456|2.30.00|2016
+iPhone8,2|10.1|14B72|2.36.00|2016
+iPhone8,2|10.1.1|14B100|2.36.00|2016
+iPhone8,2|10.1.1|14B150|2.36.00|2016
+iPhone8,2|10.2|14C92|2.41.00|2016
+iPhone8,2|10.2.1|14D27|2.41.00|2017
+iPhone8,2|10.3|14E277|2.54.00|2017
+iPhone8,2|10.3.1|14E304|2.54.00|2017
+iPhone8,2|10.3.2|14F89|2.61.00|2017
+iPhone8,2|10.3.3|14G60|2.61.00|2017
+iPhone8,4|10.0.1|14A403|5.24.00|2016
+iPhone8,4|10.0.2|14A456|5.24.00|2016
+iPhone8,4|10.1|14B72|5.26.00|2016
+iPhone8,4|10.1.1|14B100|5.26.00|2016
+iPhone8,4|10.1.1|14B150|5.26.00|2016
+iPhone8,4|10.2|14C92|5.32.00|2016
+iPhone8,4|10.2.1|14D27|5.32.00|2017
+iPhone8,4|10.3|14E277|5.51.00|2017
+iPhone8,4|10.3.1|14E304|5.51.00|2017
+iPhone8,4|10.3.2|14F89|5.62.00|2017
+iPhone8,4|10.3.3|14G60|5.62.00|2017
+iPhone9,1|10.0.1|14A403|1.00.03|2016
+iPhone9,1|10.0.2|14A456|1.00.04|2016
+iPhone9,1|10.0.3|14A551|1.00.05|2016
+iPhone9,1|10.1|14B72c|1.25.00|2016
+iPhone9,1|10.1.1|14B100|1.25.00|2016
+iPhone9,1|10.1.1|14B150|1.25.00|2016
+iPhone9,1|10.2|14C92|1.33.00|2016
+iPhone9,1|10.2.1|14D27|1.33.00|2017
+iPhone9,1|10.3|14E277|1.59.00|2017
+iPhone9,1|10.3.1|14E304|1.59.00|2017
+iPhone9,1|10.3.2|14F89|1.81.00|2017
+iPhone9,1|10.3.3|14G60|1.91.00|2017
+iPhone9,3|10.0.1|14A403|1.00.03|2016
+iPhone9,3|10.0.2|14A456|1.00.04|2016
+iPhone9,3|10.0.3|14A551|1.00.05|2016
+iPhone9,3|10.1|14B72c|1.25.00|2016
+iPhone9,3|10.1.1|14B100|1.25.00|2016
+iPhone9,3|10.1.1|14B150|1.25.00|2016
+iPhone9,3|10.2|14C92|1.33.00|2016
+iPhone9,3|10.2.1|14D27|1.33.00|2017
+iPhone9,3|10.3|14E277|1.59.00|2017
+iPhone9,3|10.3.1|14E304|1.59.00|2017
+iPhone9,3|10.3.2|14F89|1.81.00|2017
+iPhone9,3|10.3.3|14G60|1.91.00|2017
+iPhone9,2|10.0.1|14A403|1.00.03|2016
+iPhone9,2|10.0.2|14A456|1.00.04|2016
+iPhone9,2|10.0.3|14A551|1.00.05|2016
+iPhone9,2|10.1|14B72c|1.25.00|2016
+iPhone9,2|10.1.1|14B100|1.25.00|2016
+iPhone9,2|10.1.1|14B150|1.25.00|2016
+iPhone9,2|10.2|14C92|1.33.00|2016
+iPhone9,2|10.2.1|14D27|1.33.00|2017
+iPhone9,2|10.3|14E277|1.59.00|2017
+iPhone9,2|10.3.1|14E304|1.59.00|2017
+iPhone9,2|10.3.2|14F89|1.81.00|2017
+iPhone9,2|10.3.3|14G60|1.91.00|2017
+iPhone9,4|10.0.1|14A403|1.00.03|2016
+iPhone9,4|10.0.2|14A456|1.00.04|2016
+iPhone9,4|10.0.3|14A551|1.00.05|2016
+iPhone9,4|10.1|14B72c|1.25.00|2016
+iPhone9,4|10.1.1|14B100|1.25.00|2016
+iPhone9,4|10.1.1|14B150|1.25.00|2016
+iPhone9,4|10.2|14C92|1.33.00|2016
+iPhone9,4|10.2.1|14D27|1.33.00|2017
+iPhone9,4|10.3|14E277|1.59.00|2017
+iPhone9,4|10.3.1|14E304|1.59.00|2017
+iPhone9,4|10.3.2|14F89|1.81.00|2017
+iPhone9,4|10.3.3|14G60|1.91.00|2017
+iPhone6,1|11.0|15A372|8.01.00|2017
+iPhone6,1|11.0.1|15A402|8.01.00|2017
+iPhone6,1|11.0.2|15A421|8.01.00|2017
+iPhone6,1|11.0.3|15A432|8.01.00|2017
+iPhone6,1|11.1|15B93|8.01.00|2017
+iPhone6,1|11.1.1|15B150|8.01.00|2017
+iPhone6,2|11.0|15A372|8.01.00|2017
+iPhone6,2|11.0.1|15A402|8.01.00|2017
+iPhone6,2|11.0.2|15A421|8.01.00|2017
+iPhone6,2|11.0.3|15A432|8.01.00|2017
+iPhone6,2|11.1|15B93|8.01.00|2017
+iPhone6,2|11.1.1|15B150|8.01.00|2017
+iPhone7,2|11.0|15A372|6.17.00|2017
+iPhone7,2|11.0.1|15A402|6.17.00|2017
+iPhone7,2|11.0.2|15A421|6.17.00|2017
+iPhone7,2|11.0.3|15A432|6.17.00|2017
+iPhone7,2|11.1|15B93|6.17.00|2017
+iPhone7,2|11.1.1|15B150|6.17.00|2017
+iPhone7,1|11.0|15A372|6.17.00|2017
+iPhone7,1|11.0.1|15A402|6.17.00|2017
+iPhone7,1|11.0.2|15A421|6.17.00|2017
+iPhone7,1|11.0.3|15A432|6.17.00|2017
+iPhone7,1|11.1|15B93|6.17.00|2017
+iPhone7,1|11.1.1|15B150|6.17.00|2017
+iPhone8,1|11.0|15A372|4.00.01|2017
+iPhone8,1|11.0.1|15A402|4.00.01|2017
+iPhone8,1|11.0.2|15A421|4.00.01|2017
+iPhone8,1|11.0.3|15A432|4.00.01|2017
+iPhone8,1|11.1|15B93|4.00.01|2017
+iPhone8,1|11.1.1|15B150|4.00.01|2017
+iPhone8,2|11.0|15A372|4.00.01|2017
+iPhone8,2|11.0.1|15A402|4.00.01|2017
+iPhone8,2|11.0.2|15A421|4.00.01|2017
+iPhone8,2|11.0.3|15A432|4.00.01|2017
+iPhone8,2|11.1|15B93|4.00.01|2017
+iPhone8,2|11.1.1|15B150|4.00.01|2017
+iPhone8,4|11.0|15A372|6.17.00|2017
+iPhone8,4|11.0.1|15A402|6.17.00|2017
+iPhone8,4|11.0.2|15A421|6.17.00|2017
+iPhone8,4|11.0.3|15A432|6.17.00|2017
+iPhone8,4|11.1|15B93|6.17.00|2017
+iPhone8,4|11.1.1|15B150|6.17.00|2017
+iPhone9,1|11.0|15A372|3.00.00|2017
+iPhone9,1|11.0.1|15A402|3.00.00|2017
+iPhone9,1|11.0.2|15A421|3.00.00|2017
+iPhone9,1|11.0.3|15A432|3.00.00|2017
+iPhone9,1|11.1|15B93|3.21.01|2017
+iPhone9,1|11.1.1|15B150|3.21.01|2017
+iPhone9,2|11.0|15A372|3.00.00|2017
+iPhone9,2|11.0.1|15A402|3.00.00|2017
+iPhone9,2|11.0.2|15A421|3.00.00|2017
+iPhone9,2|11.0.3|15A432|3.00.00|2017
+iPhone9,2|11.1|15B93|3.21.01|2017
+iPhone9,2|11.1.1|15B150|3.21.01|2017
+iPhone9,3|11.0|15A372|3.00.00|2017
+iPhone9,3|11.0.1|15A402|3.00.00|2017
+iPhone9,3|11.0.2|15A421|3.00.00|2017
+iPhone9,3|11.0.3|15A432|3.00.00|2017
+iPhone9,3|11.1|15B93|3.21.01|2017
+iPhone9,3|11.1.1|15B150|3.21.01|2017
+iPhone9,4|11.0|15A372|3.00.00|2017
+iPhone9,4|11.0.1|15A402|3.00.00|2017
+iPhone9,4|11.0.2|15A421|3.00.00|2017
+iPhone9,4|11.0.3|15A432|3.00.00|2017
+iPhone9,4|11.1|15B93|3.21.01|2017
+iPhone9,4|11.1.1|15B150|3.21.01|2017
+iPhone6,1|11.2|15C114|8.30.01|2017
+iPhone6,1|11.2.1|15C153|8.30.01|2017
+iPhone6,1|11.2.2|15C202|8.30.01|2017
+iPhone6,1|11.2.5|15D60|8.30.01|2017
+iPhone6,1|11.2.6|15D100|8.30.01|2017
+iPhone6,2|11.2|15C114|8.30.01|2017
+iPhone6,2|11.2.1|15C153|8.30.01|2017
+iPhone6,2|11.2.2|15C202|8.30.01|2017
+iPhone6,2|11.2.5|15D60|8.30.01|2017
+iPhone6,2|11.2.6|15D100|8.30.01|2017
+iPhone7,2|11.2|15C114|6.30.04|2017
+iPhone7,2|11.2.1|15C153|6.30.04|2017
+iPhone7,2|11.2.2|15C202|6.30.04|2017
+iPhone7,2|11.2.5|15D60|6.30.04|2017
+iPhone7,2|11.2.6|15D100|6.30.04|2017
+iPhone7,1|11.2|15C114|6.30.04|2017
+iPhone7,1|11.2.1|15C153|6.30.04|2017
+iPhone7,1|11.2.2|15C202|6.30.04|2017
+iPhone7,1|11.2.5|15D60|6.30.04|2017
+iPhone7,1|11.2.6|15D100|6.30.04|2017
+iPhone8,1|11.2|15C114|4.30.02|2017
+iPhone8,1|11.2.1|15C153|4.30.02|2017
+iPhone8,1|11.2.2|15C202|4.30.02|2017
+iPhone8,1|11.2.5|15D60|4.30.02|2017
+iPhone8,1|11.2.6|15D100|4.30.02|2017
+iPhone8,2|11.2|15C114|4.30.02|2017
+iPhone8,2|11.2.1|15C153|4.30.02|2017
+iPhone8,2|11.2.2|15C202|4.30.02|2017
+iPhone8,2|11.2.5|15D60|4.30.02|2017
+iPhone8,2|11.2.6|15D100|4.30.02|2017
+iPhone8,4|11.2|15C114|4.30.02|2017
+iPhone8,4|11.2.1|15C153|4.30.02|2017
+iPhone8,4|11.2.2|15C202|4.30.02|2017
+iPhone8,4|11.2.5|15D60|4.30.02|2017
+iPhone8,4|11.2.6|15D100|4.30.02|2017
+iPhone9,1|11.2|15C114|3.42.00|2017
+iPhone9,1|11.2.1|15C153|3.42.00|2017
+iPhone9,1|11.2.2|15C202|3.42.00|2017
+iPhone9,1|11.2.5|15D60|3.42.00|2017
+iPhone9,1|11.2.6|15D100|3.42.00|2017
+iPhone9,2|11.2|15C114|3.42.00|2017
+iPhone9,2|11.2.1|15C153|3.42.00|2017
+iPhone9,2|11.2.2|15C202|3.42.00|2017
+iPhone9,2|11.2.5|15D60|3.42.00|2017
+iPhone9,2|11.2.6|15D100|3.42.00|2017
+iPhone9,3|11.2|15C114|3.42.00|2017
+iPhone9,3|11.2.1|15C153|3.42.00|2017
+iPhone9,3|11.2.2|15C202|3.42.00|2017
+iPhone9,3|11.2.5|15D60|3.42.00|2017
+iPhone9,3|11.2.6|15D100|3.42.00|2017
+iPhone9,4|11.2|15C114|3.42.00|2017
+iPhone9,4|11.2.1|15C153|3.42.00|2017
+iPhone9,4|11.2.2|15C202|3.42.00|2017
+iPhone9,4|11.2.5|15D60|3.42.00|2017
+iPhone9,4|11.2.6|15D100|3.42.00|2017
+iPhone10,1|11.2|15C114|1.62.00|2017
+iPhone10,1|11.2.1|15C153|1.62.00|2017
+iPhone10,1|11.2.2|15C202|1.62.00|2017
+iPhone10,1|11.2.5|15D60|1.62.00|2017
+iPhone10,1|11.2.6|15D100|1.62.00|2017
+iPhone10,4|11.2|15C114|1.62.00|2017
+iPhone10,4|11.2.1|15C153|1.62.00|2017
+iPhone10,4|11.2.2|15C202|1.62.00|2017
+iPhone10,4|11.2.5|15D60|1.62.00|2017
+iPhone10,4|11.2.6|15D100|1.62.00|2017
+iPhone10,2|11.2|15C114|1.62.00|2017
+iPhone10,2|11.2.1|15C153|1.62.00|2017
+iPhone10,2|11.2.2|15C202|1.62.00|2017
+iPhone10,2|11.2.5|15D60|1.62.00|2017
+iPhone10,2|11.2.6|15D100|1.62.00|2017
+iPhone10,5|11.2|15C114|1.62.00|2017
+iPhone10,5|11.2.1|15C153|1.62.00|2017
+iPhone10,5|11.2.2|15C202|1.62.00|2017
+iPhone10,5|11.2.5|15D60|1.62.00|2017
+iPhone10,5|11.2.6|15D100|1.62.00|2017
+iPhone10,3|11.2|15C114|1.62.00|2017
+iPhone10,3|11.2.1|15C153|1.62.00|2017
+iPhone10,3|11.2.2|15C202|1.62.00|2017
+iPhone10,3|11.2.5|15D60|1.62.00|2017
+iPhone10,3|11.2.6|15D100|1.62.00|2017
+iPhone10,6|11.2|15C114|1.62.00|2017
+iPhone10,6|11.2.1|15C153|1.62.00|2017
+iPhone10,6|11.2.2|15C202|1.62.00|2017
+iPhone10,6|11.2.5|15D60|1.62.00|2017
+iPhone10,6|11.2.6|15D100|1.62.00|2017
+iPhone6,1|11.3|15E216|8.55.00|2018
+iPhone6,2|11.3|15E216|8.55.00|2018
+iPhone7,2|11.3|15E216|6.55.00|2018
+iPhone7,1|11.3|15E216|6.55.00|2018
+iPhone8,1|11.3|15E216|4.56.00|2018
+iPhone8,2|11.3|15E216|4.56.00|2018
+iPhone8,4|11.3|15E216|4.56.00|2018
+iPhone9,1|11.3|15E216|3.66.00|2018
+iPhone9,2|11.3|15E216|3.66.00|2018
+iPhone9,3|11.3|15E216|3.66.00|2018
+iPhone9,4|11.3|15E302|3.66.00|2018
+iPhone10,1|11.3|15E302|1.89.00|2018
+iPhone10,4|11.3|15E302|1.89.00|2018
+iPhone10,2|11.3|15E302|1.89.00|2018
+iPhone10,5|11.3|15E302|1.89.00|2018
+iPhone10,3|11.3|15E302|1.89.00|2018
+iPhone10,6|11.3|15E302|1.89.00|2018
+iPhone6,1|11.4|15F79|8.55.00|2018
+iPhone6,1|11.4.1|15G77|8.55.00|2018
+iPhone6,2|11.4|15F79|8.55.00|2018
+iPhone6,2|11.4.1|15G77|8.55.00|2018
+iPhone7,2|11.4|15F79|6.60.00|2018
+iPhone7,2|11.4.1|15G77|6.60.00|2018
+iPhone7,1|11.4|15F79|6.60.00|2018
+iPhone7,1|11.4.1|15G77|6.60.00|2018|
+iPhone8,1|11.4|15F79|4.60.00|2018
+iPhone8,1|11.4.1|15G77|4.60.00|2018
+iPhone8,2|11.4|15F79|4.60.00|2018
+iPhone8,2|11.4.1|15G77|4.60.00|2018
+iPhone8,4|11.4|15F79|4.60.00|2018
+iPhone8,4|11.4.1|15G77|4.60.00|2018
+iPhone9,1|11.4|15F79|3.70.00|2018
+iPhone9,1|11.4.1|15G77|3.70.00|2018
+iPhone9,2|11.4|15F79|3.70.00|2018
+iPhone9,2|11.4.1|15G77|3.70.00|2018
+iPhone9,3|11.4|15F79|3.70.00|2018
+iPhone9,3|11.4.1|15G77|3.70.00|2018
+iPhone9,4|11.4|15F79|3.70.00|2018
+iPhone9,4|11.4.1|15G77|3.70.00|2018
+iPhone10,1|11.4|15F79|1.93.00|2018
+iPhone10,1|11.4.1|15G77|1.93.00|2018
+iPhone10,4|11.4|15F79|1.93.00|2018
+iPhone10,4|11.4.1|15G77|1.93.00|2018
+iPhone10,2|11.4|15F79|1.93.00|2018
+iPhone10,2|11.4.1|15G77|1.93.00|2018
+iPhone10,5|11.4|15F79|1.93.00|2018
+iPhone10,5|11.4.1|15G77|1.93.00|2018
+iPhone10,3|11.4|15F79|1.93.00|2018
+iPhone10,3|11.4.1|15G77|1.93.00|2018
+iPhone10,6|11.4|15F79|1.93.00|2018
+iPhone10,6|11.4.1|15G77|1.93.00|2018</value>
+  </data>
+  <data name="Versions" xml:space="preserve">
+    <value>8.0
+8.0.1
+8.0.2
+8.1
+8.1.1
+8.1.2
+8.1.3
+8.2
+8.3
+8.4
+8.4.1
+9.0
+9.0.1
+9.0.2
+9.1
+9.2
+9.2.1
+9.3
+9.3.1
+9.3.2
+10.0.1
+10.0.2
+10.1
+10.1.1
+10.2
+10.2.1
+10.3
+10.3.1
+10.3.2
+10.3.3
+11.0
+11.0.1
+11.0.2
+11.0.3
+11.1
+11.1.1
+11.2
+11.2.1
+11.2.2
+11.2.5
+11.2.6
+11.3
+11.4
+11.4.1</value>
+  </data>
+  <data name="UA" xml:space="preserve">
+    <value>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A402 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B410 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B446 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A44 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A404 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A452 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E237 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1.46
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B72 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B72 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B150 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E277 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A402 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A421 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A432 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15B93 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15B150 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.5 (KHTML, like Gecko) Version/11.0 Mobile/15C5092b Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.2 Mobile/15C153 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.2 (KHTML, like Gecko) Version/11.0 Mobile/15D5046b Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Mobile/15E148 Safari/604.1</value>
+  </data>
+  <data name="IOS" xml:space="preserve">
+    <value>9.3-13E237-2016
+9.3-13E233-2016
+9.3.5-13G36-2016
+9.3.4-13G35-2016
+9.3.3-13G34-2016
+9.3.2-13F69-2016
+9.3.1-13E238-2016
+9.2-13C75-2015
+9.2.1-13D15-2016
+9.1-13B143-2015
+9.0-13A344-2015
+9.0.2-13A452-2015
+9.0.1-13A404-2015
+8.4-12H143-2015
+8.4.1-12H321-2015
+8.3-12F70-2015
+8.3-12F69-2015
+8.2-12D508-2015
+8.1-12B411-2014
+8.1-12B410-2014
+8.1.3-12B466-2015
+8.1.2-12B440-2014
+8.1.1-12B435-2014
+8.0-12A365-2014
+8.0.2-12A405-2014
+8.0.1-12A402-2014
+10.2-14C92-2016
+10.1-14B72-2016
+10.1.1-14B150-2016
+10.1.1-14B100-2016
+10.0.2-14A456-2016
+10.0.1-14A403-2016
+10.2.1-14D27-2017
+10.3-14E277-2017
+10.3.1-14E304-2017
+10.3.2-14F89-2017
+10.3.3-14G60-2017
+11.0-15A372-2017
+11.0.1-15A402-2017
+11.0.2-15A421-2017
+11.0.3-15A432-2017
+11.1-15B93-2017
+11.1.1-15B150-2017
+11.2-15C114-2017
+11.2.1-15C153-2017
+11.2.2-15C202-2018
+11.2.5-15D60-2018
+11.2.6-15D100-2018
+11.3-15E216-2018
+11.4-15F79-2018
+11.4.1-15G77-2018</value>
+  </data>
+  <data name="Codes" xml:space="preserve">
+    <value>AFGHANISTAN;AF
+ÅLAND ISLANDS;AX
+ALBANIA;AL
+ALGERIA;DZ
+AMERICAN SAMOA;AS
+ANDORRA;AD
+ANGOLA;AO
+ANGUILLA;AI
+ANTARCTICA;AQ
+ANTIGUA AND BARBUDA;AG
+ARGENTINA;AR
+ARMENIA;AM
+ARUBA;AW
+AUSTRALIA;AU
+AUSTRIA;AT
+AZERBAIJAN;AZ
+BAHAMAS;BS
+BAHRAIN;BH
+BANGLADESH;BD
+BARBADOS;BB
+BELARUS;BY
+BELGIUM;BE
+BELIZE;BZ
+BENIN;BJ
+BERMUDA;BM
+BHUTAN;BT
+BOLIVIA, PLURINATIONAL STATE OF;BO
+BONAIRE, SINT EUSTATIUS AND SABA;BQ
+BOSNIA AND HERZEGOVINA;BA
+BOTSWANA;BW
+BOUVET ISLAND;BV
+BRAZIL;BR
+BRITISH INDIAN OCEAN TERRITORY;IO
+BRUNEI DARUSSALAM;BN
+BULGARIA;BG
+BURKINA FASO;BF
+BURUNDI;BI
+CAMBODIA;KH
+CAMEROON;CM
+CANADA;CA
+CAPE VERDE;CV
+CAYMAN ISLANDS;KY
+CENTRAL AFRICAN REPUBLIC;CF
+CHAD;TD
+CHILE;CL
+CHINA;CN
+CHRISTMAS ISLAND;CX
+COCOS (KEELING) ISLANDS;CC
+COLOMBIA;CO
+COMOROS;KM
+CONGO;CG
+CONGO, THE DEMOCRATIC REPUBLIC OF THE;CD
+COOK ISLANDS;CK
+COSTA RICA;CR
+CÔTE D'IVOIRE;CI
+CROATIA;HR
+CUBA;CU
+CURAÇAO;CW
+CYPRUS;CY
+CZECH REPUBLIC;CZ
+CZECHIA;CZ
+DENMARK;DK
+DJIBOUTI;DJ
+DOMINICA;DM
+DOMINICAN REPUBLIC;DO
+ECUADOR;EC
+EGYPT;EG
+EL SALVADOR;SV
+EQUATORIAL GUINEA;GQ
+ERITREA;ER
+ESTONIA;EE
+ETHIOPIA;ET
+FALKLAND ISLANDS (MALVINAS);FK
+FAROE ISLANDS;FO
+FIJI;FJ
+FINLAND;FI
+FRANCE;FR
+FRENCH GUIANA;GF
+FRENCH POLYNESIA;PF
+FRENCH SOUTHERN TERRITORIES;TF
+GABON;GA
+GAMBIA;GM
+GEORGIA;GE
+GERMANY;DE
+GHANA;GH
+GIBRALTAR;GI
+GREECE;GR
+GREENLAND;GL
+GRENADA;GD
+GUADELOUPE;GP
+GUAM;GU
+GUATEMALA;GT
+GUERNSEY;GG
+GUINEA;GN
+GUINEA-BISSAU;GW
+GUYANA;GY
+HAITI;HT
+HEARD ISLAND AND MCDONALD ISLANDS;HM
+HOLY SEE (VATICAN CITY STATE);VA
+HONDURAS;HN
+HONG KONG;HK
+HUNGARY;HU
+ICELAND;IS
+INDIA;IN
+INDONESIA;ID
+IRAN, ISLAMIC REPUBLIC OF;IR
+IRAQ;IQ
+IRELAND;IE
+ISLE OF MAN;IM
+ISRAEL;IL
+ITALY;IT
+JAMAICA;JM
+JAPAN;JP
+JERSEY;JE
+JORDAN;JO
+KAZAKHSTAN;KZ
+KENYA;KE
+KIRIBATI;KI
+KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF;KP
+KOREA, REPUBLIC OF;KR
+KUWAIT;KW
+KYRGYZSTAN;KG
+LAO PEOPLE'S DEMOCRATIC REPUBLIC;LA
+LATVIA;LV
+LEBANON;LB
+LESOTHO;LS
+LIBERIA;LR
+LIBYA;LY
+LIECHTENSTEIN;LI
+LITHUANIA;LT
+LUXEMBOURG;LU
+MACAO;MO
+MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF;MK
+MADAGASCAR;MG
+MALAWI;MW
+MALAYSIA;MY
+MALDIVES;MV
+MALI;ML
+MALTA;MT
+MARSHALL ISLANDS;MH
+MARTINIQUE;MQ
+MAURITANIA;MR
+MAURITIUS;MU
+MAYOTTE;YT
+MEXICO;MX
+MICRONESIA, FEDERATED STATES OF;FM
+MOLDOVA, REPUBLIC OF;MD
+MONACO;MC
+MONGOLIA;MN
+MONTENEGRO;ME
+MONTSERRAT;MS
+MOROCCO;MA
+MOZAMBIQUE;MZ
+MYANMAR;MM
+NAMIBIA;NA
+NAURU;NR
+NEPAL;NP
+NETHERLANDS;NL
+NEW CALEDONIA;NC
+NEW ZEALAND;NZ
+NICARAGUA;NI
+NIGER;NE
+NIGERIA;NG
+NIUE;NU
+NORFOLK ISLAND;NF
+NORTHERN MARIANA ISLANDS;MP
+NORWAY;NO
+OMAN;OM
+PAKISTAN;PK
+PALAU;PW
+PALESTINE, STATE OF;PS
+PANAMA;PA
+PAPUA NEW GUINEA;PG
+PARAGUAY;PY
+PERU;PE
+PHILIPPINES;PH
+PITCAIRN;PN
+POLAND;PL
+PORTUGAL;PT
+PUERTO RICO;PR
+QATAR;QA
+RÉUNION;RE
+ROMANIA;RO
+RUSSIAN FEDERATION;RU
+RWANDA;RW
+SAINT BARTHÉLEMY;BL
+SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA;SH
+SAINT KITTS AND NEVIS;KN
+SAINT LUCIA;LC
+SAINT MARTIN (FRENCH PART);MF
+SAINT PIERRE AND MIQUELON;PM
+SAINT VINCENT AND THE GRENADINES;VC
+SAMOA;WS
+SAN MARINO;SM
+SAO TOME AND PRINCIPE;ST
+SAUDI ARABIA;SA
+SENEGAL;SN
+SERBIA;RS
+SEYCHELLES;SC
+SIERRA LEONE;SL
+SINGAPORE;SG
+SINT MAARTEN (DUTCH PART);SX
+SLOVAKIA;SK
+SLOVENIA;SI
+SOLOMON ISLANDS;SB
+SOMALIA;SO
+SOUTH AFRICA;ZA
+SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS;GS
+SOUTH SUDAN;SS
+SPAIN;ES
+SRI LANKA;LK
+SUDAN;SD
+SURINAME;SR
+SVALBARD AND JAN MAYEN;SJ
+SWAZILAND;SZ
+SWEDEN;SE
+SWITZERLAND;CH
+SYRIAN ARAB REPUBLIC;SY
+TAIWAN, PROVINCE OF CHINA;TW
+TAJIKISTAN;TJ
+TANZANIA, UNITED REPUBLIC OF;TZ
+THAILAND;TH
+TIMOR-LESTE;TL
+TOGO;TG
+TOKELAU;TK
+TONGA;TO
+TRINIDAD AND TOBAGO;TT
+TUNISIA;TN
+TURKEY;TR
+TURKMENISTAN;TM
+TURKS AND CAICOS ISLANDS;TC
+TUVALU;TV
+UGANDA;UG
+UKRAINE;UA
+UNITED ARAB EMIRATES;AE
+UNITED KINGDOM;GB
+UNITED STATES;US
+UNITED STATES MINOR OUTLYING ISLANDS;UM
+URUGUAY;UY
+UZBEKISTAN;UZ
+VANUATU;VU
+VENEZUELA, BOLIVARIAN REPUBLIC OF;VE
+VIETNAM;VN
+VIRGIN ISLANDS, BRITISH;VG
+VIRGIN ISLANDS, U.S.;VI
+WALLIS AND FUTUNA;WF
+WESTERN SAHARA;EH
+YEMEN;YE
+ZAMBIA;ZM
+ZIMBABWE;ZW</value>
+  </data>
+  <data name="Timezones" xml:space="preserve">
+    <value>Africa/Abidjan
+Africa/Accra
+Africa/Addis_Ababa
+Africa/Algiers
+Africa/Asmara
+Africa/Bamako
+Africa/Bangui
+Africa/Banjul
+Africa/Bissau
+Africa/Blantyre
+Africa/Brazzaville
+Africa/Bujumbura
+Africa/Cairo
+Africa/Casablanca
+Africa/Ceuta
+Africa/Conakry
+Africa/Dakar
+Africa/Dar_es_Salaam
+Africa/Djibouti
+Africa/Douala
+Africa/El_Aaiun
+Africa/Freetown
+Africa/Gaborone
+Africa/Harare
+Africa/Johannesburg
+Africa/Juba
+Africa/Kampala
+Africa/Khartoum
+Africa/Kigali
+Africa/Kinshasa
+Africa/Lagos
+Africa/Libreville
+Africa/Lome
+Africa/Luanda
+Africa/Lubumbashi
+Africa/Lusaka
+Africa/Malabo
+Africa/Maputo
+Africa/Maseru
+Africa/Mbabane
+Africa/Mogadishu
+Africa/Monrovia
+Africa/Nairobi
+Africa/Ndjamena
+Africa/Niamey
+Africa/Nouakchott
+Africa/Ouagadougou
+Africa/Porto-Novo
+Africa/Sao_Tome
+Africa/Tripoli
+Africa/Tunis
+Africa/Windhoek
+America/Adak
+America/Anchorage
+America/Anguilla
+America/Antigua
+America/Araguaina
+America/Argentina/Buenos_Aires
+America/Argentina/Catamarca
+America/Argentina/Cordoba
+America/Argentina/Jujuy
+America/Argentina/La_Rioja
+America/Argentina/Mendoza
+America/Argentina/Rio_Gallegos
+America/Argentina/Salta
+America/Argentina/San_Juan
+America/Argentina/San_Luis
+America/Argentina/Tucuman
+America/Argentina/Ushuaia
+America/Aruba
+America/Asuncion
+America/Atikokan
+America/Bahia
+America/Bahia_Banderas
+America/Barbados
+America/Belem
+America/Belize
+America/Blanc-Sablon
+America/Boa_Vista
+America/Bogota
+America/Boise
+America/Cambridge_Bay
+America/Campo_Grande
+America/Cancun
+America/Caracas
+America/Cayenne
+America/Cayman
+America/Chicago
+America/Chihuahua
+America/Costa_Rica
+America/Creston
+America/Cuiaba
+America/Curacao
+America/Danmarkshavn
+America/Dawson
+America/Dawson_Creek
+America/Denver
+America/Detroit
+America/Dominica
+America/Edmonton
+America/Eirunepe
+America/El_Salvador
+America/Fort_Nelson
+America/Fortaleza
+America/Glace_Bay
+America/Godthab
+America/Goose_Bay
+America/Grand_Turk
+America/Grenada
+America/Guadeloupe
+America/Guatemala
+America/Guayaquil
+America/Guyana
+America/Halifax
+America/Havana
+America/Hermosillo
+America/Indiana/Indianapolis
+America/Indiana/Knox
+America/Indiana/Marengo
+America/Indiana/Petersburg
+America/Indiana/Tell_City
+America/Indiana/Vevay
+America/Indiana/Vincennes
+America/Indiana/Winamac
+America/Inuvik
+America/Iqaluit
+America/Jamaica
+America/Juneau
+America/Kentucky/Louisville
+America/Kentucky/Monticello
+America/Kralendijk
+America/La_Paz
+America/Lima
+America/Los_Angeles
+America/Lower_Princes
+America/Maceio
+America/Managua
+America/Manaus
+America/Marigot
+America/Martinique
+America/Matamoros
+America/Mazatlan
+America/Menominee
+America/Merida
+America/Metlakatla
+America/Mexico_City
+America/Miquelon
+America/Moncton
+America/Monterrey
+America/Montevideo
+America/Montreal
+America/Montserrat
+America/Nassau
+America/New_York
+America/Nipigon
+America/Nome
+America/Noronha
+America/North_Dakota/Beulah
+America/North_Dakota/Center
+America/North_Dakota/New_Salem
+America/Ojinaga
+America/Panama
+America/Pangnirtung
+America/Paramaribo
+America/Phoenix
+America/Port-au-Prince
+America/Port_of_Spain
+America/Porto_Velho
+America/Puerto_Rico
+America/Rainy_River
+America/Rankin_Inlet
+America/Recife
+America/Regina
+America/Resolute
+America/Rio_Branco
+America/Santa_Isabel
+America/Santarem
+America/Santiago
+America/Santo_Domingo
+America/Sao_Paulo
+America/Scoresbysund
+America/Shiprock
+America/Sitka
+America/St_Barthelemy
+America/St_Johns
+America/St_Kitts
+America/St_Lucia
+America/St_Thomas
+America/St_Vincent
+America/Swift_Current
+America/Tegucigalpa
+America/Thule
+America/Thunder_Bay
+America/Tijuana
+America/Toronto
+America/Tortola
+America/Vancouver
+America/Whitehorse
+America/Winnipeg
+America/Yakutat
+America/Yellowknife
+Antarctica/Casey
+Antarctica/Davis
+Antarctica/DumontDUrville
+Antarctica/Macquarie
+Antarctica/Mawson
+Antarctica/McMurdo
+Antarctica/Palmer
+Antarctica/Rothera
+Antarctica/South_Pole
+Antarctica/Syowa
+Antarctica/Troll
+Antarctica/Vostok
+Arctic/Longyearbyen
+Asia/Aden
+Asia/Almaty
+Asia/Amman
+Asia/Anadyr
+Asia/Aqtau
+Asia/Aqtobe
+Asia/Ashgabat
+Asia/Baghdad
+Asia/Bahrain
+Asia/Baku
+Asia/Bangkok
+Asia/Barnaul
+Asia/Beirut
+Asia/Bishkek
+Asia/Brunei
+Asia/Chita
+Asia/Choibalsan
+Asia/Chongqing
+Asia/Colombo
+Asia/Damascus
+Asia/Dhaka
+Asia/Dili
+Asia/Dubai
+Asia/Dushanbe
+Asia/Gaza
+Asia/Harbin
+Asia/Hebron
+Asia/Ho_Chi_Minh
+Asia/Hong_Kong
+Asia/Hovd
+Asia/Irkutsk
+Asia/Jakarta
+Asia/Jayapura
+Asia/Jerusalem
+Asia/Kabul
+Asia/Kamchatka
+Asia/Karachi
+Asia/Kashgar
+Asia/Kathmandu
+Asia/Katmandu
+Asia/Khandyga
+Asia/Kolkata
+Asia/Krasnoyarsk
+Asia/Kuala_Lumpur
+Asia/Kuching
+Asia/Kuwait
+Asia/Macau
+Asia/Magadan
+Asia/Makassar
+Asia/Manila
+Asia/Muscat
+Asia/Nicosia
+Asia/Novokuznetsk
+Asia/Novosibirsk
+Asia/Omsk
+Asia/Oral
+Asia/Phnom_Penh
+Asia/Pontianak
+Asia/Pyongyang
+Asia/Qatar
+Asia/Qyzylorda
+Asia/Rangoon
+Asia/Riyadh
+Asia/Sakhalin
+Asia/Samarkand
+Asia/Seoul
+Asia/Shanghai
+Asia/Singapore
+Asia/Srednekolymsk
+Asia/Taipei
+Asia/Tashkent
+Asia/Tbilisi
+Asia/Tehran
+Asia/Thimphu
+Asia/Tokyo
+Asia/Tomsk
+Asia/Ulaanbaatar
+Asia/Urumqi
+Asia/Ust-Nera
+Asia/Vientiane
+Asia/Vladivostok
+Asia/Yakutsk
+Asia/Yekaterinburg
+Asia/Yerevan
+Atlantic/Azores
+Atlantic/Bermuda
+Atlantic/Canary
+Atlantic/Cape_Verde
+Atlantic/Faroe
+Atlantic/Madeira
+Atlantic/Reykjavik
+Atlantic/South_Georgia
+Atlantic/St_Helena
+Atlantic/Stanley
+Australia/Adelaide
+Australia/Brisbane
+Australia/Broken_Hill
+Australia/Currie
+Australia/Darwin
+Australia/Eucla
+Australia/Hobart
+Australia/Lindeman
+Australia/Lord_Howe
+Australia/Melbourne
+Australia/Perth
+Australia/Sydney
+Europe/Amsterdam
+Europe/Andorra
+Europe/Astrakhan
+Europe/Athens
+Europe/Belgrade
+Europe/Berlin
+Europe/Bratislava
+Europe/Brussels
+Europe/Bucharest
+Europe/Budapest
+Europe/Busingen
+Europe/Chisinau
+Europe/Copenhagen
+Europe/Dublin
+Europe/Gibraltar
+Europe/Guernsey
+Europe/Helsinki
+Europe/Isle_of_Man
+Europe/Istanbul
+Europe/Jersey
+Europe/Kaliningrad
+Europe/Kiev
+Europe/Kirov
+Europe/Lisbon
+Europe/Ljubljana
+Europe/London
+Europe/Luxembourg
+Europe/Madrid
+Europe/Malta
+Europe/Mariehamn
+Europe/Minsk
+Europe/Monaco
+Europe/Moscow
+Europe/Oslo
+Europe/Paris
+Europe/Podgorica
+Europe/Prague
+Europe/Riga
+Europe/Rome
+Europe/Samara
+Europe/San_Marino
+Europe/Sarajevo
+Europe/Simferopol
+Europe/Skopje
+Europe/Sofia
+Europe/Stockholm
+Europe/Tallinn
+Europe/Tirane
+Europe/Ulyanovsk
+Europe/Uzhgorod
+Europe/Vaduz
+Europe/Vatican
+Europe/Vienna
+Europe/Vilnius
+Europe/Volgograd
+Europe/Warsaw
+Europe/Zagreb
+Europe/Zaporozhye
+Europe/Zurich
+GMT
+Indian/Antananarivo
+Indian/Chagos
+Indian/Christmas
+Indian/Cocos
+Indian/Comoro
+Indian/Kerguelen
+Indian/Mahe
+Indian/Maldives
+Indian/Mauritius
+Indian/Mayotte
+Indian/Reunion
+Pacific/Apia
+Pacific/Auckland
+Pacific/Bougainville
+Pacific/Chatham
+Pacific/Chuuk
+Pacific/Easter
+Pacific/Efate
+Pacific/Enderbury
+Pacific/Fakaofo
+Pacific/Fiji
+Pacific/Funafuti
+Pacific/Galapagos
+Pacific/Gambier
+Pacific/Guadalcanal
+Pacific/Guam
+Pacific/Honolulu
+Pacific/Johnston
+Pacific/Kiritimati
+Pacific/Kosrae
+Pacific/Kwajalein
+Pacific/Majuro
+Pacific/Marquesas
+Pacific/Midway
+Pacific/Nauru
+Pacific/Niue
+Pacific/Norfolk
+Pacific/Noumea
+Pacific/Pago_Pago
+Pacific/Palau
+Pacific/Pitcairn
+Pacific/Pohnpei
+Pacific/Ponape
+Pacific/Port_Moresby
+Pacific/Rarotonga
+Pacific/Saipan
+Pacific/Tahiti
+Pacific/Tarawa
+Pacific/Tongatapu
+Pacific/Truk
+Pacific/Wake
+Pacific/Wallis</value>
+  </data>
+  <data name="modelbylee" xml:space="preserve">
+    <value>MB292|iPad1,1
+MB293|iPad1,1
+MB294|iPad1,1
+MC349|iPad1,1
+MC496|iPad1,1
+MC497|iPad1,1
+MC769|iPad2,1
+MC770|iPad2,1
+MC916|iPad2,1
+MC979|iPad2,1
+MC980|iPad2,1
+MC981|iPad2,1
+MC773|iPad2,2
+MC774|iPad2,2
+MC775|iPad2,2
+MC982|iPad2,2
+MC983|iPad2,2
+MC984|iPad2,2
+MC755|iPad2,3
+MC763|iPad2,3
+MC764|iPad2,3
+MC985|iPad2,3
+MC986|iPad2,3
+MC987|iPad2,3
+MC954|iPad2,4
+MC988|iPad2,4
+MC989|iPad2,4
+MC705|iPad3,1
+MD333|iPad3,1
+MC706|iPad3,1
+MD334|iPad3,1
+MC707|iPad3,1
+MD328|iPad3,1
+MD329|iPad3,1
+MD330|iPad3,1
+MC733|iPad3,2
+MC744|iPad3,2
+MC756|iPad3,2
+MD363|iPad3,2
+MD364|iPad3,2
+MD365|iPad3,2
+MD366|iPad3,3
+MD367|iPad3,3
+MD368|iPad3,3
+MD369|iPad3,3
+MD370|iPad3,3
+MD371|iPad3,3
+MD510|iPad3,4
+MD511|iPad3,4
+MD512|iPad3,4
+ME392|iPad3,4
+MD513|iPad3,4
+MD514|iPad3,4
+MD515|iPad3,4
+ME393|iPad3,4
+MD516|iPad3,5
+MD517|iPad3,5
+MD518|iPad3,5
+ME400|iPad3,5
+MD519|iPad3,5
+MD520|iPad3,5
+MD521|iPad3,5
+ME401|iPad3,5
+ME195|iPad3,6
+MD522|iPad3,6
+MD523|iPad3,6
+ME196|iPad3,6
+MD526|iPad3,6
+MD525|iPad3,6
+ME406|iPad3,6
+MD524|iPad3,6
+ME197|iPad3,6
+ME410|iPad3,6
+ME198|iPad3,6
+ME199|iPad3,6
+ME407|iPad3,6
+MD527|iPad3,6
+ME200|iPad3,6
+ME411|iPad3,6
+MD788|iPad4,1
+MD789|iPad4,1
+MD790|iPad4,1
+ME906|iPad4,1
+MD785|iPad4,1
+MD786|iPad4,1
+MD787|iPad4,1
+ME898|iPad4,1
+MD794|iPad4,2
+ME997|iPad4,2
+ME999|iPad4,2
+MF021|iPad4,2
+MF502|iPad4,2
+MD795|iPad4,2
+MF025|iPad4,2
+MF527|iPad4,2
+MF529|iPad4,2
+MF532|iPad4,2
+MD796|iPad4,2
+MF012|iPad4,2
+MF013|iPad4,2
+MF027|iPad4,2
+MF539|iPad4,2
+ME988|iPad4,2
+MF018|iPad4,2
+MF019|iPad4,2
+MF029|iPad4,2
+MF563|iPad4,2
+MD791|iPad4,2
+ME991|iPad4,2
+ME993|iPad4,2
+MF020|iPad4,2
+MF496|iPad4,2
+MD792|iPad4,2
+MF003|iPad4,2
+MF004|iPad4,2
+MF024|iPad4,2
+MF520|iPad4,2
+MD793|iPad4,2
+MF009|iPad4,2
+MF010|iPad4,2
+MF026|iPad4,2
+MF534|iPad4,2
+ME987|iPad4,2
+MF015|iPad4,2
+MF016|iPad4,2
+MF028|iPad4,2
+MF558|iPad4,2
+MF230|iPad4,3
+MF233|iPad4,3
+MF234|iPad4,3
+MF236|iPad4,3
+MD797|iPad4,3
+MD798|iPad4,3
+MD799|iPad4,3
+MF235|iPad4,3
+MH0W2|iPad5,3
+MNV72|iPad5,3
+MH182|iPad5,3
+MH1J2|iPad5,3
+MGLW2|iPad5,3
+MNV62|iPad5,3
+MGKM2|iPad5,3
+MGTY2|iPad5,3
+MGL12|iPad5,3
+MNV22|iPad5,3
+MGKL2|iPad5,3
+MGTX2|iPad5,3
+MH2W2|iPad5,4
+MNW32|iPad5,4
+MH2P2|iPad5,4
+MH332|iPad5,4
+MH2V2|iPad5,4
+MNW22|iPad5,4
+MH2N2|iPad5,4
+MH322|iPad5,4
+MGGX2|iPad5,4
+MH2U2|iPad5,4
+MNW12|iPad5,4
+MH2M2|iPad5,4
+MH312|iPad5,4
+ML0H2|iPad6,7
+ML0R2|iPad6,7
+ML0V2|iPad6,7
+ML0G2|iPad6,7
+ML0Q2|iPad6,7
+ML0U2|iPad6,7
+ML0F2|iPad6,7
+ML0N2|iPad6,7
+ML0T2|iPad6,7
+ML3Q2|iPad6,8
+ML3Z2|iPad6,8
+ML3N2|iPad6,8
+ML3W2|iPad6,8
+ML3K2|iPad6,8
+ML3T2|iPad6,8
+MLMQ2|iPad6,3
+MLMX2|iPad6,3
+MLN12|iPad6,3
+MLMP2|iPad6,3
+MLMW2|iPad6,3
+MLN02|iPad6,3
+MLMN2|iPad6,3
+MLMV2|iPad6,3
+MLMY2|iPad6,3
+MM172|iPad6,3
+MM192|iPad6,3
+MM1A2|iPad6,3
+MLPY2|iPad6,4
+MLQ52|iPad6,4
+MLQ82|iPad6,4
+MLPX2|iPad6,4
+MLQ42|iPad6,4
+MLQ72|iPad6,4
+MLPW2|iPad6,4
+MLQ32|iPad6,4
+MLQ62|iPad6,4
+MLYJ2|iPad6,4
+MLYL2|iPad6,4
+MLYM2|iPad6,4
+MD528|iPad2,5
+MD529|iPad2,5
+MD530|iPad2,5
+MD531|iPad2,5
+MD532|iPad2,5
+MD533|iPad2,5
+MD534|iPad2,6
+MD535|iPad2,6
+MD536|iPad2,6
+MD537|iPad2,6
+MD538|iPad2,6
+MD539|iPad2,6
+MD540|iPad2,7
+ME215|iPad2,7
+MD541|iPad2,7
+ME216|iPad2,7
+MD542|iPad2,7
+ME217|iPad2,7
+MD543|iPad2,7
+ME218|iPad2,7
+MD544|iPad2,7
+ME219|iPad2,7
+MD545|iPad2,7
+ME220|iPad2,7
+ME279|iPad4,4
+ME280|iPad4,4
+ME281|iPad4,4
+ME860|iPad4,4
+ME276|iPad4,4
+ME277|iPad4,4
+ME278|iPad4,4
+ME856|iPad4,4
+ME814|iPad4,5
+ME824|iPad4,5
+ME832|iPad4,5
+ME840|iPad4,5
+ME800|iPad4,5
+ME820|iPad4,5
+ME828|iPad4,5
+ME836|iPad4,5
+MF248|iPad4,6
+MF252|iPad4,6
+MF246|iPad4,6
+MF244|iPad4,6
+MF247|iPad4,6
+MF251|iPad4,6
+MF245|iPad4,6
+MF243|iPad4,6
+MGYE2|iPad4,7
+MGY92|iPad4,7
+MGYK2|iPad4,7
+MGNV2|iPad4,7
+MGGT2|iPad4,7
+MGP42|iPad4,7
+MGNR2|iPad4,7
+MGGQ2|iPad4,7
+MGP32|iPad4,7
+MH3G2|iPad4,8
+MH392|iPad4,8
+MH3N2|iPad4,8
+MH3F2|iPad4,8
+MH382|iPad4,8
+MH3M2|iPad4,8
+MH3E2|iPad4,8
+MH372|iPad4,8
+MH3L2|iPad4,8
+MGYR2|iPad4,9
+MGYY2|iPad4,9
+MGYN2|iPad4,9
+MGYW2|iPad4,9
+MGYU2|iPad4,9
+MH012|iPad4,9
+MGHW2|iPad4,9
+MGPW2|iPad4,9
+MGJ12|iPad4,9
+MGQ12|iPad4,9
+MGJ32|iPad4,9
+MGQ32|iPad4,9
+MGHV2|iPad4,9
+MGPV2|iPad4,9
+MGJ02|iPad4,9
+MGQ02|iPad4,9
+MGJ22|iPad4,9
+MGQ22|iPad4,9
+MK6L2|iPad5,1
+MNY32|iPad5,1
+MK9J2|iPad5,1
+MK9Q2|iPad5,1
+MK6K2|iPad5,1
+MNY22|iPad5,1
+MK9H2|iPad5,1
+MK9P2|iPad5,1
+MK6J2|iPad5,1
+MNY12|iPad5,1
+MK9G2|iPad5,1
+MK9N2|iPad5,1
+MK882|iPad5,2
+MNWR2|iPad5,2
+MK8C2|iPad5,2
+MK8F2|iPad5,2
+MK872|iPad5,2
+MNWQ2|iPad5,2
+MK8A2|iPad5,2
+MK8E2|iPad5,2
+MK862|iPad5,2
+MNWP2|iPad5,2
+MK892|iPad5,2
+MK8D2|iPad5,2
+MA501|iPhone1,1
+MA712|iPhone1,1
+MB384|iPhone1,1
+MB046|iPhone1,2
+MB489|iPhone1,2
+MB639|iPhone1,2
+MB702|iPhone1,2
+MC176|iPhone1,2
+MB048|iPhone1,2
+MB496|iPhone1,2
+MB497|iPhone1,2
+MB704|iPhone1,2
+MB499|iPhone1,2
+MB500|iPhone1,2
+MB501|iPhone1,2
+MB632|iPhone1,2
+MB705|iPhone1,2
+MC555|iPhone2,1
+MC640|iPhone2,1
+MB715|iPhone2,1
+MB735|iPhone2,1
+MC131|iPhone2,1
+MC135|iPhone2,1
+MB717|iPhone2,1
+MB737|iPhone2,1
+MC133|iPhone2,1
+MC137|iPhone2,1
+MB716|iPhone2,1
+MB736|iPhone2,1
+MC132|iPhone2,1
+MC136|iPhone2,1
+MB718|iPhone2,1
+MB738|iPhone2,1
+MC134|iPhone2,1
+MC138|iPhone2,1
+MD126|iPhone3,1
+MD128|iPhone3,1
+MC318|iPhone3,1
+MC603|iPhone3,1
+MC608|iPhone3,1
+MC319|iPhone3,1
+MC605|iPhone3,1
+MC610|iPhone3,1
+MD196|iPhone3,1
+MD197|iPhone3,1
+MD198|iPhone3,1
+MC604|iPhone3,1
+MC536|iPhone3,1
+MC606|iPhone3,1
+MD128|iPhone3,2
+ME798|iPhone3,2
+ME799|iPhone3,2
+MD146|iPhone3,3
+MD439|iPhone3,3
+MD873|iPhone3,3
+MC676|iPhone3,3
+MC678|iPhone3,3
+MD200|iPhone3,3
+MD440|iPhone3,3
+MD874|iPhone3,3
+MC677|iPhone3,3
+MC679|iPhone3,3
+ME259|iPhone4,1
+MF257|iPhone4,1
+MF261|iPhone4,1
+MF263|iPhone4,1
+MF265|iPhone4,1
+MF269|iPhone4,1
+MC918|iPhone4,1
+MC922|iPhone4,1
+MD234|iPhone4,1
+MD235|iPhone4,1
+MD276|iPhone4,1
+MD377|iPhone4,1
+MD865|iPhone4,1
+ME804|iPhone4,1
+MC919|iPhone4,1
+MC923|iPhone4,1
+MD241|iPhone4,1
+MD242|iPhone4,1
+MD278|iPhone4,1
+MD379|iPhone4,1
+MD257|iPhone4,1
+MD258|iPhone4,1
+MD269|iPhone4,1
+MD280|iPhone4,1
+MD381|iPhone4,1
+MF258|iPhone4,1
+MF260|iPhone4,1
+MF262|iPhone4,1
+MF264|iPhone4,1
+MF266|iPhone4,1
+MF270|iPhone4,1
+MC920|iPhone4,1
+MC924|iPhone4,1
+MD237|iPhone4,1
+MD239|iPhone4,1
+MD277|iPhone4,1
+MD378|iPhone4,1
+MD866|iPhone4,1
+ME805|iPhone4,1
+MC921|iPhone4,1
+MD244|iPhone4,1
+MD279|iPhone4,1
+MD380|iPhone4,1
+MD246|iPhone4,1
+MD260|iPhone4,1
+MD271|iPhone4,1
+MD272|iPhone4,1
+MD281|iPhone4,1
+MD382|iPhone4,1
+MD293|iPhone5,1
+MD634|iPhone5,1
+MD638|iPhone5,1
+ME486|iPhone5,1
+MD295|iPhone5,1
+MD636|iPhone5,1
+ME488|iPhone5,1
+MD295|iPhone5,1
+MD642|iPhone5,1
+MD644|iPhone5,1
+ME490|iPhone5,1
+MD294|iPhone5,1
+MD635|iPhone5,1
+ME487|iPhone5,1
+MD296|iPhone5,1
+MD637|iPhone5,1
+ME489|iPhone5,1
+MD643|iPhone5,1
+MD645|iPhone5,1
+ME491|iPhone5,1
+MD297|iPhone5,2
+MD654|iPhone5,2
+MD656|iPhone5,2
+ME039|iPhone5,2
+MD299|iPhone5,2
+MD658|iPhone5,2
+MD660|iPhone5,2
+ME041|iPhone5,2
+MD662|iPhone5,2
+MD664|iPhone5,2
+MD667|iPhone5,2
+ME043|iPhone5,2
+MD298|iPhone5,2
+MD655|iPhone5,2
+MD657|iPhone5,2
+ME040|iPhone5,2
+MD300|iPhone5,2
+MD659|iPhone5,2
+MD661|iPhone5,2
+ME042|iPhone5,2
+MD663|iPhone5,2
+MD665|iPhone5,2
+MD668|iPhone5,2
+ME044|iPhone5,2
+ME507|iPhone5,3
+MF136|iPhone5,3
+ME508|iPhone5,3
+MF137|iPhone5,3
+ME509|iPhone5,3
+MF138|iPhone5,3
+MF133|iPhone5,3
+ME505|iPhone5,3
+MF134|iPhone5,3
+MGF12|iPhone5,3
+ME506|iPhone5,3
+MF135|iPhone5,3
+MG0T2|iPhone5,4
+MG1U2|iPhone5,4
+MG902|iPhone5,4
+ME555|iPhone5,4
+MF156|iPhone5,4
+MG0V2|iPhone5,4
+MG1W2|iPhone5,4
+MG912|iPhone5,4
+ME556|iPhone5,4
+MF157|iPhone5,4
+MG0V2|iPhone5,4
+MG1W2|iPhone5,4
+MG922|iPhone5,4
+ME557|iPhone5,4
+MF158|iPhone5,4
+MG0Q2|iPhone5,4
+MG1Q2|iPhone5,4
+MG8X2|iPhone5,4
+ME553|iPhone5,4
+MF154|iPhone5,4
+MG0R2|iPhone5,4
+MG1R2|iPhone5,4
+MG8Y2|iPhone5,4
+ME554|iPhone5,4
+MF155|iPhone5,4
+ME298|iPhone6,1
+ME307|iPhone6,1
+ME325|iPhone6,1
+ME343|iPhone6,1
+ME301|iPhone6,1
+ME310|iPhone6,1
+ME328|iPhone6,1
+ME346|iPhone6,1
+ME304|iPhone6,1
+ME313|iPhone6,1
+ME331|iPhone6,1
+ME349|iPhone6,1
+ME297|iPhone6,1
+ME306|iPhone6,1
+ME324|iPhone6,1
+ME333|iPhone6,1
+ME342|iPhone6,1
+ME300|iPhone6,1
+ME309|iPhone6,1
+ME327|iPhone6,1
+ME345|iPhone6,1
+ME303|iPhone6,1
+ME312|iPhone6,1
+ME436|iPhone6,1
+ME348|iPhone6,1
+ME296|iPhone6,1
+ME305|iPhone6,1
+ME323|iPhone6,1
+ME341|iPhone6,1
+ME299|iPhone6,1
+ME308|iPhone6,1
+ME326|iPhone6,1
+ME344|iPhone6,1
+ME302|iPhone6,1
+ME311|iPhone6,1
+ME329|iPhone6,1
+ME347|iPhone6,1
+ME434|iPhone6,2
+MF354|iPhone6,2
+MF398|iPhone6,2
+ME437|iPhone6,2
+ME440|iPhone6,2
+ME433|iPhone6,2
+ME436|iPhone6,2
+ME439|iPhone6,2
+ME432|iPhone6,2
+ME435|iPhone6,2
+ME438|iPhone6,2
+MG3D2|iPhone7,2
+MG492|iPhone7,2
+MG4Q2|iPhone7,2
+MG3L2|iPhone7,2
+MG4J2|iPhone7,2
+MG3G2|iPhone7,2
+MG4E2|iPhone7,2
+MG3C2|iPhone7,2
+MG4P2|iPhone7,2
+MG482|iPhone7,2
+MG5X2|iPhone7,2
+MG552|iPhone7,2
+MG6A2|iPhone7,2
+MG3K2|iPhone7,2
+MG4H2|iPhone7,2
+MG4X2|iPhone7,2
+MG5C2|iPhone7,2
+MG6H2|iPhone7,2
+MG642|iPhone7,2
+MG3F2|iPhone7,2
+MG4C2|iPhone7,2
+MG3A2|iPhone7,2
+MG4N2|iPhone7,2
+MG472|iPhone7,2
+MG5W2|iPhone7,2
+MG542|iPhone7,2
+MG692|iPhone7,2
+MG3H2|iPhone7,2
+MG4F2|iPhone7,2
+MG4W2|iPhone7,2
+MG5A2|iPhone7,2
+MG6G2|iPhone7,2
+MG632|iPhone7,2
+MG3E2|iPhone7,2
+MG4A2|iPhone7,2
+MGAA2|iPhone7,1
+MGAN2|iPhone7,1
+MGC12|iPhone7,1
+MGAK2|iPhone7,1
+MGAW2|iPhone7,1
+MGC72|iPhone7,1
+MGAF2|iPhone7,1
+MGAR2|iPhone7,1
+MGC42|iPhone7,1
+MGA92|iPhone7,1
+MGC92|iPhone7,1
+MGAM2|iPhone7,1
+MGC02|iPhone7,1
+MGAJ2|iPhone7,1
+MGAV2|iPhone7,1
+MGC62|iPhone7,1
+MGAE2|iPhone7,1
+MGAQ2|iPhone7,1
+MGC32|iPhone7,1
+MGA82|iPhone7,1
+MGAL2|iPhone7,1
+MGAX2|iPhone7,1
+MGAH2|iPhone7,1
+MGAU2|iPhone7,1
+MGC52|iPhone7,1
+MGAC2|iPhone7,1
+MGAP2|iPhone7,1
+MGC22|iPhone7,1
+MKQL2|iPhone8,1
+MKQ72|iPhone8,1
+MKR12|iPhone8,1
+MKRE2|iPhone8,1
+MKRW2|iPhone8,1
+MKT92|iPhone8,1
+ML7E2|iPhone8,1
+MN0P2|iPhone8,1
+MN172|iPhone8,1
+MN1K2|iPhone8,1
+MN1U2|iPhone8,1
+MN1Y2|iPhone8,1
+MKQC2|iPhone8,1
+MKQQ2|iPhone8,1
+MKR52|iPhone8,1
+MKRJ2|iPhone8,1
+MKT12|iPhone8,1
+MKTE2|iPhone8,1
+ML7J2|iPhone8,1
+MKQG2|iPhone8,1
+MKQV2|iPhone8,1
+MKR92|iPhone8,1
+MKRP2|iPhone8,1
+MKT52|iPhone8,1
+MKTJ2|iPhone8,1
+ML7N2|iPhone8,1
+MKQM2|iPhone8,1
+MKQ82|iPhone8,1
+MKRF2|iPhone8,1
+MKRX2|iPhone8,1
+MKR22|iPhone8,1
+MKTA2|iPhone8,1
+ML7F2|iPhone8,1
+MN0V2|iPhone8,1
+MN192|iPhone8,1
+MN1L2|iPhone8,1
+MN1V2|iPhone8,1
+MN202|iPhone8,1
+MKQD2|iPhone8,1
+MKQR2|iPhone8,1
+MKR62|iPhone8,1
+MKRK2|iPhone8,1
+MKT22|iPhone8,1
+MKTF2|iPhone8,1
+ML7K2|iPhone8,1
+MKQH2|iPhone8,1
+MKQW2|iPhone8,1
+MKRA2|iPhone8,1
+MKRQ2|iPhone8,1
+MKT62|iPhone8,1
+MKTK2|iPhone8,1
+ML7P2|iPhone8,1
+MKQ62|iPhone8,1
+MKQK2|iPhone8,1
+MKQY2|iPhone8,1
+MKRD2|iPhone8,1
+MKRT2|iPhone8,1
+MKT82|iPhone8,1
+ML7D2|iPhone8,1
+NKQJ2|iPhone8,1
+MN0N2|iPhone8,1
+MN162|iPhone8,1
+MN1G2|iPhone8,1
+MN1Q2|iPhone8,1
+MN1X2|iPhone8,1
+MKQA2|iPhone8,1
+MKQP2|iPhone8,1
+MKR42|iPhone8,1
+MKRH2|iPhone8,1
+MKT02|iPhone8,1
+MKTD2|iPhone8,1
+ML7H2|iPhone8,1
+MKQF2|iPhone8,1
+MKQU2|iPhone8,1
+MKR82|iPhone8,1
+MKRM2|iPhone8,1
+MKT42|iPhone8,1
+MKTH2|iPhone8,1
+ML7M2|iPhone8,1
+MKQ52|iPhone8,1
+MKQJ2|iPhone8,1
+MKQX2|iPhone8,1
+MKRC2|iPhone8,1
+MKRR2|iPhone8,1
+MKT72|iPhone8,1
+ML7C2|iPhone8,1
+MN0M2|iPhone8,1
+MN132|iPhone8,1
+MN1E2|iPhone8,1
+MN1M2|iPhone8,1
+MN1W2|iPhone8,1
+MKQN2|iPhone8,1
+MKQ92|iPhone8,1
+MKR32|iPhone8,1
+MKRG2|iPhone8,1
+MKRY2|iPhone8,1
+MKTC2|iPhone8,1
+ML7G2|iPhone8,1
+MKQE2|iPhone8,1
+MKQT2|iPhone8,1
+MKR72|iPhone8,1
+MKRL2|iPhone8,1
+MKT32|iPhone8,1
+MKTG2|iPhone8,1
+ML7L2|iPhone8,1
+MKTN2|iPhone8,4
+MKU32|iPhone8,4
+MKUN2|iPhone8,4
+MKV62|iPhone8,4
+MKVQ2|iPhone8,4
+MKW72|iPhone8,4
+ML6D2|iPhone8,4
+MKTT2|iPhone8,4
+MKU82|iPhone8,4
+MKUV2|iPhone8,4
+MKVD2|iPhone8,4
+MKVX2|iPhone8,4
+MKWD2|iPhone8,4
+ML6H2|iPhone8,4
+MKTX2|iPhone8,4
+MKUF2|iPhone8,4
+MKV12|iPhone8,4
+MKVH2|iPhone8,4
+MKW22|iPhone8,4
+MKWH2|iPhone8,4
+ML6M2|iPhone8,4
+MKU52|iPhone8,4
+ML6E2|iPhone8,4
+MKU92|iPhone8,4
+ML6J2|iPhone8,4
+MKUG2|iPhone8,4
+MKV22|iPhone8,4
+ML6N2|iPhone8,4
+MKTM2|iPhone8,4
+MKU22|iPhone8,4
+MKUJ2|iPhone8,4
+MKV52|iPhone8,4
+MKVP2|iPhone8,4
+MKW62|iPhone8,4
+ML6C2|iPhone8,4
+MKTR2|iPhone8,4
+MKU72|iPhone8,4
+MKUU2|iPhone8,4
+MKV92|iPhone8,4
+MKVW2|iPhone8,4
+MKWC2|iPhone8,4
+ML6G2|iPhone8,4
+MKTW2|iPhone8,4
+MKUE2|iPhone8,4
+MKUY2|iPhone8,4
+MKVG2|iPhone8,4
+MKW12|iPhone8,4
+MKWG2|iPhone8,4
+ML6L2|iPhone8,4
+MKU12|iPhone8,4
+ML6A2|iPhone8,4
+MKU62|iPhone8,4
+ML6F2|iPhone8,4
+MKUD2|iPhone8,4
+ML6K2|iPhone8,4
+MLXH2|iPhone8,4
+MLXW2|iPhone8,4
+MLY12|iPhone8,4
+MLY52|iPhone8,4
+MLY92|iPhone8,4
+MLXK2|iPhone8,4
+MLXY2|iPhone8,4
+MLY32|iPhone8,4
+MLY72|iPhone8,4
+MLYC2|iPhone8,4
+MLXJ2|iPhone8,4
+MLXX2|iPhone8,4
+MLY22|iPhone8,4
+MLY62|iPhone8,4
+MLYA2|iPhone8,4
+MLXL2|iPhone8,4
+MLY02|iPhone8,4
+MLY42|iPhone8,4
+MLY82|iPhone8,4
+MLYD2|iPhone8,4
+MLLM2|iPhone8,4
+MLLV2|iPhone8,4
+MLLX2|iPhone8,4
+MLM02|iPhone8,4
+MLM32|iPhone8,4
+MLM52|iPhone8,4
+MLMC2|iPhone8,4
+MLME2|iPhone8,4
+MLMG2|iPhone8,4
+MLMJ2|iPhone8,4
+MLLL2|iPhone8,4
+MLLU2|iPhone8,4
+MLLW2|iPhone8,4
+MLLY2|iPhone8,4
+MLM22|iPhone8,4
+MLM42|iPhone8,4
+MLM62|iPhone8,4
+MLMA2|iPhone8,4
+MLMD2|iPhone8,4
+MLMF2|iPhone8,4
+MLMH2|iPhone8,4
+MN8G2|iPhone9,1
+MNAC2|iPhone9,1
+MNAY2|iPhone9,1
+MNCE2|iPhone9,1
+MN8L2|iPhone9,1
+MNAJ2|iPhone9,1
+MNC32|iPhone9,1
+MNCK2|iPhone9,1
+MN8R2|iPhone9,1
+MNAQ2|iPhone9,1
+MNC82|iPhone9,1
+MNCQ2|iPhone9,1
+MN8J2|iPhone9,1
+MNAE2|iPhone9,1
+MNC12|iPhone9,1
+MNCG2|iPhone9,1
+MN8N2|iPhone9,1
+MNAL2|iPhone9,1
+MNC52|iPhone9,1
+MNCM2|iPhone9,1
+MN8U2|iPhone9,1
+MNAV2|iPhone9,1
+MNCA2|iPhone9,1
+MNCT2|iPhone9,1
+MN8Q2|iPhone9,1
+MNAP2|iPhone9,1
+MNC72|iPhone9,1
+MNCP2|iPhone9,1
+MN8W2|iPhone9,1
+MNAX2|iPhone9,1
+MNCD2|iPhone9,1
+MNCV2|iPhone9,1
+MN8K2|iPhone9,1
+MNAF2|iPhone9,1
+MNC22|iPhone9,1
+MNCJ2|iPhone9,1
+MN8P2|iPhone9,1
+MNAM2|iPhone9,1
+MNC62|iPhone9,1
+MNH12|iPhone9,1
+MNCN2|iPhone9,1
+MN8V2|iPhone9,1
+MNAW2|iPhone9,1
+MNCC2|iPhone9,1
+MNCU2|iPhone9,1
+MN8H2|iPhone9,1
+MNAD2|iPhone9,1
+MNC02|iPhone9,1
+MNCF2|iPhone9,1
+MN8M2|iPhone9,1
+MNAK2|iPhone9,1
+MNC42|iPhone9,1
+MNCL2|iPhone9,1
+MN8T2|iPhone9,1
+MNAU2|iPhone9,1
+MNC92|iPhone9,1
+MNCR2|iPhone9,1
+MN9D2|iPhone9,3
+MN9U2|iPhone9,3
+MN9H2|iPhone9,3
+MN9Y2|iPhone9,3
+MN9N2|iPhone9,3
+MNA62|iPhone9,3
+MN9F2|iPhone9,3
+MN9W2|iPhone9,3
+MN9K2|iPhone9,3
+MNA32|iPhone9,3
+MN9Q2|iPhone9,3
+MNA82|iPhone9,3
+MN9M2|iPhone9,3
+MNA52|iPhone9,3
+MN9T2|iPhone9,3
+MNAA2|iPhone9,3
+MN9G2|iPhone9,3
+MN9X2|iPhone9,3
+MN9L2|iPhone9,3
+MNA42|iPhone9,3
+MN9R2|iPhone9,3
+MNA92|iPhone9,3
+MN9E2|iPhone9,3
+MN9V2|iPhone9,3
+MN9J2|iPhone9,3
+MNA02|iPhone9,3
+MN9P2|iPhone9,3
+MNA72|iPhone9,3
+MNQH2|iPhone9,2
+MNR12|iPhone9,2
+MNR52|iPhone9,2
+MNR92|iPhone9,2
+MN482|iPhone9,2
+MN5T2|iPhone9,2
+MN642|iPhone9,2
+MN6F2|iPhone9,2
+MN4E2|iPhone9,2
+MN5Y2|iPhone9,2
+MN692|iPhone9,2
+MN6L2|iPhone9,2
+MNQK2|iPhone9,2
+MNR32|iPhone9,2
+MNR72|iPhone9,2
+MNRC2|iPhone9,2
+MN4A2|iPhone9,2
+MN5V2|iPhone9,2
+MN662|iPhone9,2
+MN6H2|iPhone9,2
+MN4J2|iPhone9,2
+MN612|iPhone9,2
+MN6C2|iPhone9,2
+MN6N2|iPhone9,2
+MN4D2|iPhone9,2
+MN5X2|iPhone9,2
+MN682|iPhone9,2
+MN6K2|iPhone9,2
+MN4L2|iPhone9,2
+MN632|iPhone9,2
+MN6E2|iPhone9,2
+MN6Q2|iPhone9,2
+MNQL2|iPhone9,2
+MNR42|iPhone9,2
+MNR82|iPhone9,2
+MNRD2|iPhone9,2
+MN4C2|iPhone9,2
+MN5W2|iPhone9,2
+MN672|iPhone9,2
+MN6J2|iPhone9,2
+MN4K2|iPhone9,2
+MN622|iPhone9,2
+MN6D2|iPhone9,2
+MN6P2|iPhone9,2
+MNQJ2|iPhone9,2
+MNR22|iPhone9,2
+MNR62|iPhone9,2
+MNRA2|iPhone9,2
+MN492|iPhone9,2
+MN5U2|iPhone9,2
+MN652|iPhone9,2
+MN6G2|iPhone9,2
+MN4F2|iPhone9,2
+MN602|iPhone9,2
+MN6A2|iPhone9,2
+MN6M2|iPhone9,2
+MNQR2|iPhone9,4
+MNQW2|iPhone9,4
+MN522|iPhone9,4
+MN5G2|iPhone9,4
+MN592|iPhone9,4
+MN5M2|iPhone9,4
+MNQU2|iPhone9,4
+MNQY2|iPhone9,4
+MN552|iPhone9,4
+MN5J2|iPhone9,4
+MN5D2|iPhone9,4
+MN5P2|iPhone9,4
+MN572|iPhone9,4
+MN5L2|iPhone9,4
+MN5F2|iPhone9,4
+MN5R2|iPhone9,4
+MNQV2|iPhone9,4
+MNR02|iPhone9,4
+MN562|iPhone9,4
+MN5K2|iPhone9,4
+MN5E2|iPhone9,4
+MN5Q2|iPhone9,4
+MNQT2|iPhone9,4
+MNQX2|iPhone9,4
+MN532|iPhone9,4
+MN5H2|iPhone9,4
+MN5C2|iPhone9,4
+MN5N2|iPhone9,4
+MN4X2|iPhone9,4
+MN502|iPhone9,4
+MQ6M2|iPhone10,1
+MQ742|iPhone10,1
+MQ772|iPhone10,1
+MQ7H2|iPhone10,1
+MQ802|iPhone10,1
+MQ832|iPhone10,1
+MQ6L2|iPhone10,1
+MQ732|iPhone10,1
+ MQ762|iPhone10,1
+MQ7G2|iPhone10,1
+MQ7Y2|iPhone10,1
+ MQ822|iPhone10,1
+MQ6K2|iPhone10,1
+MQ722|iPhone10,1
+MQ752|iPhone10,1
+MQ7F2|iPhone10,1
+MQ7X2|iPhone10,1
+MQ812|iPhone10,1
+MRRK2|iPhone10,1
+MRRR2|iPhone10,1
+MRRT2|iPhone10,1
+MRRL2|iPhone10,1
+MRRW2|iPhone10,1
+MRRX2|iPhone10,1
+MQ6J2|iPhone10,4
+MQ6X2|iPhone10,4
+MQ712|iPhone10,4
+MQ7E2|iPhone10,4
+MQ7T2|iPhone10,4
+MQ7W2|iPhone10,4
+MQ6H2|iPhone10,4
+MQ6W2|iPhone10,4
+MQ702|iPhone10,4
+MQ7D2|iPhone10,4
+MQ7R2|iPhone10,4
+MQ7V2|iPhone10,4
+MQ6G2|iPhone10,4
+MQ6V2|iPhone10,4
+MQ6Y2|iPhone10,4
+MQ7C2|iPhone10,4
+MQ7Q2|iPhone10,4
+MQ7U2|iPhone10,4
+MRRM2|iPhone10,4
+MRRP2|iPhone10,4
+MRRQ2|iPhone10,4
+MRRN2|iPhone10,4
+MRRU2|iPhone10,4
+MRRV2|iPhone10,4
+MQ8F2|iPhone10,2
+MQ9F2|iPhone10,2
+MQ982|iPhone10,2
+MQ8J2|iPhone10,2
+MQ9C2|iPhone10,2
+MQ9J2|iPhone10,2
+MQ8E2|iPhone10,2
+MQ9E2|iPhone10,2
+MQ972|iPhone10,2
+MQ8H2|iPhone10,2
+MQ9A2|iPhone10,2
+MQ9H2|iPhone10,2
+MQ8D2|iPhone10,2
+MQ9D2|iPhone10,2
+MQ962|iPhone10,2
+MQ8G2|iPhone10,2
+MQ9G2|iPhone10,2
+MQ992|iPhone10,2
+MRTG2|iPhone10,2
+MRTJ2|iPhone10,2
+MRT72|iPhone10,2
+MRTH2|iPhone10,2
+MRTK2|iPhone10,2
+MRT82|iPhone10,2
+MQ8N2|iPhone10,5
+MQ8V2|iPhone10,5
+MQ922|iPhone10,5
+MQ8R2|iPhone10,5
+MQ8Y2|iPhone10,5
+MQ952|iPhone10,5
+MQ8M2|iPhone10,5
+MQ8U2|iPhone10,5
+MQ912|iPhone10,5
+MQ8Q2|iPhone10,5
+MQ8X2|iPhone10,5
+MQ942|iPhone10,5
+MQ8L2|iPhone10,5
+MQ8T2|iPhone10,5
+MQ902|iPhone10,5
+MQ8P2|iPhone10,5
+MQ8W2|iPhone10,5
+MQ932|iPhone10,5
+MRTC2|iPhone10,5
+MRTE2|iPhone10,5
+MRT92|iPhone10,5
+MRTA2|iPhone10,5
+MRTD2|iPhone10,5
+MRTF2|iPhone10,5
+MQCT2|iPhone10,3
+MQCL2|iPhone10,3
+MQAY2|iPhone10,3
+MQA62|iPhone10,3
+MQCW2|iPhone10,3
+MQCP2|iPhone10,3
+MQC22|iPhone10,3
+MQA92|iPhone10,3
+MQCR2|iPhone10,3
+MQCK2|iPhone10,3
+MQAX2|iPhone10,3
+MQA52|iPhone10,3
+MQCV2|iPhone10,3
+MQCN2|iPhone10,3
+MQC12|iPhone10,3
+MQA82|iPhone10,3
+MQAK2|iPhone10,6
+MQAR2|iPhone10,6
+MQAD2|iPhone10,6
+MQAN2|iPhone10,6
+MQAV2|iPhone10,6
+MQAG2|iPhone10,6
+MQAJ2|iPhone10,6
+MQAQ2|iPhone10,6
+MQAC2|iPhone10,6
+MQAM2|iPhone10,6
+MQAU2|iPhone10,6
+MQAF2|iPhone10,6</value>
+  </data>
+  <data name="Regions" xml:space="preserve">
+    <value>af_NA
+af_ZA
+agq_CM
+ak_GH
+am_ET
+ar_001
+ar_AE
+ar_BH
+ar_DJ
+ar_DZ
+ar_EG
+ar_EH
+ar_ER
+ar_IL
+ar_IQ
+ar_JO
+ar_KM
+ar_KW
+ar_LB
+ar_LY
+ar_MA
+ar_MR
+ar_OM
+ar_PS
+ar_QA
+ar_SA
+ar_SD
+ar_SO
+ar_SS
+ar_SY
+ar_TD
+ar_TN
+ar_YE
+as_IN
+asa_TZ
+az_Cyrl
+az_Cyrl_AZ
+az_Latn
+az_Latn_AZ
+bas_CM
+be_BY
+bem_ZM
+bez_TZ
+bg_BG
+bm_Latn
+bm_Latn_ML
+bn_BD
+bn_IN
+bo_CN
+bo_IN
+br_FR
+brx_IN
+bs_Cyrl
+bs_Cyrl_BA
+bs_Latn
+bs_Latn_BA
+ca_AD
+ca_ES
+ca_FR
+ca_IT
+cgg_UG
+chr_US
+ckb_IQ
+ckb_IR
+cs_CZ
+cy_GB
+da_DK
+da_GL
+dav_KE
+de_AT
+de_BE
+de_CH
+de_DE
+de_LI
+de_LU
+dje_NE
+dsb_DE
+dua_CM
+dyo_SN
+dz_BT
+ebu_KE
+ee_GH
+ee_TG
+el_CY
+el_GR
+en_001
+en_150
+en_AD
+en_AG
+en_AI
+en_AL
+en_AS
+en_AT
+en_AU
+en_BA
+en_BB
+en_BE
+en_BM
+en_BS
+en_BW
+en_BZ
+en_CA
+en_CC
+en_CH
+en_CK
+en_CM
+en_CX
+en_CY
+en_CZ
+en_DE
+en_DG
+en_DK
+en_DM
+en_EE
+en_ER
+en_ES
+en_FI
+en_FJ
+en_FK
+en_FM
+en_FR
+en_GB
+en_GD
+en_GG
+en_GH
+en_GI
+en_GM
+en_GR
+en_GU
+en_GY
+en_HK
+en_HR
+en_HU
+en_IE
+en_IL
+en_IM
+en_IN
+en_IO
+en_IS
+en_IT
+en_JE
+en_JM
+en_KE
+en_KI
+en_KN
+en_KY
+en_LC
+en_LR
+en_LS
+en_LT
+en_LU
+en_LV
+en_ME
+en_MG
+en_MH
+en_MO
+en_MP
+en_MS
+en_MT
+en_MU
+en_MW
+en_MY
+en_NA
+en_NF
+en_NG
+en_NL
+en_NO
+en_NR
+en_NU
+en_NZ
+en_PG
+en_PH
+en_PK
+en_PL
+en_PN
+en_PR
+en_PT
+en_PW
+en_RO
+en_RU
+en_RW
+en_SB
+en_SC
+en_SD
+en_SE
+en_SG
+en_SH
+en_SI
+en_SK
+en_SL
+en_SS
+en_SX
+en_SZ
+en_TC
+en_TK
+en_TO
+en_TR
+en_TT
+en_TV
+en_TZ
+en_UG
+en_UM
+en_US
+en_VC
+en_VG
+en_VI
+en_VU
+en_WS
+en_ZA
+en_ZM
+en_ZW
+es_419
+es_AR
+es_BO
+es_CL
+es_CO
+es_CR
+es_CU
+es_DO
+es_EA
+es_EC
+es_ES
+es_GQ
+es_GT
+es_HN
+es_IC
+es_MX
+es_NI
+es_PA
+es_PE
+es_PH
+es_PR
+es_PY
+es_SV
+es_US
+es_UY
+es_VE
+et_EE
+eu_ES
+ewo_CM
+fa_AF
+fa_IR
+ff_CM
+ff_GN
+ff_MR
+ff_SN
+fi_FI
+fil_PH
+fo_FO
+fr_BE
+fr_BF
+fr_BI
+fr_BJ
+fr_BL
+fr_CA
+fr_CD
+fr_CF
+fr_CG
+fr_CH
+fr_CI
+fr_CM
+fr_DJ
+fr_DZ
+fr_FR
+fr_GA
+fr_GF
+fr_GN
+fr_GP
+fr_GQ
+fr_HT
+fr_KM
+fr_LU
+fr_MA
+fr_MC
+fr_MF
+fr_MG
+fr_ML
+fr_MQ
+fr_MR
+fr_MU
+fr_NC
+fr_NE
+fr_PF
+fr_PM
+fr_RE
+fr_RW
+fr_SC
+fr_SN
+fr_SY
+fr_TD
+fr_TG
+fr_TN
+fr_VU
+fr_WF
+fr_YT
+fur_IT
+fy_NL
+ga_IE
+gd_GB
+gl_ES
+gsw_CH
+gsw_FR
+gsw_LI
+gu_IN
+guz_KE
+gv_IM
+ha_Latn
+ha_Latn_GH
+ha_Latn_NE
+ha_Latn_NG
+haw_US
+he_IL
+hi_IN
+hr_BA
+hr_HR
+hsb_DE
+hu_HU
+hy_AM
+id_ID
+ig_NG
+ii_CN
+is_IS
+it_CH
+it_IT
+it_SM
+iu_Cans
+iu_Cans_CA
+ja_JP
+jgo_CM
+jmc_TZ
+ka_GE
+kab_DZ
+kam_KE
+kde_TZ
+kea_CV
+khq_ML
+ki_KE
+kk_Cyrl
+kk_Cyrl_KZ
+kkj_CM
+kl_GL
+kln_KE
+km_KH
+kn_IN
+ko_KP
+ko_KR
+kok_IN
+ks_Arab
+ks_Arab_IN
+ksb_TZ
+ksf_CM
+ksh_DE
+kw_GB
+ky_Cyrl
+ky_Cyrl_KG
+lag_TZ
+lb_LU
+lg_UG
+lkt_US
+ln_AO
+ln_CD
+ln_CF
+ln_CG
+lo_LA
+lt_LT
+lu_CD
+luo_KE
+luy_KE
+lv_LV
+mas_KE
+mas_TZ
+mer_KE
+mfe_MU
+mg_MG
+mgh_MZ
+mgo_CM
+mk_MK
+ml_IN
+mn_Cyrl
+mn_Cyrl_MN
+mr_IN
+ms_Arab
+ms_Arab_BN
+ms_Arab_MY
+ms_Latn
+ms_Latn_BN
+ms_Latn_MY
+ms_Latn_SG
+mt_MT
+mua_CM
+my_MM
+naq_NA
+nb_NO
+nb_SJ
+nd_ZW
+ne_IN
+ne_NP
+nl_AW
+nl_BE
+nl_BQ
+nl_CW
+nl_NL
+nl_SR
+nl_SX
+nmg_CM
+nn_NO
+nnh_CM
+nus_SD
+nyn_UG
+om_ET
+om_KE
+or_IN
+os_GE
+os_RU
+pa_Arab
+pa_Arab_PK
+pa_Guru
+pa_Guru_IN
+pl_PL
+ps_AF
+pt_AO
+pt_BR
+pt_CV
+pt_GW
+pt_MO
+pt_MZ
+pt_PT
+pt_ST
+pt_TL
+qu_BO
+qu_EC
+qu_PE
+rm_CH
+rn_BI
+ro_MD
+ro_RO
+rof_TZ
+ru_BY
+ru_KG
+ru_KZ
+ru_MD
+ru_RU
+ru_UA
+rw_RW
+rwk_TZ
+sah_RU
+saq_KE
+sbp_TZ
+se_FI
+se_NO
+se_SE
+seh_MZ
+ses_ML
+sg_CF
+shi_Latn
+shi_Latn_MA
+shi_Tfng
+shi_Tfng_MA
+si_LK
+sk_SK
+sl_SI
+smn_FI
+sn_ZW
+so_DJ
+so_ET
+so_KE
+so_SO
+sq_AL
+sq_MK
+sq_XK
+sr_Cyrl
+sr_Cyrl_BA
+sr_Cyrl_ME
+sr_Cyrl_RS
+sr_Cyrl_XK
+sr_Latn
+sr_Latn_BA
+sr_Latn_ME
+sr_Latn_RS
+sr_Latn_XK
+sv_AX
+sv_FI
+sv_SE
+sw_CD
+sw_KE
+sw_TZ
+sw_UG
+ta_IN
+ta_LK
+ta_MY
+ta_SG
+te_IN
+teo_KE
+teo_UG
+tg_Cyrl
+tg_Cyrl_TJ
+th_TH
+ti_ER
+ti_ET
+tk_Latn
+tk_Latn_TM
+to_TO
+tr_CY
+tr_TR
+twq_NE
+tzm_Latn
+tzm_Latn_MA
+ug_Arab
+ug_Arab_CN
+uk_UA
+ur_IN
+ur_PK
+uz_Arab
+uz_Arab_AF
+uz_Cyrl
+uz_Cyrl_UZ
+uz_Latn
+uz_Latn_UZ
+vai_Latn
+vai_Latn_LR
+vai_Vaii
+vai_Vaii_LR
+vi_VN
+vun_TZ
+wae_CH
+xog_UG
+yav_CM
+yi_001
+yo_BJ
+yo_NG
+zgh_MA
+zh_Hans
+zh_Hans_CN
+zh_Hans_HK
+zh_Hans_MO
+zh_Hans_SG
+zh_Hant
+zh_Hant_HK
+zh_Hant_MO
+zh_Hant_TW
+zu_ZA</value>
+  </data>
+  <data name="IOSLanguageCode" xml:space="preserve">
+    <value>af|Afrikaans
+ar|Arabic
+ar_AE|Arabic (U.A.E.)
+ar_BH|Arabic (Bahrain)
+ar_DZ|Arabic (Algeria)
+ar_EG|Arabic (Egypt)
+ar_IQ|Arabic (Iraq)
+ar_JO|Arabic (Jordan)
+ar_KW|Arabic (Kuwait)
+ar_LB|Arabic (Lebanon)
+ar_LY|Arabic (Libya)
+ar_MA|Arabic (Morocco)
+ar_OM|Arabic (Oman)
+ar_QA|Arabic (Qatar)
+ar_SA|Arabic (Saudi Arabia)
+ar_SY|Arabic (Syria)
+ar_TN|Arabic (Tunisia)
+ar_YE|Arabic (Yemen)
+az|Azeri (Latin)
+az_AZ|Azeri (Latin) (Azerbaijan)
+az_AZ|Azeri (Cyrillic) (Azerbaijan)
+be|Belarusian
+be_BY|Belarusian (Belarus)
+bg|Bulgarian
+bg_BG|Bulgarian (Bulgaria)
+bs_BA|Bosnian (Bosnia and Herzegovina)
+ca|Catalan
+cs|Czech
+cs_CZ|Czechia
+cs_CZ|Czech (Czech Republic)
+cy|Welsh
+da|Danish
+da_DK|Danish (Denmark)
+de|German
+de_AT|German (Austria)
+de_CH|German (Switzerland)
+de_DE|German (Germany)
+de_LI|German (Liechtenstein)
+de_LU|German (Luxembourg)
+dv|Divehi
+dv_MV|Divehi (Maldives)
+el|Greek
+el_GR|Greek (Greece)
+en|Tanzania
+en|English
+en_AU|English (Australia)
+en_BZ|English (Belize)
+en_CA|English (Canada)
+en_CB|English (Caribbean)
+en_GB|English (United Kingdom)
+en_IE|English (Ireland)
+en_JM|English (Jamaica)
+en_NZ|English (New Zealand)
+en_PH|English (Republic of the Philippines)
+en_TT|English (Trinidad and Tobago)
+en_US|English (United States)
+en_ZA|English (South Africa)
+en_ZW|English (Zimbabwe)
+eo|Esperanto
+es|Spanish
+es_AR|Spanish (Argentina)
+es_BO|Spanish (Bolivia)
+es_CL|Spanish (Chile)
+es_CO|Spanish (Colombia)
+es_CR|Spanish (Costa Rica)
+es_DO|Spanish (Dominican Republic)
+es_EC|Spanish (Ecuador)
+es_ES|Spanish (Castilian)
+es_ES|Spanish (Spain)
+es_GT|Spanish (Guatemala)
+es_HN|Spanish (Honduras)
+es_MX|Spanish (Mexico)
+es_NI|Spanish (Nicaragua)
+es_PA|Spanish (Panama)
+es_PE|Spanish (Peru)
+es_PR|Spanish (Puerto Rico)
+es_PY|Spanish (Paraguay)
+es_SV|Spanish (El Salvador)
+es_UY|Spanish (Uruguay)
+es_VE|Spanish (Venezuela)
+et|Estonian
+et_EE|Estonian (Estonia)
+eu|Basque
+eu_ES|Basque (Spain)
+fa|Farsi
+fa_IR|Farsi (Iran)
+fi|Finnish
+fi_FI|Finnish (Finland)
+fo|Faroese
+fo_FO|Faroese (Faroe Islands)
+fr|French
+fr_CA|French (Canada)
+fr_CH|French (Switzerland)
+fr_FR|French (France)
+fr_LU|French (Luxembourg)
+fr_MC|French (Principality of Monaco)
+gl|Galician
+gl_ES|Galician (Spain)
+gu|Gujarati
+he|Hebrew
+he_IL|Hebrew (Israel)
+hi|Bangladesh
+hi|Hindi
+hi_IN|Hindi (India)
+hr|Croatian
+hr_BA|Croatian (Bosnia and Herzegovina)
+hr_HR|Croatian (Croatia)
+hu|Hungarian
+hu_HU|Hungarian (Hungary)
+hy|Armenian
+hy_AM|Armenian (Armenia)
+id|Indonesian
+id_ID|Indonesian (Indonesia)
+is|Icelandic
+is_IS|Icelandic (Iceland)
+it|Italian
+it_CH|Italian (Switzerland)
+it_IT|Italian (Italy)
+ja|Japanese
+ja_JP|Japanese (Japan)
+ka|Georgian
+ka_GE|Georgian (Georgia)
+kk|Kazakh
+kk_KZ|Kazakh (Kazakhstan)
+kn|Kannada
+kn_IN|Kannada (India)
+ko|Korean
+ko_KR|Korean (Korea)
+kok|Konkani
+kok_IN|Konkani (India)
+ky|Kyrgyz
+ky_KG|Kyrgyz (Kyrgyzstan)
+lt|Lithuanian
+lt_LT|Lithuanian (Lithuania)
+lv|Latvian
+lv_LV|Latvian (Latvia)
+mi|Maori
+mi_NZ|Maori (New Zealand)
+mk|FYRO Macedonian
+mk_MK|FYRO Macedonian (Former Yugoslav Republic of Macedonia)
+mn|Mongolian
+mn_MN|Mongolian (Mongolia)
+mr|Marathi
+mr_IN|Marathi (India)
+ms|Malay
+ms_BN|Malay (Brunei Darussalam)
+ms_MY|Malay (Malaysia)
+mt|Maltese
+mt_MT|Maltese (Malta)
+nb|Norwegian (Bokm?l)
+nb_NO|Norwegian (Bokm?l) (Norway)
+nl|Dutch
+nl_BR|Dutch (Belgium)
+nl_BR|Dutch (Netherlands)
+nn_NO|Norwegian (Nynorsk) (Norway)
+ns|Northern Sotho
+pa|Punjabi
+pa_IN|Punjabi (India)
+pl|Polish
+pl_PL|Polish (Poland)
+ps|Pashto
+ps_AR|Pashto (Afghanistan)
+pt|Portuguese
+pt_BR|Portuguese (Brazil)
+pt_PT|Portuguese (Portugal)
+qu|Quechua
+qu_BO|Quechua (Bolivia)
+qu_EC|Quechua (Ecuador)
+qu_PE|Quechua (Peru)
+ro|Romanian
+ro_RO|Romanian (Romania)
+ru|Russian
+ru_RU|Russian (Russia)
+sa|Sanskrit
+sa_IN|Sanskrit (India)
+se|Sami (Northern)
+se_FI|Sami (Northern) (Finland)
+se_FI|Sami (Skolt) (Finland)
+se_FI|Sami (Inari) (Finland)
+se_NO|Sami (Northern) (Norway)
+se_NO|Sami (Lule) (Norway)
+se_NO|Sami (Southern) (Norway)
+se_SE|Sami (Northern) (Sweden)
+se_SE|Sami (Lule) (Sweden)
+se_SE|Sami (Southern) (Sweden)
+sk|Slovak
+sk_SK|Slovak Republic
+sk_SK|Slovak (Slovakia)
+sl|Slovenian
+sl_SI|Slovenian (Slovenia)
+sq|Albanian
+sq_AL|Albanian (Albania)
+sr_BA|Serbian (Latin) (Bosnia and Herzegovina)
+sr_BA|Serbian (Cyrillic) (Bosnia and Herzegovina)
+sr_SP|Serbian (Latin) (Serbia and Montenegro)
+sr_SP|Serbian (Cyrillic) (Serbia and Montenegro)
+sv|Swedish
+sv_FI|Swedish (Finland)
+sv_SE|Swedish (Sweden)
+sw|Swahili
+sw_KE|Swahili (Kenya)
+syr|Syriac
+syr_SY|Syriac (Syria)
+ta|Tamil
+ta_IN|Tamil (India)
+te|Telugu
+te_IN|Telugu (India)
+th|Thai
+th_TH|Thai (Thailand)
+tl|Tagalog
+tl_PH|Tagalog (Philippines)
+tn|Tswana
+tr|Turkish
+tr_TR|Turkish (Turkey)
+tt|Tatar
+tt_RU|Tatar (Russia)
+ts|Tsonga
+uk|Ukrainian
+uk_UA|Ukrainian (Ukraine)
+ur|Urdu
+ur_PK|Urdu (Islamic Republic of Pakistan)
+uz|Uzbek (Latin)
+uz_UZ|Uzbek (Latin) (Uzbekistan)
+uz_UZ|Uzbek (Cyrillic) (Uzbekistan)
+vi|Vietnamese
+vi_VN|Vietnamese (Viet Nam)
+xh|Xhosa
+zh|Chinese
+zh|China
+zh_CN|Chinese (S)
+zh_HK|Chinese (Hong Kong)
+zh_MO|Chinese (Macau)
+en_SG|Singapore (Singapore)
+zh_TW|Chinese (T)
+zu|Zulu</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>AFGHANISTAN | 3
+ALBANIA | 6
+ALGERIA | 62
+ANDORRA | 1
+ANGOLA | 8
+ARGENTINA | 10
+ARMENIA | 7
+OMAN | 172
+ARUBA | 14
+AUSTRALIA | 13
+AUSTRIA | 12
+AZERBAIJAN | 16
+BAHAMAS | 32
+BANGLADESH | 19
+BARBADOS | 18
+BELARUS | 36
+BELGIUM | 20
+BERMUDA | 27
+BOLIVIA, PLURINATIONAL STATE OF | 29
+BOSNIA AND HERZEGOVINA | 17
+BRAZIL | 31
+BRUNEI DARUSSALAM | 28
+BULGARIA | 22
+BURKINA FASO | 21
+CAMBODIA | 117
+CANADA | 38
+CHAD | 215
+CHILE | 46
+CHINA | 48
+COLOMBIA | 49
+CONGO | 42
+COSTA RICA | 50
+COTE D'IVOIRE | 44
+CROATIA | 98
+CURACAO | 53
+CYPRUS | 55
+CZECH REPUBLIC | 56
+CZECHIA | 56
+DENMARK | 59
+DJIBOUTI | 58
+DOMINICAN REPUBLIC | 61
+ECUADOR | 63
+EGYPT | 65
+EL SALVADOR | 210
+ESTONIA | 64
+FINLAND | 70
+FRANCE | 75
+FRENCH GUIANA | 80
+GEORGIA | 79
+GERMANY | 57
+GHANA | 82
+GREECE | 89
+GRENADA | 78
+GUADELOUPE | 87
+GUAM | 92
+HONG KONG | 95
+HUNGARY | 100
+ICELAND | 109
+INDIA | 105
+INDONESIA | 101
+IRAN, ISLAMIC REPUBLIC OF | 108
+IRAQ | 107
+IRELAND | 102
+ISRAEL | 103
+ITALY | 110
+JAMAICA | 112
+JAPAN | 114
+JORDAN | 113
+HASHEMITE KINGDOM OF JORDAN | 113
+KAZAKHSTAN | 125
+KENYA | 115
+KOREA, REPUBLIC OF | 122
+REPUBLIC OF KOREA | 122
+KUWAIT | 123
+KYRGYZSTAN | 116
+LATVIA | 135
+LEBANON | 127
+LIBYA | 136
+LITHUANIA | 133
+LUXEMBOURG | 134
+MACAO | 148
+MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF | 144
+MALAWI | 156
+MALAYSIA | 158
+MALTA | 153
+MARTINIQUE | 150
+MAURITANIA | 151
+MEXICO | 157
+MOLDOVA, REPUBLIC OF | 139
+MONACO | 138
+MONTENEGRO | 140
+MOROCCO | 137
+NETHERLANDS | 166
+NEW CALEDONIA | 161
+NEW ZEALAND | 171
+NICARAGUA | 165
+NIGERIA | 164
+NORWAY | 167
+PAKISTAN | 178
+PALESTINE, STATE OF | 183
+PANAMA | 173
+PARAGUAY | 186
+PERU | 174
+PHILIPPINES | 177
+POLAND | 179
+PORTUGAL | 184
+PUERTO RICO | 182
+QATAR | 187
+ROMANIA | 189
+RUSSIAN FEDERATION | 191
+SAINT KITTS AND NEVIS | 120
+SAINT LUCIA | 128
+SAUDI ARABIA | 193
+SENEGAL | 205
+SERBIA | 190
+SINGAPORE | 198
+SLOVAKIA | 202
+SLOVENIA | 200
+SOMALIA | 206
+SOUTH AFRICA | 248
+SPAIN | 68
+SRI LANKA | 130
+SUDAN | 196
+SURINAME | 207
+SWEDEN | 197
+SWITZERLAND | 43
+SYRIAN ARAB REPUBLIC | 212
+TAIWAN, PROVINCE OF CHINA | 228
+TAIWAN | 228
+TANZANIA | 229
+THAILAND | 218
+TRINIDAD AND TOBAGO | 226
+TUNISIA | 223
+TURKEY | 225
+TURKS AND CAICOS ISLANDS | 214
+VIETNAM | 242
+UKRAINE | 230
+UNITED ARAB EMIRATES | 2
+UNITED KINGDOM | 77
+UNITED STATES | 234
+URUGUAY | 235</value>
+  </data>
+</root>

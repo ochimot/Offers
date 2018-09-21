@@ -1,0 +1,4 @@
+:ONE LOGIN PER LINE:ONETOKEN PER LINE:
+:keep this format for login:keep this format for token:
+for example
+:username_vip72:tokenvip72token:
